@@ -1,0 +1,1773 @@
+[
+  {
+    "row": 2,
+    "level": "A1",
+    "title": "Who is your friend?",
+    "mp3": "A1-050-JULIE-WHO-IS-YOUR-FRIEND.mp3",
+    "coverage": 1.0,
+    "duration": 77.87,
+    "asr_words": 77
+  },
+  {
+    "row": 3,
+    "level": "A1",
+    "title": "Do you exercise in winter?",
+    "mp3": "A1-049-ELISABETH-EXERCISE-WINTER.mp3",
+    "coverage": 1.0,
+    "duration": 72.08,
+    "asr_words": 125
+  },
+  {
+    "row": 4,
+    "level": "A1",
+    "title": "Where do you eat lunch?",
+    "mp3": "A1-048-MIYU-WHERE-DO-YOU-EAT-LUNCH.mp3",
+    "coverage": 0.987,
+    "duration": 52.5,
+    "asr_words": 79
+  },
+  {
+    "row": 5,
+    "level": "A1",
+    "title": "Do you have a zoon in your town?",
+    "mp3": "A1-047-ELISABETH-ZOO.mp3",
+    "coverage": 0.992,
+    "duration": 68.9,
+    "asr_words": 129
+  },
+  {
+    "row": 6,
+    "level": "A1",
+    "title": "Do you have a big yard?",
+    "mp3": "A1-046-SYUZHAN-BIG-YARD.mp3",
+    "coverage": 0.99,
+    "duration": 78.22,
+    "asr_words": 101
+  },
+  {
+    "row": 7,
+    "level": "A1",
+    "title": "What shop sells clothes for teens?",
+    "mp3": "A1-045-JULIE-WHAT-SHOP-SELLS-CLOTHES-FOR-TEENS.mp3",
+    "coverage": 1.0,
+    "duration": 72.89,
+    "asr_words": 82
+  },
+  {
+    "row": 8,
+    "level": "A1",
+    "title": "Where do you go in the morning?",
+    "mp3": "A1-044-LYRA-WHERE-DO-YOU-GO-IN-THE-MORNING.mp3",
+    "coverage": 0.987,
+    "duration": 51.07,
+    "asr_words": 78
+  },
+  {
+    "row": 9,
+    "level": "A1",
+    "title": "Do you order food onlline?",
+    "mp3": "A1-043-MIYU-DO-YOU-ORDER-FOOD-ONLINE.mp3",
+    "coverage": 0.987,
+    "duration": 53.7,
+    "asr_words": 77
+  },
+  {
+    "row": 10,
+    "level": "A1",
+    "title": "What desserts do you like?",
+    "mp3": "A1-042-KYLE-WHAT-DESSERTS-DO-YOU-LIKE.mp3",
+    "coverage": 0.981,
+    "duration": 49.78,
+    "asr_words": 54
+  },
+  {
+    "row": 11,
+    "level": "A1",
+    "title": "Where are you from?",
+    "mp3": "A1-041-MAGGIE-WHERE-ARE-YOU-FROM.mp3",
+    "coverage": 0.96,
+    "duration": 65.56,
+    "asr_words": 98
+  },
+  {
+    "row": 12,
+    "level": "A1",
+    "title": "Who do you meet every day?",
+    "mp3": "A1-040-ELISABETH-WHO-MEET-EVERY-DAY.mp3",
+    "coverage": 1.0,
+    "duration": 69.56,
+    "asr_words": 118
+  },
+  {
+    "row": 13,
+    "level": "A1",
+    "title": "Where is your house?",
+    "mp3": "A1-039-SYUZHAN-WHERE-IS-YOUR-HOUSE.mp3",
+    "coverage": 1.0,
+    "duration": 74.12,
+    "asr_words": 92
+  },
+  {
+    "row": 14,
+    "level": "A1",
+    "title": "Is your shirt comfortable?",
+    "mp3": "A1-038-JULIE-IS-YOUR-SHIRT-COMFORTABLE.mp3",
+    "coverage": 1.0,
+    "duration": 60.84,
+    "asr_words": 61
+  },
+  {
+    "row": 15,
+    "level": "A1",
+    "title": "Is Jazz music interesting for you?",
+    "mp3": "A1-037-LYRA-JAZZ-MUSIC-INTERESTING.mp3",
+    "coverage": 1.0,
+    "duration": 57.49,
+    "asr_words": 68
+  },
+  {
+    "row": 16,
+    "level": "A1",
+    "title": "Does your town or city have a mall?",
+    "mp3": "A1-036-KYLE-TOWN-CITY-MALL.mp3",
+    "coverage": 0.973,
+    "duration": 51.08,
+    "asr_words": 73
+  },
+  {
+    "row": 17,
+    "level": "A1",
+    "title": "What foods do you dislike?",
+    "mp3": "A1-035-JULIE-WHAT-FOODS-DO-YOU-DISLIKE.mp3",
+    "coverage": 1.0,
+    "duration": 56.5,
+    "asr_words": 52
+  },
+  {
+    "row": 18,
+    "level": "A1",
+    "title": "What do you do on the weekend?",
+    "mp3": "A1-034-BILLIE-WHAT-DO-YOU-DO-WEEKEND.mp3",
+    "coverage": 1.0,
+    "duration": 76.4,
+    "asr_words": 75
+  },
+  {
+    "row": 19,
+    "level": "A1",
+    "title": "Does your town have nice parks?",
+    "mp3": "A1-033-LYRA-DOES-YOUR-TOWN-HAVE-NICE-PARKS.mp3",
+    "coverage": 0.991,
+    "duration": 87.36,
+    "asr_words": 112
+  },
+  {
+    "row": 20,
+    "level": "A1",
+    "title": "Where is your family from?",
+    "mp3": "A1-032-MIYU-WHERE-IS-YOUR-FAMILY-FROM.mp3",
+    "coverage": 0.989,
+    "duration": 64.26,
+    "asr_words": 90
+  },
+  {
+    "row": 21,
+    "level": "A1",
+    "title": "What do you do on your lunch break?",
+    "mp3": "A1-031-KYLE-WHAT-DO-LUNCH-BREAK.mp3",
+    "coverage": 0.902,
+    "duration": 49.86,
+    "asr_words": 47
+  },
+  {
+    "row": 22,
+    "level": "A1",
+    "title": "Who goes to school?",
+    "mp3": "A1-030-MIYU-WHO-GOES-TO-SCHOOL.mp3",
+    "coverage": 0.976,
+    "duration": 52.9,
+    "asr_words": 84
+  },
+  {
+    "row": 23,
+    "level": "A1",
+    "title": "What kind of pies do you like?",
+    "mp3": "A1-029-JULIE-WHAT-KIND-OF-PIES-DO-YOU-LIKE.mp3",
+    "coverage": 1.0,
+    "duration": 62.86,
+    "asr_words": 56
+  },
+  {
+    "row": 24,
+    "level": "A1",
+    "title": "Who spends a lot of time with you?",
+    "mp3": "A1-028-SYUZHAN-WHO SPENDS-TIME-WITH.mp3",
+    "coverage": 0.981,
+    "duration": 85.06,
+    "asr_words": 107
+  },
+  {
+    "row": 25,
+    "level": "A1",
+    "title": "What shop sells cheap clothes?",
+    "mp3": "A1-027-DANDARA-WHAT-SHOP-CHEAP-CLOTHES.mp3",
+    "coverage": 0.974,
+    "duration": 90.61,
+    "asr_words": 116
+  },
+  {
+    "row": 26,
+    "level": "A1",
+    "title": "How are you today?",
+    "mp3": "A1-026-MIYU-HOW-ARE-YOU-TODAY.mp3",
+    "coverage": 0.982,
+    "duration": 42.66,
+    "asr_words": 55
+  },
+  {
+    "row": 27,
+    "level": "A1",
+    "title": "What does your favorite shop sell?",
+    "mp3": "A1-025-ELISABETH-FAVORITE-SHOP SELL.mp3",
+    "coverage": 1.0,
+    "duration": 63.43,
+    "asr_words": 111
+  },
+  {
+    "row": 28,
+    "level": "A1",
+    "title": "Who visits you often?",
+    "mp3": "A1-024-ELISABETH-WHO-VISITS-HOLIDAYS.mp3",
+    "coverage": 1.0,
+    "duration": 67.3,
+    "asr_words": 107
+  },
+  {
+    "row": 29,
+    "level": "A1",
+    "title": "Where are you from?",
+    "mp3": "A1-023-DANDARA-WHERE-ARE-YOU-FROM.mp3",
+    "coverage": 0.953,
+    "duration": 57.23,
+    "asr_words": 89
+  },
+  {
+    "row": 30,
+    "level": "A1",
+    "title": "Do you want a new pet?",
+    "mp3": "A1-022-MIYU-DO-YOU-WANT-A-NEW-PET.mp3",
+    "coverage": 0.985,
+    "duration": 47.55,
+    "asr_words": 67
+  },
+  {
+    "row": 31,
+    "level": "A1",
+    "title": "Is your house cold in winter?",
+    "mp3": "A1-021-JULIE-IS-YOUR-HOUSE-COLD-IN-WINTER.mp3",
+    "coverage": 1.0,
+    "duration": 76.67,
+    "asr_words": 91
+  },
+  {
+    "row": 32,
+    "level": "A1",
+    "title": "What is your schedule today?",
+    "mp3": "A1-020-BILLIE-WHAT-YOUR-SCHEDULE-TODAY.mp3",
+    "coverage": 1.0,
+    "duration": 63.1,
+    "asr_words": 68
+  },
+  {
+    "row": 33,
+    "level": "A1",
+    "title": "Is your house near the station?",
+    "mp3": "A1-019-NERRY-LIVE-NEAR-TRAIN-STATION.mp3",
+    "coverage": 0.926,
+    "duration": 44.4,
+    "asr_words": 66
+  },
+  {
+    "row": 34,
+    "level": "A1",
+    "title": "Is your apartment big or small?",
+    "mp3": "A1-018-MIYU-HOUSE-APARTMENT-BIG.mp3",
+    "coverage": 0.987,
+    "duration": 51.58,
+    "asr_words": 76
+  },
+  {
+    "row": 35,
+    "level": "A1",
+    "title": "What is your house like?",
+    "mp3": "A1-017-MAGGIE-WHAT-IS-YOUR-HOUSE-LIKE.mp3",
+    "coverage": 0.852,
+    "duration": 58.04,
+    "asr_words": 75
+  },
+  {
+    "row": 36,
+    "level": "A1",
+    "title": "Who do you eat dinner with?",
+    "mp3": "A1-016-BILLIE-WHO-DO-YOU-EAT-DINNER-WITH.mp3",
+    "coverage": 0.971,
+    "duration": 67.28,
+    "asr_words": 70
+  },
+  {
+    "row": 37,
+    "level": "A1",
+    "title": "Where do you go on the weekend?",
+    "mp3": "A1-015-SYUZAN-WHERE-GO-WEEKEND.mp3",
+    "coverage": 1.0,
+    "duration": 79.07,
+    "asr_words": 100
+  },
+  {
+    "row": 38,
+    "level": "A1",
+    "title": "What foods do you dislike?",
+    "mp3": "A1-014-JULIE-FOODS-DISLIKE.mp3",
+    "coverage": 1.0,
+    "duration": 56.52,
+    "asr_words": 52
+  },
+  {
+    "row": 39,
+    "level": "A1",
+    "title": "Do you have any pets?",
+    "mp3": "A1-013-NERRY-HAVE-ANY-PETS.mp3",
+    "coverage": 0.985,
+    "duration": 86.16,
+    "asr_words": 137
+  },
+  {
+    "row": 40,
+    "level": "A1",
+    "title": "Do you play sports?",
+    "mp3": "A1-012-KYLE-PLAY-SPORTS.mp3",
+    "coverage": 0.957,
+    "duration": 44.21,
+    "asr_words": 48
+  },
+  {
+    "row": 41,
+    "level": "A1",
+    "title": "Is your house or apartment new?",
+    "mp3": "A1-011-DANDARA-HOUSE-APARTMENT-NEW.mp3",
+    "coverage": 1.0,
+    "duration": 60.36,
+    "asr_words": 77
+  },
+  {
+    "row": 42,
+    "level": "A1",
+    "title": "Where are your friends from?",
+    "mp3": "A1-010-JULIE-WHERE-FRIENDS-FROM.mp3",
+    "coverage": 1.0,
+    "duration": 47.76,
+    "asr_words": 51
+  },
+  {
+    "row": 43,
+    "level": "A1",
+    "title": "Where do you go in the morning?",
+    "mp3": "A1-009-NERRY-WHAT-DO-MORNING.mp3",
+    "coverage": 0.989,
+    "duration": 65.16,
+    "asr_words": 96
+  },
+  {
+    "row": 44,
+    "level": "A1",
+    "title": "What is in your house?",
+    "mp3": "A1-008-SARAH-HOUSE.mp3",
+    "coverage": 0.99,
+    "duration": 78.9,
+    "asr_words": 99
+  },
+  {
+    "row": 45,
+    "level": "A1",
+    "title": "Is your house cold in the winter?",
+    "mp3": "A1-007-JULIE-HOUSE-COLD-WINTER.mp3",
+    "coverage": 1.0,
+    "duration": 76.71,
+    "asr_words": 90
+  },
+  {
+    "row": 46,
+    "level": "A1",
+    "title": "Tallk about a family member",
+    "mp3": "A1-006-NERRY-DESCRIBE-FAMILY.mp3",
+    "coverage": 1.0,
+    "duration": 60.78,
+    "asr_words": 94
+  },
+  {
+    "row": 47,
+    "level": "A1",
+    "title": "Who are your friends?",
+    "mp3": "A1-005-DESIREE-FRIENDS.mp3",
+    "coverage": 0.988,
+    "duration": 63.04,
+    "asr_words": 81
+  },
+  {
+    "row": 48,
+    "level": "A1",
+    "title": "What is your nationality?",
+    "mp3": "A1-004-DANDARA-NATIONALITY.mp3",
+    "coverage": 1.0,
+    "duration": 58.6,
+    "asr_words": 85
+  },
+  {
+    "row": 49,
+    "level": "A1",
+    "title": "Where are you from?",
+    "mp3": "A1-003-BILLIE-WHERE-ARE-YOU-FROM.mp3",
+    "coverage": 0.984,
+    "duration": 54.11,
+    "asr_words": 65
+  },
+  {
+    "row": 50,
+    "level": "A1",
+    "title": "What is your name?",
+    "mp3": "A1-002-SYUZAN-NAME.mp3",
+    "coverage": 0.922,
+    "duration": 67.51,
+    "asr_words": 80
+  },
+  {
+    "row": 51,
+    "level": "A1",
+    "title": "Ten Things about Me!",
+    "mp3": "A1-001-SARAH-TEN-THINGS.mp3",
+    "coverage": 0.978,
+    "duration": 70.24,
+    "asr_words": 91
+  },
+  {
+    "row": 52,
+    "level": "A2",
+    "title": "How is your town different?",
+    "mp3": "A2-002-TODD-MUCH-A-LOT.mp3",
+    "coverage": 0.993,
+    "duration": 98.96,
+    "asr_words": 285
+  },
+  {
+    "row": 53,
+    "level": "A2",
+    "title": "Beginner English - 3 - Do you have any pets?",
+    "mp3": "A2-003-HAZAL-HAVE-ANY-PETS.mp3",
+    "coverage": 0.981,
+    "duration": 53.07,
+    "asr_words": 108
+  },
+  {
+    "row": 54,
+    "level": "A2",
+    "title": "What time is it now?",
+    "mp3": "A2-004-LESYA-WHAT-TIME-IS-IT-NOW.mp3",
+    "coverage": 0.833,
+    "duration": 29.42,
+    "asr_words": 42
+  },
+  {
+    "row": 56,
+    "level": "A2",
+    "title": "Beginner English - 6 - How old is your shirt?",
+    "mp3": "A2-006-LESYA-HOW-OLD-YOUR-SHIRT.mp3",
+    "coverage": 0.977,
+    "duration": 64.58,
+    "asr_words": 89
+  },
+  {
+    "row": 57,
+    "level": "A2",
+    "title": "Beginner English - 7 - Do you like indoor pets, like birds or fish?",
+    "mp3": "A2-007-NERISSA-INDOOR-PETS-LIKE-BIRDS-OR-FISH.mp3",
+    "coverage": 0.981,
+    "duration": 56.64,
+    "asr_words": 105
+  },
+  {
+    "row": 58,
+    "level": "A2",
+    "title": "What do you do on the weekend?",
+    "mp3": "A2-008-NERRY-WHAT-DO-WEEKEND.mp3",
+    "coverage": 0.952,
+    "duration": 64.99,
+    "asr_words": 105
+  },
+  {
+    "row": 59,
+    "level": "A2",
+    "title": "Beginner English - 9 - Do you buy dinner at the supermarket?",
+    "mp3": "A2-009-ROCiO-BUY-DINNER-AT-THE-SUPERMARKET.mp3",
+    "coverage": 0.992,
+    "duration": 72.49,
+    "asr_words": 132
+  },
+  {
+    "row": 60,
+    "level": "A2",
+    "title": "What are your plans for tonight?",
+    "mp3": "A2-010-TODD-GOING-TO-PLANS.mp3",
+    "coverage": 0.977,
+    "duration": 78.64,
+    "asr_words": 241
+  },
+  {
+    "row": 61,
+    "level": "A2",
+    "title": "Beginner English - 11 - Do you cook often or much?",
+    "mp3": "A2-011-BILLIE-DO-YOU-COOK-MUCH.mp3",
+    "coverage": 1.0,
+    "duration": 60.96,
+    "asr_words": 121
+  },
+  {
+    "row": 62,
+    "level": "A2",
+    "title": "Beginner English - 12 - Is your town nice?",
+    "mp3": "A2-012-ELISABETH-IS-YOUR-TOWN-NICE.mp3",
+    "coverage": 1.0,
+    "duration": 60.54,
+    "asr_words": 96
+  },
+  {
+    "row": 63,
+    "level": "A2",
+    "title": "What cold drinks do you like in the summer?",
+    "mp3": "A2-013-HAZAL-WHAT-COLD-DRINKS-LIKE.mp3",
+    "coverage": 0.991,
+    "duration": 51.8,
+    "asr_words": 116
+  },
+  {
+    "row": 64,
+    "level": "A2",
+    "title": "Beginner English - 14 - How was your day?",
+    "mp3": "A2-014-TODD-PAST-TENSE.mp3",
+    "coverage": 1.0,
+    "duration": 69.67,
+    "asr_words": 197
+  },
+  {
+    "row": 65,
+    "level": "A2",
+    "title": "Beginner English - 15 - Do you use the train or bus?",
+    "mp3": "A2-015-LESYA-USE-TRAIN-OR-BUS.mp3",
+    "coverage": 0.964,
+    "duration": 55.3,
+    "asr_words": 82
+  },
+  {
+    "row": 66,
+    "level": "A2",
+    "title": "What drinks do you dislike?",
+    "mp3": "A2-016-NERISSA-WHAT-DRINKS-DISLIKE.mp3",
+    "coverage": 0.99,
+    "duration": 57.52,
+    "asr_words": 101
+  },
+  {
+    "row": 67,
+    "level": "A2",
+    "title": "What food is not healthy?",
+    "mp3": "A2-017-NERRY-WHAT-FOOD-NOT-HEALTHY.mp3",
+    "coverage": 0.988,
+    "duration": 46.38,
+    "asr_words": 81
+  },
+  {
+    "row": 68,
+    "level": "A2",
+    "title": "Beginner English - 17 - Are clothing shops cheap in your town?",
+    "mp3": "A2-018-ROCiO-ARE-CLOTHING-SHOPS-CHEAP-TOWN.mp3",
+    "coverage": 0.993,
+    "duration": 70.46,
+    "asr_words": 142
+  },
+  {
+    "row": 69,
+    "level": "A2",
+    "title": "What is the city like?",
+    "mp3": "A2-019-TODD-ADJECTIVES-TAICHUNG.mp3",
+    "coverage": 0.981,
+    "duration": 92.04,
+    "asr_words": 217
+  },
+  {
+    "row": 70,
+    "level": "A2",
+    "title": "What foods do you like together?",
+    "mp3": "A2-020-ELISABETH-WHAT-FOODS-DO-YOU-LIKE-TOGETHER.mp3",
+    "coverage": 1.0,
+    "duration": 62.34,
+    "asr_words": 103
+  },
+  {
+    "row": 71,
+    "level": "A2",
+    "title": "Beginner English - 21 - What is the difference between the country and countryside?",
+    "mp3": "A2-021-ELISE-CITY-COUNTRY.mp3",
+    "coverage": 0.976,
+    "duration": 52.82,
+    "asr_words": 125
+  },
+  {
+    "row": 72,
+    "level": "A2",
+    "title": "What do you eat for breakfast?",
+    "mp3": "A2-022-HAZAL-WHAT-EAT-BREAKFAST.mp3",
+    "coverage": 1.0,
+    "duration": 62.47,
+    "asr_words": 113
+  },
+  {
+    "row": 73,
+    "level": "A2",
+    "title": "What did you do last night?",
+    "mp3": "A2-023-JILL-LAST-NIGHT.mp3",
+    "coverage": 1.0,
+    "duration": 65.41,
+    "asr_words": 181
+  },
+  {
+    "row": 74,
+    "level": "A2",
+    "title": "What sport uses gloves? What happens?",
+    "mp3": "A2-024-LESYA-WHAT-SPORT-USES-GLOVES.mp3",
+    "coverage": 0.987,
+    "duration": 55.88,
+    "asr_words": 77
+  },
+  {
+    "row": 75,
+    "level": "A2",
+    "title": "What will you do this month?",
+    "mp3": "A2-025-NATALIE-WILL-WONT.mp3",
+    "coverage": 1.0,
+    "duration": 58.4,
+    "asr_words": 143
+  },
+  {
+    "row": 76,
+    "level": "A2",
+    "title": "What are you doing now?",
+    "mp3": "A2-026-TODD-PRESENT-CONTINUOUS-FARM.mp3",
+    "coverage": 0.96,
+    "duration": 63.19,
+    "asr_words": 166
+  },
+  {
+    "row": 77,
+    "level": "A2",
+    "title": "What is your house near?",
+    "mp3": "A2-027-ROCiO-WHAT-IS-NEAR-YOUR-HOUSE.mp3",
+    "coverage": 0.982,
+    "duration": 63.78,
+    "asr_words": 115
+  },
+  {
+    "row": 78,
+    "level": "A2",
+    "title": "What is your job?",
+    "mp3": "A2-028-NERRY-WHAT-IS-YOUR-JOB.mp3",
+    "coverage": 0.993,
+    "duration": 92.96,
+    "asr_words": 146
+  },
+  {
+    "row": 79,
+    "level": "A2",
+    "title": "Beginner English - 29 - Is your house near a park?",
+    "mp3": "A2-029-NERISSA-YOUR-HOUSE-NEAR-PARK.mp3",
+    "coverage": 0.989,
+    "duration": 47.12,
+    "asr_words": 94
+  },
+  {
+    "row": 80,
+    "level": "A2",
+    "title": "What time do you wake up every day?",
+    "mp3": "A2-030-LESYA-WHAT-TIME-WAKE-UP-EVERY-DAY.mp3",
+    "coverage": 0.908,
+    "duration": 50.72,
+    "asr_words": 88
+  },
+  {
+    "row": 81,
+    "level": "A2",
+    "title": "Where do you live normally?",
+    "mp3": "A2-031-JILL-WHERE-DO-YOU-LIVE.mp3",
+    "coverage": 0.975,
+    "duration": 69.17,
+    "asr_words": 204
+  },
+  {
+    "row": 82,
+    "level": "A2",
+    "title": "When do you drink your favorite drink?",
+    "mp3": "A2-031-JILL-WHERE-DO-YOU-LIVE.mp3",
+    "coverage": 0.244,
+    "duration": 69.17,
+    "asr_words": 204
+  },
+  {
+    "row": 83,
+    "level": "A2",
+    "title": "What is your country's geography like?",
+    "mp3": "A2-033-ELISE-NETHERLANDS.mp3",
+    "coverage": 1.0,
+    "duration": 60.99,
+    "asr_words": 129
+  },
+  {
+    "row": 84,
+    "level": "A2",
+    "title": "Do you watch sports on TV?",
+    "mp3": "A2-034-HAZAL-DO-YOU-WATCH-SPORTS-ON-TV.mp3",
+    "coverage": 0.982,
+    "duration": 55.34,
+    "asr_words": 115
+  },
+  {
+    "row": 85,
+    "level": "A2",
+    "title": "What snacks are healthy?",
+    "mp3": "A2-035-HAZAL-WHAT-SNACKS-ARE-HEALTHY.mp3",
+    "coverage": 1.0,
+    "duration": 62.25,
+    "asr_words": 116
+  },
+  {
+    "row": 86,
+    "level": "A2",
+    "title": "When do you start and finish your day?",
+    "mp3": "A2-036-NERISSA-WHEN-START-AND-FINISH-DAY.mp3",
+    "coverage": 0.939,
+    "duration": 78.13,
+    "asr_words": 148
+  },
+  {
+    "row": 87,
+    "level": "A2",
+    "title": "What is your favorite TV show?",
+    "mp3": "A2-037-NERRY-WHAT-FAV-TV-SHOW.mp3",
+    "coverage": 0.976,
+    "duration": 59.43,
+    "asr_words": 81
+  },
+  {
+    "row": 88,
+    "level": "A2",
+    "title": "What do you do in the morning?",
+    "mp3": "A2-038-ROCiO-WHAT-DO-MORNING.mp3",
+    "coverage": 0.95,
+    "duration": 69.12,
+    "asr_words": 119
+  },
+  {
+    "row": 89,
+    "level": "A2",
+    "title": "What can you do in the park?",
+    "mp3": "A2-039-TODD-CAN-KOREA.mp3",
+    "coverage": 0.986,
+    "duration": 65.8,
+    "asr_words": 221
+  },
+  {
+    "row": 90,
+    "level": "A2",
+    "title": "What is your job?",
+    "mp3": "A2-040-HAZAL-WHAT-IS-YOUR-JOB.mp3",
+    "coverage": 1.0,
+    "duration": 57.92,
+    "asr_words": 94
+  },
+  {
+    "row": 91,
+    "level": "A2",
+    "title": "What is the weather like?",
+    "mp3": "A2-041-TODD-COMPARATIVES-FALLWEATHER.mp3",
+    "coverage": 0.995,
+    "duration": 83.18,
+    "asr_words": 193
+  },
+  {
+    "row": 92,
+    "level": "A2",
+    "title": "What are you doing right now?",
+    "mp3": "A2-042-ELISABETH-WHAT-DOING-RIGHT-NOW.mp3",
+    "coverage": 0.987,
+    "duration": 59.52,
+    "asr_words": 156
+  },
+  {
+    "row": 93,
+    "level": "A2",
+    "title": "What are monthly events in your area?",
+    "mp3": "A2-043-ELISE-MONTHS.mp3",
+    "coverage": 0.97,
+    "duration": 85.02,
+    "asr_words": 199
+  },
+  {
+    "row": 94,
+    "level": "A2",
+    "title": "Where does your family live?",
+    "mp3": "A2-044-NERISSA-WHERE-FAMILY-LIVE.mp3",
+    "coverage": 0.937,
+    "duration": 61.12,
+    "asr_words": 112
+  },
+  {
+    "row": 95,
+    "level": "A2",
+    "title": "What fruits do you like?",
+    "mp3": "A2-045-ROCiO-WHAT-FRUITS-DO-YOU-LIKE.mp3",
+    "coverage": 0.989,
+    "duration": 57.3,
+    "asr_words": 90
+  },
+  {
+    "row": 96,
+    "level": "A2",
+    "title": "What is your favorite place?",
+    "mp3": "A2-046-TODD-MUCH-MANY-BEACH.mp3",
+    "coverage": 0.99,
+    "duration": 65.04,
+    "asr_words": 206
+  },
+  {
+    "row": 97,
+    "level": "A2",
+    "title": "Who will you see tonight?",
+    "mp3": "A2-047-ELISABETH-WHO-SEE-TONIGHT.mp3",
+    "coverage": 0.994,
+    "duration": 67.8,
+    "asr_words": 165
+  },
+  {
+    "row": 98,
+    "level": "A2",
+    "title": "What is your weekly routine?",
+    "mp3": "A2-048-ELISE-DAYS-OF-WEEK.mp3",
+    "coverage": 0.977,
+    "duration": 81.64,
+    "asr_words": 175
+  },
+  {
+    "row": 99,
+    "level": "A2",
+    "title": "What did you do over the weekend?",
+    "mp3": "A2-049-JILL-AUSTRALIA-WEEKEND.mp3",
+    "coverage": 0.985,
+    "duration": 83.14,
+    "asr_words": 203
+  },
+  {
+    "row": 100,
+    "level": "A2",
+    "title": "What is on your schedule today?",
+    "mp3": "A2-050-NERRY-WHAT-IS-ON-YOUR-SCHEDULE-TODAY.mp3",
+    "coverage": 0.991,
+    "duration": 59.24,
+    "asr_words": 115
+  },
+  {
+    "row": 101,
+    "level": "B1",
+    "title": "What are some tips in language learning?",
+    "mp3": "B1-001-OZLEM-LEARNING-ENGLISH.mp3",
+    "coverage": 0.99,
+    "duration": 86.54,
+    "asr_words": 204
+  },
+  {
+    "row": 102,
+    "level": "B1",
+    "title": "Intermediate English - 2 - What is your dream job?",
+    "mp3": "B1-002-MANEL-DREAM-JOB.mp3",
+    "coverage": 0.958,
+    "duration": 54.22,
+    "asr_words": 147
+  },
+  {
+    "row": 103,
+    "level": "B1",
+    "title": "Intermediate English - 3 - Is it important for you to have a car?",
+    "mp3": "B1-003-RACHEL-AUSTRALIA-CAR.mp3",
+    "coverage": 0.989,
+    "duration": 31.58,
+    "asr_words": 94
+  },
+  {
+    "row": 104,
+    "level": "B1",
+    "title": "Intermediate English - 4 - Do you have a car?",
+    "mp3": "B1-004-ANTTI-DO-YOU-HAVE-A-CAR.mp3",
+    "coverage": 0.954,
+    "duration": 66.52,
+    "asr_words": 130
+  },
+  {
+    "row": 105,
+    "level": "B1",
+    "title": "Intermediate English - 5 - Have you ever had a beloved pet?",
+    "mp3": "B1-005-SERENA-ALBANIA-BELOVED-PET.mp3",
+    "coverage": 0.97,
+    "duration": 68.37,
+    "asr_words": 169
+  },
+  {
+    "row": 106,
+    "level": "B1",
+    "title": "Intermediate English - 6 - Have you ever taken a road trip before?",
+    "mp3": "B1-006-PREAH-ROAD-TRIP.mp3",
+    "coverage": 0.94,
+    "duration": 74.97,
+    "asr_words": 162
+  },
+  {
+    "row": 107,
+    "level": "B1",
+    "title": "Intermediate English - 7 - Who do you speak English with?",
+    "mp3": "B1-007-OZLEM-WHO-SPEAK-ENGLISH.mp3",
+    "coverage": 0.952,
+    "duration": 85.38,
+    "asr_words": 162
+  },
+  {
+    "row": 108,
+    "level": "B1",
+    "title": "Intermediate English - 8 - What is something you loved to do as a child?",
+    "mp3": "B1-008-RACHEL-AUSTRALIA-CHILD-HABIT.mp3",
+    "coverage": 0.983,
+    "duration": 47.06,
+    "asr_words": 122
+  },
+  {
+    "row": 109,
+    "level": "B1",
+    "title": "Intermediate English - 9 - Did you have a part-time job when you were younger?",
+    "mp3": "B1-009-ARTHUR-PART-TIME-JOB.mp3",
+    "coverage": 0.972,
+    "duration": 58.97,
+    "asr_words": 143
+  },
+  {
+    "row": 110,
+    "level": "B1",
+    "title": "Intermediate English - 10 - What do you usually eat for dinner?",
+    "mp3": "B1-010-MANEL-DINNER.mp3",
+    "coverage": 1.0,
+    "duration": 42.73,
+    "asr_words": 130
+  },
+  {
+    "row": 111,
+    "level": "B1",
+    "title": "What do you think is the most difficult language to learn?",
+    "mp3": "B1-011-PREAH-WHAT-MOST-DIFFICULT-LANGUAGE-LEARN.mp3",
+    "coverage": 0.92,
+    "duration": 78.11,
+    "asr_words": 164
+  },
+  {
+    "row": 112,
+    "level": "B1",
+    "title": "Intermediate English - 12 - Do you have a pet?",
+    "mp3": "B1-012-ANTTI-DO-YOU-HAVE-A-PET.mp3",
+    "coverage": 0.963,
+    "duration": 55.6,
+    "asr_words": 107
+  },
+  {
+    "row": 113,
+    "level": "B1",
+    "title": "What is your favorite meal?",
+    "mp3": "B1-013-JUAN-ARGENTINA-FAVORITE-MEAL.mp3",
+    "coverage": 0.98,
+    "duration": 63.86,
+    "asr_words": 148
+  },
+  {
+    "row": 114,
+    "level": "B1",
+    "title": "What is a company you admire?",
+    "mp3": "B1-014-RACHEL-AUSTRALIA-COMPANY.mp3",
+    "coverage": 0.98,
+    "duration": 50.47,
+    "asr_words": 97
+  },
+  {
+    "row": 115,
+    "level": "B1",
+    "title": "Intermediate English - 15 - Have you ever tried a fat diet?",
+    "mp3": "B1-015-MANEL-FAD-DIET.mp3",
+    "coverage": 0.957,
+    "duration": 51.06,
+    "asr_words": 163
+  },
+  {
+    "row": 116,
+    "level": "B1",
+    "title": "Who is my favorite historical figure?",
+    "mp3": "B1-016-ANTTI-WHO-IS-MY-FAVORITE-HISTORICAL-FIGURE.mp3",
+    "coverage": 0.951,
+    "duration": 64.77,
+    "asr_words": 107
+  },
+  {
+    "row": 117,
+    "level": "B1",
+    "title": "How do you feel about having a pet?",
+    "mp3": "B1-017-OZLEM-HOW-DO-YOU-FEEL-ABOUT-PETS.mp3",
+    "coverage": 0.982,
+    "duration": 86.32,
+    "asr_words": 167
+  },
+  {
+    "row": 118,
+    "level": "B1",
+    "title": "Intermediate English - 18 - How has your life changed in the last five years?",
+    "mp3": "B1-018-PREAH-HOW-LIFE-CHANGED-FIVE-YEARS.mp3",
+    "coverage": 0.964,
+    "duration": 94.35,
+    "asr_words": 196
+  },
+  {
+    "row": 119,
+    "level": "B1",
+    "title": "What language would you like to learn?",
+    "mp3": "B1-019-JUAN-ARGENTINA-LEARN-LANGUAGE.mp3",
+    "coverage": 0.977,
+    "duration": 51.6,
+    "asr_words": 89
+  },
+  {
+    "row": 120,
+    "level": "B1",
+    "title": "What languages are you learning?",
+    "mp3": "B1-020-MANEL-NEW-LANGUAGE.mp3",
+    "coverage": 0.991,
+    "duration": 45.98,
+    "asr_words": 115
+  },
+  {
+    "row": 121,
+    "level": "B1",
+    "title": "Intermediate English - 21 - Will there still be language schools in 10 years?",
+    "mp3": "B1-021-OZLEM-FUTURE-LANGUAGE-SCHOOLS.mp3",
+    "coverage": 0.961,
+    "duration": 72.48,
+    "asr_words": 151
+  },
+  {
+    "row": 122,
+    "level": "B1",
+    "title": "Intermediate English - 22 - Do you always eat healthy food?",
+    "mp3": "B1-022-RACHEL-AUSTRALIA-EAT-HEALTHY.mp3",
+    "coverage": 0.982,
+    "duration": 47.8,
+    "asr_words": 112
+  },
+  {
+    "row": 123,
+    "level": "B1",
+    "title": "What do you like about your country?",
+    "mp3": "B1-023-OZLEM-WHAT-LIKE-ABOUT-YOUR-COUNTRY.mp3",
+    "coverage": 0.979,
+    "duration": 70.52,
+    "asr_words": 144
+  },
+  {
+    "row": 124,
+    "level": "B1",
+    "title": "Intermediate English - 24 - What was your most embarrassing moment?",
+    "mp3": "B1-024-PREAH-WHAT-MOST-EMBARRASSING-MOMENT.mp3",
+    "coverage": 0.938,
+    "duration": 93.5,
+    "asr_words": 213
+  },
+  {
+    "row": 125,
+    "level": "B1",
+    "title": "Intermediate English - 25 - If you could change your nationality, what nationality would you be?",
+    "mp3": "B1-025-SERENA-ALBANIA-CHANGE-NATIONALITY.mp3",
+    "coverage": 1.0,
+    "duration": 53.82,
+    "asr_words": 119
+  },
+  {
+    "row": 126,
+    "level": "B1",
+    "title": "Intermediate English - 26 - Do you travel for business?",
+    "mp3": "B1-026-Rocio-Travel-for-Business.mp3",
+    "coverage": 0.992,
+    "duration": 62.12,
+    "asr_words": 126
+  },
+  {
+    "row": 127,
+    "level": "B1",
+    "title": "Intermediate English - 27 - What is your favorite healthy drink?",
+    "mp3": "B1-027-Lilit-Healthy-Drink.mp3",
+    "coverage": 0.993,
+    "duration": 62.79,
+    "asr_words": 144
+  },
+  {
+    "row": 128,
+    "level": "B1",
+    "title": "Intermediate English - 28 - What is a city you visited recently?",
+    "mp3": "B1-028-Nevena-city-visited.mp3",
+    "coverage": 0.956,
+    "duration": 68.82,
+    "asr_words": 156
+  },
+  {
+    "row": 129,
+    "level": "B1",
+    "title": "Intermediate English - 29 - What is your family like?",
+    "mp3": "B1-029-Rocio-Family-Size.mp3",
+    "coverage": 0.973,
+    "duration": 60.54,
+    "asr_words": 113
+  },
+  {
+    "row": 130,
+    "level": "B1",
+    "title": "Intermediate English - 30 - Do you like to make your own clothes?",
+    "mp3": "B1-030-Elaine-Clothes.mp3",
+    "coverage": 0.985,
+    "duration": 78.88,
+    "asr_words": 199
+  },
+  {
+    "row": 131,
+    "level": "B1",
+    "title": "Intermediate English - 31 - What is a fun party you attended?",
+    "mp3": "B1-031-Lilit-Fun-Party.mp3",
+    "coverage": 0.979,
+    "duration": 82.43,
+    "asr_words": 189
+  },
+  {
+    "row": 132,
+    "level": "B1",
+    "title": "Intermediate English - 32 - What are your beauty secrets?",
+    "mp3": "B1-032-Nevena-Beauty.mp3",
+    "coverage": 0.982,
+    "duration": 67.59,
+    "asr_words": 165
+  },
+  {
+    "row": 133,
+    "level": "B1",
+    "title": "Intermediate English - 33 - What comedians do you like?",
+    "mp3": "B1-033-Thaer-Funny-Comedian.mp3",
+    "coverage": 0.946,
+    "duration": 52.49,
+    "asr_words": 144
+  },
+  {
+    "row": 134,
+    "level": "B1",
+    "title": "Intermediate English - 34 - What do you usually eat for lunch?",
+    "mp3": "B1-034-Veronica-Lunch.mp3",
+    "coverage": 0.99,
+    "duration": 65.32,
+    "asr_words": 208
+  },
+  {
+    "row": 135,
+    "level": "B1",
+    "title": "Intermediate English - 35 - Do you have piercings?",
+    "mp3": "B1-035-Lilt-Peircings.mp3",
+    "coverage": 0.98,
+    "duration": 63.47,
+    "asr_words": 157
+  },
+  {
+    "row": 136,
+    "level": "B1",
+    "title": "Intermediate English - 36 - What celebrity do you admire?",
+    "mp3": "B1-036-Rocio-Admire.mp3",
+    "coverage": 0.956,
+    "duration": 60.26,
+    "asr_words": 117
+  },
+  {
+    "row": 137,
+    "level": "B1",
+    "title": "Intermediate English - 37 - What is your country's busiest or liveliest city?",
+    "mp3": "B1-037-Doron-Busiest-City.mp3",
+    "coverage": 0.946,
+    "duration": 59.85,
+    "asr_words": 203
+  },
+  {
+    "row": 138,
+    "level": "B1",
+    "title": "Intermediate English - 38 - What colors do you like and dislike to wear?",
+    "mp3": "B1-038-Veronica-Colors-Clothes.mp3",
+    "coverage": 1.0,
+    "duration": 61.36,
+    "asr_words": 185
+  },
+  {
+    "row": 139,
+    "level": "B1",
+    "title": "Intermediate English - 39 - Would you like to have a dangerous job?",
+    "mp3": "B1-039-Nevena-Dangerous-Job.mp3",
+    "coverage": 0.989,
+    "duration": 71.96,
+    "asr_words": 177
+  },
+  {
+    "row": 140,
+    "level": "B1",
+    "title": "Intermediate English - 40 - What are the best and worst parts of your job?",
+    "mp3": "B1-040-Arthur-Best-Part-Job.mp3",
+    "coverage": 0.964,
+    "duration": 73.5,
+    "asr_words": 168
+  },
+  {
+    "row": 141,
+    "level": "B1",
+    "title": "Intermediate English - 41 - How often do you use public tranportation?",
+    "mp3": "B1-041-Doron-Public-Transportation.mp3",
+    "coverage": 0.94,
+    "duration": 59.4,
+    "asr_words": 146
+  },
+  {
+    "row": 142,
+    "level": "B1",
+    "title": "Intermediate English - 42 - How do you feel about expensive weddings?",
+    "mp3": "B1-042-Rocio-Expensive-Weddings.mp3",
+    "coverage": 0.855,
+    "duration": 63.21,
+    "asr_words": 123
+  },
+  {
+    "row": 143,
+    "level": "B1",
+    "title": "Intermediate English - 43 - What do you usually eat for dinner?",
+    "mp3": "B1-046-Rocio-Sports.mp3",
+    "coverage": 0.118,
+    "duration": 63.29,
+    "asr_words": 129
+  },
+  {
+    "row": 144,
+    "level": "B1",
+    "title": "Intermediate English - 44 - What is a TV series you like and what is it about?",
+    "mp3": "B1-044-Rocio-TV-Series.mp3",
+    "coverage": 0.975,
+    "duration": 61.27,
+    "asr_words": 120
+  },
+  {
+    "row": 145,
+    "level": "B1",
+    "title": "Intermediate English - 46 - Do you belong to a group or community?",
+    "mp3": "B1-045-Nevena-Community.mp3",
+    "coverage": 0.982,
+    "duration": 68.24,
+    "asr_words": 167
+  },
+  {
+    "row": 146,
+    "level": "B1",
+    "title": "Intermediate English - 46 - What sports do you like to play?",
+    "mp3": "B1-046-Rocio-Sports.mp3",
+    "coverage": 0.969,
+    "duration": 63.29,
+    "asr_words": 129
+  },
+  {
+    "row": 147,
+    "level": "B1",
+    "title": "What did you do last night?",
+    "mp3": "B1-047-Jill-Last-Night.mp3",
+    "coverage": 0.989,
+    "duration": 65.4,
+    "asr_words": 182
+  },
+  {
+    "row": 148,
+    "level": "B1",
+    "title": "Intermediate English - 48 - What is your favorite movie?",
+    "mp3": "B1-048-Rocio-Favorite-Movie.mp3",
+    "coverage": 0.984,
+    "duration": 70.53,
+    "asr_words": 125
+  },
+  {
+    "row": 149,
+    "level": "B1",
+    "title": "Intermediate English - 49 - Is trash recycled in your country?",
+    "mp3": "B1-049-Sarah-England-Trash.mp3",
+    "coverage": 0.983,
+    "duration": 68.55,
+    "asr_words": 171
+  },
+  {
+    "row": 150,
+    "level": "B1",
+    "title": "What are you wearing today?",
+    "mp3": "B1-050-Jill-Clothes.mp3",
+    "coverage": 0.995,
+    "duration": 68.2,
+    "asr_words": 212
+  },
+  {
+    "row": 151,
+    "level": "B2",
+    "title": "What was your first job?",
+    "mp3": "B2-001-STACY-AUSTRALIA-FIRST-JOB.mp3",
+    "coverage": 1.0,
+    "duration": 62.61,
+    "asr_words": 192
+  },
+  {
+    "row": 152,
+    "level": "B2",
+    "title": "Where does your best friend live?",
+    "mp3": "B2-002-OLIVIA-BEST-FRIEND-LOCATION.mp3",
+    "coverage": 0.989,
+    "duration": 52.18,
+    "asr_words": 191
+  },
+  {
+    "row": 153,
+    "level": "B2",
+    "title": "Do you have a special pet?",
+    "mp3": "B2-003-ARTHUR-SPECIAL-PET.mp3",
+    "coverage": 0.971,
+    "duration": 61.09,
+    "asr_words": 142
+  },
+  {
+    "row": 154,
+    "level": "B2",
+    "title": "What is the key to happiness?",
+    "mp3": "B2-004-AHMED-EGYPT-KEY-TO-HAPPINESS.mp3",
+    "coverage": 0.996,
+    "duration": 90.75,
+    "asr_words": 231
+  },
+  {
+    "row": 155,
+    "level": "B2",
+    "title": "Beginner English - 5 - What kind of dessert do you like?",
+    "mp3": "B2-005-OLIVIA-DESSERTS.mp3",
+    "coverage": 0.964,
+    "duration": 95.75,
+    "asr_words": 285
+  },
+  {
+    "row": 156,
+    "level": "B2",
+    "title": "Do you like superhero movies?",
+    "mp3": "B2-006-01-indestructible.mp3",
+    "coverage": 0.028,
+    "duration": 21.26,
+    "asr_words": 32
+  },
+  {
+    "row": 157,
+    "level": "B2",
+    "title": "Do you like taking selfies?",
+    "mp3": "B2-007-STACY-AUSTRALIA-TAKING-SELFIES.mp3",
+    "coverage": 0.966,
+    "duration": 56.48,
+    "asr_words": 149
+  },
+  {
+    "row": 158,
+    "level": "B2",
+    "title": "Beginner English - 8 - What was it like growing up on a farm?",
+    "mp3": "B2-008-OLIVIA-GROWING-UP-ON-FARM.mp3",
+    "coverage": 0.97,
+    "duration": 81.71,
+    "asr_words": 309
+  },
+  {
+    "row": 159,
+    "level": "B2",
+    "title": "Beginner English - 9 - Do you prefer natural or modern medicine?",
+    "mp3": "B2-009-ARTHUR-NATURAL-VS-MODERN-MEDICINE.mp3",
+    "coverage": 0.988,
+    "duration": 74.96,
+    "asr_words": 162
+  },
+  {
+    "row": 160,
+    "level": "B2",
+    "title": "What do you think about long distance relationships?",
+    "mp3": "B2-010-AHMED-EGYPT-LONG-DISTANCE-RELATIONSHIPS.mp3",
+    "coverage": 0.994,
+    "duration": 87.56,
+    "asr_words": 178
+  },
+  {
+    "row": 161,
+    "level": "B2",
+    "title": "Are you a tenant or home owner?",
+    "mp3": "B2-011-BILLIE-HOME-OWNER-OR-TENANT.mp3",
+    "coverage": 0.995,
+    "duration": 74.75,
+    "asr_words": 189
+  },
+  {
+    "row": 162,
+    "level": "B2",
+    "title": "Beginner English - 12 - What is your favorite idiom proverb or saying?",
+    "mp3": "B2-012-JUAN-ARGENTINA-FAVORITE-IDIOM.mp3",
+    "coverage": 0.952,
+    "duration": 69.7,
+    "asr_words": 126
+  },
+  {
+    "row": 163,
+    "level": "B2",
+    "title": "Would you ever get plastic surgery?",
+    "mp3": "B2-013-MANEL-PLASTIC-SURGERY.mp3",
+    "coverage": 0.981,
+    "duration": 51.4,
+    "asr_words": 159
+  },
+  {
+    "row": 164,
+    "level": "B2",
+    "title": "Would you volunteer for medical experiments?",
+    "mp3": "B2-014-01-volunteer.mp3",
+    "coverage": 0.051,
+    "duration": 19.44,
+    "asr_words": 31
+  },
+  {
+    "row": 165,
+    "level": "B2",
+    "title": "Do you like working out in gyms?",
+    "mp3": "B2-015-STACY-AUSTRALIA-GYMS.mp3",
+    "coverage": 0.991,
+    "duration": 74.25,
+    "asr_words": 219
+  },
+  {
+    "row": 166,
+    "level": "B2",
+    "title": "Is life better or worse in this digital era?",
+    "mp3": "B2-016-BILLIE-LIFE-BETTER-WORSE-DIGITAL-ERA.mp3",
+    "coverage": 0.99,
+    "duration": 77.6,
+    "asr_words": 207
+  },
+  {
+    "row": 167,
+    "level": "B2",
+    "title": "One Minute English B2-17 Would you ever get plastic surgery?",
+    "mp3": "B2-017-Bo-Plastic-Surgery.mp3",
+    "coverage": 1.0,
+    "duration": 49.46,
+    "asr_words": 122
+  },
+  {
+    "row": 168,
+    "level": "B2",
+    "title": "What is your favorite food?",
+    "mp3": "B2-018-STACY-AUSTRALIA-FOOD.mp3",
+    "coverage": 0.973,
+    "duration": 62.57,
+    "asr_words": 189
+  },
+  {
+    "row": 169,
+    "level": "B2",
+    "title": "Beginner English - 19 - What social media apps have you stopped using and why?",
+    "mp3": "B2-019-AHMED-EGYPT-WHAT-SOCIAL-MEDIA-STOPPED-USING.mp3",
+    "coverage": 0.978,
+    "duration": 58.69,
+    "asr_words": 133
+  },
+  {
+    "row": 170,
+    "mp3": "B1-000-01.mp3",
+    "coverage": -1.0,
+    "duration": 0.0,
+    "error": "未识别到任何词"
+  },
+  {
+    "row": 171,
+    "level": "B2",
+    "title": "Beginner English - 21 - Who is a famous person that you would like to meet?",
+    "mp3": "B2-021-AHMED-EGYPT-MEET-FAMOUS-PERSON-MEET.mp3",
+    "coverage": 0.995,
+    "duration": 86.63,
+    "asr_words": 193
+  },
+  {
+    "row": 172,
+    "level": "B2",
+    "title": "Beginner English -22 - What product is in high demand?",
+    "mp3": "B2-022-BILLIE-PRODUCT-IN-DEMAND.mp3",
+    "coverage": 0.962,
+    "duration": 84.64,
+    "asr_words": 212
+  },
+  {
+    "row": 173,
+    "level": "B2",
+    "title": "One Minute English Video #699 Have you ever been lost?",
+    "mp3": "B2-023-01-countless-times.mp3",
+    "coverage": 0.017,
+    "duration": 19.16,
+    "asr_words": 26
+  },
+  {
+    "row": 174,
+    "level": "B2",
+    "title": "Beginner English - 24 - Do you prefer shopping at a mall or online?",
+    "mp3": "B2-024-STACY-AUSTRALIA-SHOPPING.mp3",
+    "coverage": 0.964,
+    "duration": 62.74,
+    "asr_words": 196
+  },
+  {
+    "row": 175,
+    "level": "B2",
+    "title": "High-Intermediate English - 25 - Where did you go for your last vacation?",
+    "mp3": "B2-025-OLIVIA-LAST-VACATION.mp3",
+    "coverage": 0.984,
+    "duration": 69.9,
+    "asr_words": 248
+  },
+  {
+    "row": 176,
+    "level": "B2",
+    "title": "High-Intermediate English - 26 - Do you follow astrology?",
+    "mp3": "B2-026-Elaine-Atrology.mp3",
+    "coverage": 0.99,
+    "duration": 81.8,
+    "asr_words": 203
+  },
+  {
+    "row": 177,
+    "level": "B2",
+    "title": "High-Intermediate English - 27 - What is a city that you visited?",
+    "mp3": "B2-027-Bo-City-You-Visited.mp3",
+    "coverage": 0.98,
+    "duration": 58.66,
+    "asr_words": 153
+  },
+  {
+    "row": 178,
+    "level": "B2",
+    "title": "High-Intermediate English - 28 - Do you travel a lot?",
+    "mp3": "B2-028-Nevena-Family-Traveling.mp3",
+    "coverage": 0.993,
+    "duration": 67.27,
+    "asr_words": 150
+  },
+  {
+    "row": 179,
+    "level": "B2",
+    "title": "High-Intermediate English - 29 - Do you like to wear jewelry?",
+    "mp3": "B2-029-Ummi-Jewelry.mp3",
+    "coverage": 0.989,
+    "duration": 69.62,
+    "asr_words": 182
+  },
+  {
+    "row": 180,
+    "level": "B2",
+    "title": "High-Intermediate English - 30 - Do you like to wear jewelry?",
+    "mp3": "B2-030-Gian-Jewelry.mp3",
+    "coverage": 0.973,
+    "duration": 89.15,
+    "asr_words": 207
+  },
+  {
+    "row": 181,
+    "level": "B2",
+    "title": "High-Intermediate English - 31 - What do you usually eat for breakfast?",
+    "mp3": "B2-031-Manel-breakfast.mp3",
+    "coverage": 0.983,
+    "duration": 58.97,
+    "asr_words": 133
+  },
+  {
+    "row": 182,
+    "level": "B2",
+    "title": "High-Intermediate English - 33 - What is an ideal wedding?",
+    "mp3": "B2-033-Nicola-Wedding.mp3",
+    "coverage": 0.995,
+    "duration": 92.43,
+    "asr_words": 205
+  },
+  {
+    "row": 183,
+    "level": "B2",
+    "title": "High-Intermediate English - 34 - What is an ideal wedding?",
+    "mp3": "B2-034-Lilit-Wedding.mp3",
+    "coverage": 0.989,
+    "duration": 76.61,
+    "asr_words": 189
+  },
+  {
+    "row": 184,
+    "level": "B2",
+    "title": "High-Intermediate English - 35 - What is a job you would love to have?",
+    "mp3": "B2-035-Gian-Dream-Job.mp3",
+    "coverage": 0.987,
+    "duration": 88.53,
+    "asr_words": 230
+  },
+  {
+    "row": 185,
+    "level": "B2",
+    "title": "High-Intermediate English - 36 - What is your dream job?",
+    "mp3": "B2-036-Eulices-Dream-Job.mp3",
+    "coverage": 0.993,
+    "duration": 53.74,
+    "asr_words": 141
+  },
+  {
+    "row": 186,
+    "level": "B2",
+    "title": "High-Intermediate English - 37 - What are some odd jobs you have had?",
+    "mp3": "B2-037-Nevena-Odd-Jobs.mp3",
+    "coverage": 1.0,
+    "duration": 68.25,
+    "asr_words": 156
+  },
+  {
+    "row": 187,
+    "level": "B2",
+    "title": "High-Intermediate English - 38 - Would you volunteer for medical experiments?",
+    "mp3": "B2-038-Nicola-Medical-Experiments.mp3",
+    "coverage": 1.0,
+    "duration": 76.04,
+    "asr_words": 151
+  },
+  {
+    "row": 188,
+    "level": "B2",
+    "title": "High-Intermediate English - 39 - Would you volunteer for medical experiments?",
+    "mp3": "B2-039-Lilit-Medical-Experiment.mp3",
+    "coverage": 0.979,
+    "duration": 65.66,
+    "asr_words": 141
+  },
+  {
+    "row": 189,
+    "level": "B2",
+    "title": "High-Intermediate English - 40 - What is your idea for a movie?",
+    "mp3": "B2-040-Lilit-Movie-Idea.mp3",
+    "coverage": 0.994,
+    "duration": 64.66,
+    "asr_words": 162
+  },
+  {
+    "row": 190,
+    "level": "B2",
+    "title": "High-Intermediate English - 41 - What types of TV shows do you like and dislike?",
+    "mp3": "B2-041-Eullices-TV.mp3",
+    "coverage": 0.98,
+    "duration": 61.28,
+    "asr_words": 147
+  },
+  {
+    "row": 191,
+    "level": "B2",
+    "title": "High-Intermediate English - 42 - What is the best age to get married?",
+    "mp3": "B2-042-Thaer-Best-Time-Marry.mp3",
+    "coverage": 0.973,
+    "duration": 62.4,
+    "asr_words": 187
+  },
+  {
+    "row": 192,
+    "level": "B2",
+    "title": "High-Intermediate English - 43 - Do you prefer large or small weddings?",
+    "mp3": "B2-043-Arthur-Big-Small-Weddings.mp3",
+    "coverage": 0.987,
+    "duration": 64.28,
+    "asr_words": 152
+  },
+  {
+    "row": 193,
+    "level": "B2",
+    "title": "High-Intermediate English - 44 - What is considered taboo in my country?",
+    "mp3": "B2-044-Gian-Taboo.mp3",
+    "coverage": 0.954,
+    "duration": 79.82,
+    "asr_words": 219
+  },
+  {
+    "row": 194,
+    "level": "B2",
+    "title": "High-Intermediate English - 45 - Are tattoos frowned upon in your community?",
+    "mp3": "B2-045-Veronica-Tatoo.mp3",
+    "coverage": 1.0,
+    "duration": 69.22,
+    "asr_words": 199
+  },
+  {
+    "row": 195,
+    "level": "B2",
+    "title": "High-Intermediate English - 46 - Are you part of a group or community?",
+    "mp3": "B2-046-Arthur-Community.mp3",
+    "coverage": 0.993,
+    "duration": 72.26,
+    "asr_words": 153
+  },
+  {
+    "row": 196,
+    "level": "B2",
+    "title": "High-Intermediate English - 47 - Is marriage becoming outdated?",
+    "mp3": "B2-047-Ummi-MarriageOutdated.mp3",
+    "coverage": 0.982,
+    "duration": 74.0,
+    "asr_words": 175
+  },
+  {
+    "row": 197,
+    "level": "B2",
+    "title": "High-Intermediate English - 48 - What are some tips to learning a language?",
+    "mp3": "B2-048-Ulicises-Language.mp3",
+    "coverage": 0.983,
+    "duration": 81.71,
+    "asr_words": 227
+  },
+  {
+    "row": 198,
+    "level": "B2",
+    "title": "High-Intermediate English - 49 - What are some tips to learning a language?",
+    "mp3": "B2-049-Gian-Language.mp3",
+    "coverage": 0.972,
+    "duration": 95.24,
+    "asr_words": 216
+  },
+  {
+    "row": 199,
+    "level": "B2",
+    "title": "High-Intermediate English - 50 - Have you ever had a makeover?",
+    "mp3": "B2-050-Veronica-Makeover.mp3",
+    "coverage": 0.995,
+    "duration": 66.9,
+    "asr_words": 201
+  }
+]

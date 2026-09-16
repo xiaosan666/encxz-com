@@ -1,0 +1,78 @@
+{
+  "mp3": "A1-003-BILLIE-WHERE-ARE-YOU-FROM.mp3",
+  "duration": 57.038,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "77cec7fd3f10f7b0:672478:1788403932",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95,
+    "duration_fixed_from": 54.11,
+    "duration_fixed_to": 57.038
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.75,
+      "end": 7.73,
+      "en": "Hi, my name is Billy and I live in South Africa.",
+      "cn": "嗨，我叫比利，我住在南非。",
+      "para": 0,
+      "expect": 0.75,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 7.73,
+      "end": 13.05,
+      "en": "My question is, where are you from?",
+      "cn": "我的问题是：你从哪里来？",
+      "para": 0,
+      "expect": 7.73,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 13.05,
+      "end": 23.51,
+      "en": "So, I live in South Africa, but I am from Cameroon.",
+      "cn": "我住在南非，但我老家是喀麦隆。",
+      "para": 1,
+      "expect": 13.05,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 23.51,
+      "end": 33.97,
+      "en": "Cameroon is West Africa and next to Nigeria.",
+      "cn": "喀麦隆在西非，挨着尼日利亚。",
+      "para": 1,
+      "expect": 23.51,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 33.97,
+      "end": 54.11,
+      "en": "I speak French, and Cameroon is near the ocean, so we eat a lot of fish and a lot of vegetables, and sometimes I miss Cameroon.",
+      "cn": "我说法语。喀麦隆靠海，所以我们吃很多鱼和蔬菜，有时候我会想家。",
+      "para": 1,
+      "expect": 33.97,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 65,
+    "token_coverage": 0.984,
+    "low_confidence": false
+  },
+  "locked": false
+}

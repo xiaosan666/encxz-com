@@ -1,0 +1,208 @@
+{
+  "mp3": "A1-001-SARAH-TEN-THINGS.mp3",
+  "duration": 72.809,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "6395830891aeae75:719468:1789467471",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 1.2,
+      "end": 13.41,
+      "en": "Hi, my name is Sarah and I will say 10 things about myself using present simple with Be.",
+      "cn": "嗨，我叫萨拉，我要用 be 动词的一般现在时说 10 件关于我自己的事。",
+      "para": 0,
+      "expect": 1.2,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 13.41,
+      "end": 16.0,
+      "en": "My name is Sarah.",
+      "cn": "我叫萨拉。",
+      "para": 1,
+      "expect": 13.41,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 16.0,
+      "end": 18.98,
+      "en": "I am a mother.",
+      "cn": "我是一个妈妈。",
+      "para": 2,
+      "expect": 16.0,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 18.98,
+      "end": 22.52,
+      "en": "I am also a teacher.",
+      "cn": "我也是一名老师。",
+      "para": 3,
+      "expect": 18.98,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 22.52,
+      "end": 26.42,
+      "en": "I am not a farmer.",
+      "cn": "我不是农民。",
+      "para": 4,
+      "expect": 22.52,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 26.42,
+      "end": 31.2,
+      "en": "I am not shy.",
+      "cn": "我不害羞。",
+      "para": 5,
+      "expect": 26.42,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 31.2,
+      "end": 36.34,
+      "en": "My daughter is seven years old.",
+      "cn": "我女儿 7 岁",
+      "para": 6,
+      "expect": 31.2,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 36.34,
+      "end": 39.54,
+      "en": "She is brave.",
+      "cn": "她很勇敢。",
+      "para": 6,
+      "expect": 36.34,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 39.54,
+      "end": 44.0,
+      "en": "My son is five years old.",
+      "cn": "我儿子 5 岁",
+      "para": 7,
+      "expect": 39.54,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 44.0,
+      "end": 47.3,
+      "en": "He is kind.",
+      "cn": "他很善良。",
+      "para": 7,
+      "expect": 44.0,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 47.3,
+      "end": 51.42,
+      "en": "My children are friendly.",
+      "cn": "我的孩子们很友好",
+      "para": 8,
+      "expect": 47.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 51.42,
+      "end": 54.56,
+      "en": "They are happy, too.",
+      "cn": "也很快乐。",
+      "para": 8,
+      "expect": 51.42,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 54.56,
+      "end": 59.12,
+      "en": "My family is from the USA.",
+      "cn": "我家人来自美国",
+      "para": 9,
+      "expect": 54.56,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 59.12,
+      "end": 61.66,
+      "en": "We are American.",
+      "cn": "我们是美国人。",
+      "para": 9,
+      "expect": 59.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 61.66,
+      "end": 63.5,
+      "en": "How about you?",
+      "cn": "你呢？",
+      "para": 10,
+      "expect": 61.66,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 63.5,
+      "end": 69.36,
+      "en": "Can you say 10 things using simple present with Be?",
+      "cn": "你能用 be 动词的一般现在时说 10 件事吗？",
+      "para": 11,
+      "expect": 63.5,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 16,
+      "start": 69.36,
+      "end": 72.809,
+      "en": "You should try.",
+      "cn": "你应该试试。",
+      "para": 12,
+      "expect": 69.36,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 91,
+    "token_coverage": 0.989,
+    "low_confidence": false
+  },
+  "locked": false
+}

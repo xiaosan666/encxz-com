@@ -1,0 +1,142 @@
+{
+  "mp3": "A1-017-MAGGIE-WHAT-IS-YOUR-HOUSE-LIKE.mp3",
+  "duration": 59.465,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "e48f2c3bb30d9c4d:535131:1788403910",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.56,
+      "end": 4.1,
+      "en": "Hello, my name is Maggie.",
+      "cn": "你好，我叫麦琪，来自美国。",
+      "para": 0,
+      "expect": 0.56,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.1,
+      "end": 12.34,
+      "en": "I am from America, and my question is, what is your house like?",
+      "cn": "我的问题是：你家是什么样的？",
+      "para": 0,
+      "expect": 4.1,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 12.34,
+      "end": 17.28,
+      "en": "Well, first I live in an apartment.",
+      "cn": "嗯，先说一下吧",
+      "para": 1,
+      "expect": 12.34,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 17.28,
+      "end": 29.62,
+      "en": "I live on the first floor of my apartment.",
+      "cn": "我住的是公寓，住在一楼。",
+      "para": 1,
+      "expect": 17.28,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 29.62,
+      "end": 30.211,
+      "en": "There is an elevator, but I don't need it.",
+      "cn": "楼里有电梯，不过我不用。",
+      "para": 1,
+      "expect": 29.62,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 30.211,
+      "end": 33.84,
+      "en": "My apartment has two bedrooms and two bathrooms.",
+      "cn": "我的公寓有 2 间卧室和 2 个卫生间",
+      "para": 1,
+      "expect": 30.211,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 33.84,
+      "end": 39.8,
+      "en": "There is also a kitchen and a large living room.",
+      "cn": "还有一个厨房和一间很大的客厅。",
+      "para": 1,
+      "expect": 33.84,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 39.8,
+      "end": 45.92,
+      "en": "My favorite room in my house is the patio.",
+      "cn": "家里我最喜欢的地方是露台",
+      "para": 1,
+      "expect": 39.8,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 45.92,
+      "end": 48.48,
+      "en": "This is outside.",
+      "cn": "它在室外。",
+      "para": 1,
+      "expect": 45.92,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 48.48,
+      "end": 56.34,
+      "en": "I enjoy sitting and drinking coffee outside on the patio.",
+      "cn": "我喜欢坐在外面的露台上喝咖啡。",
+      "para": 1,
+      "expect": 48.48,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 56.34,
+      "end": 59.465,
+      "en": "What is your house like?",
+      "cn": "你家是什么样的？",
+      "para": 2,
+      "expect": 56.34,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 75,
+    "token_coverage": 0.852,
+    "low_confidence": true
+  },
+  "locked": false
+}

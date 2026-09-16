@@ -1,0 +1,98 @@
+{
+  "mp3": "A1-031-Kyle-What-Do-Lunch-Break.mp3",
+  "duration": 51.593,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "3989fcf8c27b5d67:609811:1788403899",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 1.04,
+      "end": 3.98,
+      "en": "Hello, my name is Kyle.",
+      "cn": "你好，我叫凯尔。",
+      "para": 0,
+      "expect": 1.04,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 3.98,
+      "end": 6.78,
+      "en": "I am from the UK.",
+      "cn": "我来自英国。",
+      "para": 0,
+      "expect": 3.98,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 6.78,
+      "end": 19.46,
+      "en": "My question for you today is what do you do on your lunch break?",
+      "cn": "今天我想问你的是，你午休时做什么？",
+      "para": 0,
+      "expect": 6.78,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 19.46,
+      "end": 25.68,
+      "en": "What do you do on your lunch break?",
+      "cn": "我午休时会看看手机，吃午饭，休息一下。",
+      "para": 1,
+      "expect": 19.46,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 25.68,
+      "end": 39.42,
+      "en": "I go on my phone, I eat my lunch.",
+      "cn": "我午休时会看看手机，吃午饭，休息一下。",
+      "para": 1,
+      "expect": 25.68,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 39.42,
+      "end": 44.88,
+      "en": "I rest.",
+      "cn": "我午休时会看看手机，吃午饭，休息一下。",
+      "para": 1,
+      "expect": 39.42,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 44.88,
+      "end": 51.593,
+      "en": "What do you do on your lunch break?",
+      "cn": "你午休时做什么？",
+      "para": 2,
+      "expect": 44.88,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 47,
+    "token_coverage": 0.902,
+    "low_confidence": true
+  },
+  "locked": false
+}

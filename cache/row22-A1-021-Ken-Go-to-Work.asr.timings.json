@@ -1,0 +1,186 @@
+{
+  "mp3": "A1-021-Ken-Go-to-Work.mp3",
+  "duration": 36.168,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "af328207df426411:217008:1789373017",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.0,
+      "end": 2.5,
+      "en": "Hello, my name is Ken.",
+      "cn": "你好，我叫健",
+      "para": 0,
+      "expect": 0.0,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 2.5,
+      "end": 4.44,
+      "en": "I am from Japan.",
+      "cn": "来自日本。",
+      "para": 0,
+      "expect": 2.5,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 4.44,
+      "end": 7.44,
+      "en": "My question is, how do you go to work?",
+      "cn": "我的问题是：你怎么去上班？",
+      "para": 0,
+      "expect": 4.44,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 7.44,
+      "end": 9.94,
+      "en": "I go to work by train.",
+      "cn": "我坐电车去上班。",
+      "para": 1,
+      "expect": 7.44,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 9.94,
+      "end": 11.94,
+      "en": "The train is fast.",
+      "cn": "电车很快",
+      "para": 1,
+      "expect": 9.94,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 11.94,
+      "end": 14.46,
+      "en": "I take the train every morning.",
+      "cn": "我每天早上都坐。",
+      "para": 1,
+      "expect": 11.94,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 14.46,
+      "end": 16.88,
+      "en": "The station is near my house.",
+      "cn": "车站离我家很近",
+      "para": 1,
+      "expect": 14.46,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 16.88,
+      "end": 18.92,
+      "en": "I walk to the station.",
+      "cn": "我走路过去",
+      "para": 1,
+      "expect": 16.88,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 18.92,
+      "end": 21.4,
+      "en": "I walk for ten minutes.",
+      "cn": "十分钟就到。",
+      "para": 1,
+      "expect": 18.92,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 21.4,
+      "end": 23.64,
+      "en": "I do not drive a car.",
+      "cn": "我不开车",
+      "para": 1,
+      "expect": 21.4,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 23.64,
+      "end": 25.86,
+      "en": "Cars are slow in my city.",
+      "cn": "在我们这座城市开车太慢了。",
+      "para": 1,
+      "expect": 23.64,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 25.86,
+      "end": 28.02,
+      "en": "I read a book on the train.",
+      "cn": "我会在车上看书",
+      "para": 1,
+      "expect": 25.86,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 28.02,
+      "end": 30.86,
+      "en": "I listen to music, too.",
+      "cn": "也会听音乐。",
+      "para": 1,
+      "expect": 28.02,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 30.86,
+      "end": 32.72,
+      "en": "I like the train.",
+      "cn": "我挺喜欢坐电车的。",
+      "para": 1,
+      "expect": 30.86,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 32.72,
+      "end": 36.168,
+      "en": "My question for you is, how do you go to work?",
+      "cn": "我想问你的是：你怎么去上班？",
+      "para": 2,
+      "expect": 32.72,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 89,
+    "token_coverage": 0.989,
+    "low_confidence": false
+  },
+  "locked": false
+}

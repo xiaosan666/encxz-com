@@ -1,0 +1,144 @@
+{
+  "mp3": "A1-009-NERRY-WHAT-DO-MORNING.mp3",
+  "duration": 67.127,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "44cfb3e00467b17b:688051:1788403925",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95,
+    "duration_fixed_from": 65.16,
+    "duration_fixed_to": 67.127
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.5,
+      "end": 5.92,
+      "en": "Hi, my name is Neri and I am from Belize.",
+      "cn": "嗨，我叫内里，来自伯利兹。",
+      "para": 0,
+      "expect": 0.5,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 5.92,
+      "end": 10.54,
+      "en": "My question is, where do you go in the morning?",
+      "cn": "我的问题是：你早上会去哪儿？",
+      "para": 0,
+      "expect": 5.92,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 10.54,
+      "end": 14.62,
+      "en": "In the morning I go to the gym.",
+      "cn": "早上我会去健身房。",
+      "para": 1,
+      "expect": 10.54,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 14.62,
+      "end": 21.3,
+      "en": "I exercise and I walk on the treadmill.",
+      "cn": "我会锻炼，在跑步机上走走",
+      "para": 1,
+      "expect": 14.62,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 21.3,
+      "end": 27.58,
+      "en": "I lift some weights and I get sweaty.",
+      "cn": "举举哑铃，出一身汗。",
+      "para": 1,
+      "expect": 21.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 27.58,
+      "end": 32.96,
+      "en": "I like going to the gym.",
+      "cn": "我很喜欢去健身房。",
+      "para": 1,
+      "expect": 27.58,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 32.96,
+      "end": 41.0,
+      "en": "I walk to the gym because it is very close.",
+      "cn": "我走路过去，因为离家很近",
+      "para": 1,
+      "expect": 32.96,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 41.0,
+      "end": 50.2,
+      "en": "It doesn't take long, and it's an exercise or a warmup.",
+      "cn": "花不了多长时间，也算锻炼前的",
+      "para": 1,
+      "expect": 41.0,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 50.2,
+      "end": 52.82,
+      "en": "Before I exercise.",
+      "cn": "热身吧。",
+      "para": 1,
+      "expect": 50.2,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 52.82,
+      "end": 60.7,
+      "en": "I like going to the gym in the morning.",
+      "cn": "我喜欢早上去健身房。",
+      "para": 1,
+      "expect": 52.82,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 60.7,
+      "end": 65.16,
+      "en": "My question to you is, where do you go in the morning?",
+      "cn": "我想问你的是：你早上会去哪儿？",
+      "para": 2,
+      "expect": 60.7,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 96,
+    "token_coverage": 0.989,
+    "low_confidence": false
+  },
+  "locked": false
+}

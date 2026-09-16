@@ -1,0 +1,98 @@
+{
+  "mp3": "A1-012-KYLE-PLAY-SPORTS.mp3",
+  "duration": 45.929,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "37d6024f552c0162:542979:1788403918",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.46,
+      "end": 4.52,
+      "en": "Hello, my name is Kyle.",
+      "cn": "你好，我叫凯尔",
+      "para": 0,
+      "expect": 0.46,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.52,
+      "end": 8.16,
+      "en": "I am from the UK.",
+      "cn": "来自英国。",
+      "para": 0,
+      "expect": 4.52,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 8.16,
+      "end": 14.3,
+      "en": "My question for you today is do you play sports?",
+      "cn": "我今天想问你们的是：你做运动吗？",
+      "para": 0,
+      "expect": 8.16,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 14.3,
+      "end": 19.16,
+      "en": "I play many sports.",
+      "cn": "我玩的运动挺多的。",
+      "para": 1,
+      "expect": 14.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 19.16,
+      "end": 34.99,
+      "en": "My favorite sports to play are that's football, basketball, and many others.",
+      "cn": "我最喜欢的是足球、篮球，还有很多别的。",
+      "para": 1,
+      "expect": 19.16,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 34.99,
+      "end": 42.53,
+      "en": "But I don't like to play baseball.",
+      "cn": "不过我不喜欢打棒球。",
+      "para": 1,
+      "expect": 34.99,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 42.53,
+      "end": 45.929,
+      "en": "Do you play sports?",
+      "cn": "你做运动吗？",
+      "para": 1,
+      "expect": 42.53,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 48,
+    "token_coverage": 0.957,
+    "low_confidence": false
+  },
+  "locked": false
+}

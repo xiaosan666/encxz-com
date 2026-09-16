@@ -1,0 +1,197 @@
+{
+  "mp3": "A1-033-Lyra-Does-Your-Town-Have-Nice-Parks.mp3",
+  "duration": 89.372,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "e4da715577273e90:1030199:1788403898",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.08,
+      "end": 6.04,
+      "en": "Hello, my name is Lyra.",
+      "cn": "你好，我叫莱拉。",
+      "para": 0,
+      "expect": 0.08,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 6.04,
+      "end": 9.68,
+      "en": "I am from Kosovo.",
+      "cn": "我来自科索沃。",
+      "para": 0,
+      "expect": 6.04,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 9.68,
+      "end": 16.52,
+      "en": "My question is, does your town have nice parks?",
+      "cn": "我的问题是，你们镇上有漂亮的公园吗？",
+      "para": 0,
+      "expect": 9.68,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 16.52,
+      "end": 19.9,
+      "en": "Yes, it does.",
+      "cn": "有，的确有。",
+      "para": 1,
+      "expect": 16.52,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 19.9,
+      "end": 25.72,
+      "en": "My town has three beautiful parks.",
+      "cn": "我住的镇上有三个漂亮的公园。",
+      "para": 1,
+      "expect": 19.9,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 25.72,
+      "end": 30.54,
+      "en": "Two of the parks are small.",
+      "cn": "其中两个很小。",
+      "para": 1,
+      "expect": 25.72,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 30.54,
+      "end": 40.0,
+      "en": "One park is a big, the big park is my favorite one.",
+      "cn": "还有一个很大，那个大公园是我最喜欢的。",
+      "para": 1,
+      "expect": 30.54,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 40.0,
+      "end": 44.32,
+      "en": "It has tall green trees.",
+      "cn": "那里有高高的绿树",
+      "para": 1,
+      "expect": 40.0,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 44.32,
+      "end": 48.76,
+      "en": "It doesn't have colorful flowers.",
+      "cn": "没有五颜六色的花。",
+      "para": 1,
+      "expect": 44.32,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 48.76,
+      "end": 53.64,
+      "en": "I love to visit this park.",
+      "cn": "我很喜欢去那个公园。",
+      "para": 1,
+      "expect": 48.76,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 53.64,
+      "end": 58.58,
+      "en": "Children love to play in this park.",
+      "cn": "孩子们喜欢在里面玩",
+      "para": 1,
+      "expect": 53.64,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 58.58,
+      "end": 65.94,
+      "en": "Grownups love to exercise and run in this park.",
+      "cn": "大人们喜欢在那里锻炼和跑步。",
+      "para": 1,
+      "expect": 58.58,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 65.94,
+      "end": 70.88,
+      "en": "My favorite thing is to take walks in the park.",
+      "cn": "我最喜欢的事情是在公园里散步。",
+      "para": 1,
+      "expect": 65.94,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 70.88,
+      "end": 76.78,
+      "en": "This park is wonderful.",
+      "cn": "这个公园很棒。",
+      "para": 1,
+      "expect": 70.88,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 76.78,
+      "end": 82.22,
+      "en": "I hope a lot of people get to visit it.",
+      "cn": "我希望有很多人都能去看看。",
+      "para": 1,
+      "expect": 76.78,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 82.22,
+      "end": 89.372,
+      "en": "Now you tell me, does your town have nice parks?",
+      "cn": "现在换你说说，你们镇上有漂亮的公园吗？",
+      "para": 2,
+      "expect": 82.22,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 112,
+    "token_coverage": 0.991,
+    "low_confidence": false
+  },
+  "locked": false
+}

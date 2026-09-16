@@ -1,0 +1,120 @@
+{
+  "mp3": "A1-016-BILLIE-WHO-DO-YOU-EAT-DINNER-WITH.mp3",
+  "duration": 68.457,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "91c8c4febd7950d8:807267:1788403911",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 1.46,
+      "end": 10.92,
+      "en": "Hi, my name is Billie, and I am from South Africa.",
+      "cn": "嗨，我叫比莉，来自南非。",
+      "para": 0,
+      "expect": 1.46,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 10.92,
+      "end": 22.74,
+      "en": "Today, I will talk about who do I it dinner with?",
+      "cn": "今天我要讲的是，我跟谁一起吃晚饭？",
+      "para": 0,
+      "expect": 10.92,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 22.74,
+      "end": 27.94,
+      "en": "Who do I eat dinner with?",
+      "cn": "我跟谁一起吃晚饭呢？",
+      "para": 0,
+      "expect": 22.74,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 27.94,
+      "end": 36.2,
+      "en": "I eat dinner with my family.",
+      "cn": "我跟家人一起吃晚饭。",
+      "para": 1,
+      "expect": 27.94,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 36.2,
+      "end": 51.62,
+      "en": "I eat dinner with my mom, my dad, my sister, my other sister, and my younger brother.",
+      "cn": "和我一起吃饭的有妈妈、爸爸、姐姐、妹妹，还有弟弟。",
+      "para": 1,
+      "expect": 36.2,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 51.62,
+      "end": 53.48,
+      "en": "We are six.",
+      "cn": "我们家一共",
+      "para": 1,
+      "expect": 51.62,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 53.48,
+      "end": 58.22,
+      "en": "I am the number six.",
+      "cn": "6 口人，我排第六。",
+      "para": 1,
+      "expect": 53.48,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 58.22,
+      "end": 66.2,
+      "en": "So I eat dinner with five people, my family.",
+      "cn": "所以我吃饭的时候，身边有 5 个人，都是我的家人。",
+      "para": 1,
+      "expect": 58.22,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 66.2,
+      "end": 68.457,
+      "en": "Thank you.",
+      "cn": "谢谢。",
+      "para": 1,
+      "expect": 66.2,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 70,
+    "token_coverage": 0.971,
+    "low_confidence": false
+  },
+  "locked": false
+}

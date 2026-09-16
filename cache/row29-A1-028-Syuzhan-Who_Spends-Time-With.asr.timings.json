@@ -1,0 +1,230 @@
+{
+  "mp3": "A1-028-Syuzhan-Who Spends-Time-With.mp3",
+  "duration": 86.772,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "dcdb2763ccf370cd:810055:1788403901",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.5,
+      "end": 4.82,
+      "en": "Hello, my name is Syuzan.",
+      "cn": "你好，我叫苏珊。",
+      "para": 0,
+      "expect": 0.5,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.82,
+      "end": 7.92,
+      "en": "I am from Armenia.",
+      "cn": "我来自亚美尼亚。",
+      "para": 0,
+      "expect": 4.82,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 7.92,
+      "end": 14.4,
+      "en": "My question is, who spends a lot of time with you?",
+      "cn": "我的问题是，谁跟你在一起的时间最多？",
+      "para": 0,
+      "expect": 7.92,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 14.4,
+      "end": 19.2,
+      "en": "My friend spends a lot of time with me.",
+      "cn": "我的朋友跟我在一起的时间最多。",
+      "para": 1,
+      "expect": 14.4,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 19.2,
+      "end": 21.9,
+      "en": "Her name is Lisa.",
+      "cn": "她叫莉萨。",
+      "para": 1,
+      "expect": 19.2,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 21.9,
+      "end": 24.28,
+      "en": "We live abroad together.",
+      "cn": "我们一起在国外生活",
+      "para": 1,
+      "expect": 21.9,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 24.28,
+      "end": 30.4,
+      "en": "We study at the same university.",
+      "cn": "上同一所大学。",
+      "para": 1,
+      "expect": 24.28,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 30.4,
+      "end": 34.94,
+      "en": "She studies very hard.",
+      "cn": "她学习特别用功",
+      "para": 1,
+      "expect": 30.4,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 34.94,
+      "end": 40.06,
+      "en": "She doesn't miss any lessons.",
+      "cn": "一节课都不落下，还经常帮我。",
+      "para": 1,
+      "expect": 34.94,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 40.06,
+      "end": 43.48,
+      "en": "She helps me a lot.",
+      "cn": "莉萨总是把我们一",
+      "para": 1,
+      "expect": 40.06,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 43.48,
+      "end": 47.72,
+      "en": "Lisa always plans our day.",
+      "cn": "天的安排规划好。",
+      "para": 1,
+      "expect": 43.48,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 47.72,
+      "end": 52.42,
+      "en": "After university, we don't go home.",
+      "cn": "放学后我们不直接回家",
+      "para": 1,
+      "expect": 47.72,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 52.42,
+      "end": 54.92,
+      "en": "We go for a walk.",
+      "cn": "而是去散步。",
+      "para": 1,
+      "expect": 52.42,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 54.92,
+      "end": 61.92,
+      "en": "She takes pictures of our city.",
+      "cn": "她会拍我们这座城市的照片。",
+      "para": 1,
+      "expect": 54.92,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 61.92,
+      "end": 67.07,
+      "en": "She enjoys sunsets every day.",
+      "cn": "她每天都很享受看日落。",
+      "para": 1,
+      "expect": 61.92,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 67.07,
+      "end": 73.34,
+      "en": "Lizanne doesn't like loneliness.",
+      "cn": "莉珊不喜欢孤单",
+      "para": 1,
+      "expect": 67.07,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 16,
+      "start": 73.34,
+      "end": 76.98,
+      "en": "She's always with me.",
+      "cn": "她总是陪着我。",
+      "para": 1,
+      "expect": 73.34,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 17,
+      "start": 76.98,
+      "end": 79.78,
+      "en": "I am happy about that.",
+      "cn": "我为此很开心。",
+      "para": 1,
+      "expect": 76.98,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 18,
+      "start": 79.78,
+      "end": 86.772,
+      "en": "Tell me who spends a lot of time with you.",
+      "cn": "跟我说说，谁跟你在一起的时间最多？",
+      "para": 2,
+      "expect": 79.78,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 107,
+    "token_coverage": 0.981,
+    "low_confidence": false
+  },
+  "locked": false
+}

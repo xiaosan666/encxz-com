@@ -1,0 +1,197 @@
+{
+  "mp3": "A1-013-NERRY-HAVE-ANY-PETS.mp3",
+  "duration": 87.209,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "b2dd88332fbb7916:917667:1788403914",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.24,
+      "end": 5.96,
+      "en": "Hello, my name is Nerry and I am from Belize.",
+      "cn": "你好，我叫内里，来自伯利兹。",
+      "para": 0,
+      "expect": 0.24,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 5.96,
+      "end": 10.94,
+      "en": "My question today is, do you have any pets?",
+      "cn": "我今天的问题是：你养宠物吗？",
+      "para": 0,
+      "expect": 5.96,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 10.94,
+      "end": 14.46,
+      "en": "Yes, I have one pet.",
+      "cn": "养的，我养了一只宠物。",
+      "para": 1,
+      "expect": 10.94,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 14.46,
+      "end": 22.18,
+      "en": "My pet is a dog and my pet's name is Gray.",
+      "cn": "我的宠物是只狗，名字叫格雷。",
+      "para": 1,
+      "expect": 14.46,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 22.18,
+      "end": 25.58,
+      "en": "Gray is a brown dog.",
+      "cn": "格雷是一只棕色的狗。",
+      "para": 1,
+      "expect": 22.18,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 25.58,
+      "end": 31.38,
+      "en": "Gray loves to eat and he loves to bark.",
+      "cn": "格雷很爱吃，也很爱叫。",
+      "para": 1,
+      "expect": 25.58,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 31.38,
+      "end": 39.42,
+      "en": "Gray is outside sleeping right now because his belly is full.",
+      "cn": "现在格雷正在外面睡觉，因为它吃饱了。",
+      "para": 1,
+      "expect": 31.38,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 39.42,
+      "end": 46.56,
+      "en": "Gray, eats a lot of food, and he also barks a lot.",
+      "cn": "格雷吃得很多，也叫得很多。",
+      "para": 1,
+      "expect": 39.42,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 46.56,
+      "end": 57.72,
+      "en": "Sometimes Gray sits right here beside me and he looks at me when Gray is feeling happy.",
+      "cn": "有时候格雷会坐在我旁边，它开心的时候会看着我",
+      "para": 1,
+      "expect": 46.56,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 57.72,
+      "end": 63.24,
+      "en": "He wags his tail when he is feeling sad.",
+      "cn": "难过的时候会摇尾巴。",
+      "para": 1,
+      "expect": 57.72,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 63.24,
+      "end": 66.42,
+      "en": "He lays down like this.",
+      "cn": "它会像这样趴下来。",
+      "para": 1,
+      "expect": 63.24,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 66.42,
+      "end": 72.12,
+      "en": "Gray is a part of my family and I love my pet.",
+      "cn": "格雷是我家的一员，我很爱我的宠物。",
+      "para": 1,
+      "expect": 66.42,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 72.12,
+      "end": 73.2,
+      "en": "Gray.",
+      "cn": "格雷是我家的一员，我很爱我的宠物。",
+      "para": 1,
+      "expect": 72.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 73.2,
+      "end": 76.92,
+      "en": "Gray is my best friend.",
+      "cn": "格雷是我最好的朋友。",
+      "para": 1,
+      "expect": 73.2,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 76.92,
+      "end": 80.04,
+      "en": "Gray is my pet dog.",
+      "cn": "格雷就是我的宠物狗。",
+      "para": 1,
+      "expect": 76.92,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 80.04,
+      "end": 87.209,
+      "en": "My question for you today is do you have any pets?",
+      "cn": "我今天想问你们的是：你养宠物吗？",
+      "para": 2,
+      "expect": 80.04,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 137,
+    "token_coverage": 0.985,
+    "low_confidence": false
+  },
+  "locked": false
+}

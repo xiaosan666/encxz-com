@@ -1,0 +1,109 @@
+{
+  "mp3": "A1-019-NERRY-LIVE-NEAR-TRAIN-STATION.mp3",
+  "duration": 45.138,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "0159f8faff19da4c:463328:1788403908",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.82,
+      "end": 6.72,
+      "en": "Hi, my name is Nerry, and I am from Belize.",
+      "cn": "嗨，我叫内莉，我来自伯利兹。",
+      "para": 0,
+      "expect": 0.82,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 6.72,
+      "end": 13.26,
+      "en": "My question today is, do you live near a train station?",
+      "cn": "我今天的问题是，你住的地方离火车站近吗？",
+      "para": 0,
+      "expect": 6.72,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 13.26,
+      "end": 14.34,
+      "en": "No.",
+      "cn": "不近。",
+      "para": 1,
+      "expect": 13.26,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 14.34,
+      "end": 17.76,
+      "en": "I do not live near a train station.",
+      "cn": "我住的地方离火车站不近。",
+      "para": 1,
+      "expect": 14.34,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 17.76,
+      "end": 22.48,
+      "en": "In Belize, we do not have trains.",
+      "cn": "在伯利兹，我们没有火车",
+      "para": 1,
+      "expect": 17.76,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 22.48,
+      "end": 32.148,
+      "en": "What we have is buses, motorcycles, cars, and planes.",
+      "cn": "我们有的是公交车、摩托车、汽车和飞机。",
+      "para": 1,
+      "expect": 22.48,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 32.148,
+      "end": 39.36,
+      "en": "I'm excited to ride a train for the first time.",
+      "cn": "第一次坐火车我会很兴奋。",
+      "para": 1,
+      "expect": 32.148,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 39.36,
+      "end": 45.138,
+      "en": "My question to you is, do you live near a train station?",
+      "cn": "我想问你的是，你住的地方离火车站近吗？",
+      "para": 1,
+      "expect": 39.36,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 66,
+    "token_coverage": 0.926,
+    "low_confidence": true
+  },
+  "locked": false
+}

@@ -1,0 +1,153 @@
+{
+  "mp3": "A1-038-Julie-is-Your-Shirt-Comfortable.mp3",
+  "duration": 62.6,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "1a368fd0abfc5250:724368:1788403894",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.85,
+      "end": 5.13,
+      "en": "Hello, my name is Julie.",
+      "cn": "你好，我叫朱莉。",
+      "para": 0,
+      "expect": 0.85,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 5.13,
+      "end": 9.05,
+      "en": "I am from America.",
+      "cn": "我来自美国。",
+      "para": 0,
+      "expect": 5.13,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 9.05,
+      "end": 15.11,
+      "en": "My question is, is your shirt comfortable?",
+      "cn": "我的问题是，你的衬衫舒服吗？",
+      "para": 0,
+      "expect": 9.05,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 15.11,
+      "end": 18.19,
+      "en": "Yes.",
+      "cn": "是的，这件黑衬衫很舒服。",
+      "para": 1,
+      "expect": 15.11,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 18.19,
+      "end": 23.73,
+      "en": "This black shirt is comfortable.",
+      "cn": "是的，这件黑衬衫很舒服。",
+      "para": 1,
+      "expect": 18.19,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 23.73,
+      "end": 28.59,
+      "en": "This shirt is very soft.",
+      "cn": "这件衬衫非常柔软。",
+      "para": 1,
+      "expect": 23.73,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 28.59,
+      "end": 38.25,
+      "en": "I like this shirt, but is this orange shirt comfortable?",
+      "cn": "我喜欢这件衬衫，不过这件橙色衬衫舒服吗？",
+      "para": 1,
+      "expect": 28.59,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 38.25,
+      "end": 39.75,
+      "en": "No.",
+      "cn": "我喜欢这件衬衫，不过这件橙色衬衫舒服吗？",
+      "para": 1,
+      "expect": 38.25,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 39.75,
+      "end": 43.73,
+      "en": "This shirt is not comfortable.",
+      "cn": "不舒服。",
+      "para": 1,
+      "expect": 39.75,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 43.73,
+      "end": 49.55,
+      "en": "This shirt is not soft.",
+      "cn": "这件衬衫不舒服，不柔软",
+      "para": 1,
+      "expect": 43.73,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 49.55,
+      "end": 54.92,
+      "en": "This shirt is scratchy.",
+      "cn": "还有点扎皮肤。",
+      "para": 1,
+      "expect": 49.55,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 54.92,
+      "end": 62.6,
+      "en": "My question for you is, is your shirt comfortable?",
+      "cn": "我想问你的是，你的衬衫舒服吗？",
+      "para": 2,
+      "expect": 54.92,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 61,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

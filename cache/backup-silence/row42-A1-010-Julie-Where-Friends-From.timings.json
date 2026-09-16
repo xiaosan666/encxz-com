@@ -1,0 +1,198 @@
+{
+  "mp3": "A1-010-JULIE-WHERE-FRIENDS-FROM.mp3",
+  "duration": 49.894,
+  "method": "silencedetect+dp",
+  "params": {
+    "noise_db": -32.0,
+    "min_sil_dur": 0.2,
+    "tol": 0.9
+  },
+  "silences": [
+    [
+      0.0,
+      1.059
+    ],
+    [
+      1.643,
+      2.486
+    ],
+    [
+      4.18,
+      4.881
+    ],
+    [
+      4.881,
+      5.195
+    ],
+    [
+      6.244,
+      6.645
+    ],
+    [
+      7.232,
+      8.265
+    ],
+    [
+      9.898,
+      10.489
+    ],
+    [
+      13.198,
+      14.8
+    ],
+    [
+      16.292,
+      16.717
+    ],
+    [
+      17.39,
+      18.89
+    ],
+    [
+      19.692,
+      21.346
+    ],
+    [
+      22.927,
+      23.731
+    ],
+    [
+      24.706,
+      26.428
+    ],
+    [
+      28.185,
+      28.944
+    ],
+    [
+      29.937,
+      31.432
+    ],
+    [
+      33.555,
+      34.892
+    ],
+    [
+      35.507,
+      37.793
+    ],
+    [
+      40.09,
+      40.506
+    ],
+    [
+      42.018,
+      43.856
+    ],
+    [
+      44.702,
+      45.709
+    ],
+    [
+      47.877,
+      49.894
+    ]
+  ],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 1.059,
+      "end": 5.195,
+      "en": "Hello, my name is Julie.",
+      "cn": "",
+      "para": 0,
+      "expect": 1.059,
+      "source": "start",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 5.195,
+      "end": 9.321,
+      "en": "I am from America.",
+      "cn": "",
+      "para": 0,
+      "expect": 5.649,
+      "source": "pause",
+      "dev": 0.454
+    },
+    {
+      "i": 2,
+      "start": 9.321,
+      "end": 16.717,
+      "en": "My question is, where are your friends from?",
+      "cn": "",
+      "para": 0,
+      "expect": 9.321,
+      "source": "expect",
+      "dev": 1.056
+    },
+    {
+      "i": 3,
+      "start": 16.717,
+      "end": 21.346,
+      "en": "My friends are from America.",
+      "cn": "",
+      "para": 1,
+      "expect": 16.665,
+      "source": "pause",
+      "dev": 0.052
+    },
+    {
+      "i": 4,
+      "start": 21.346,
+      "end": 25.567,
+      "en": "My friends are from Argentina.",
+      "cn": "",
+      "para": 1,
+      "expect": 21.255,
+      "source": "pause",
+      "dev": 0.091
+    },
+    {
+      "i": 5,
+      "start": 25.567,
+      "end": 36.65,
+      "en": "My friends are from Venezuela, and my friends are from Spain.",
+      "cn": "",
+      "para": 1,
+      "expect": 25.845,
+      "source": "pause",
+      "dev": 0.278
+    },
+    {
+      "i": 6,
+      "start": 36.65,
+      "end": 41.451,
+      "en": "I don't have friends from France.",
+      "cn": "",
+      "para": 1,
+      "expect": 35.943,
+      "source": "pause",
+      "dev": 0.707
+    },
+    {
+      "i": 7,
+      "start": 41.451,
+      "end": 47.877,
+      "en": "And you, where are your friends from?",
+      "cn": "",
+      "para": 2,
+      "expect": 41.451,
+      "source": "expect",
+      "dev": 0.945
+    }
+  ],
+  "quality": {
+    "mean_dev": 0.512,
+    "max_dev": 1.056,
+    "pause_cuts": 5,
+    "total_cuts": 7,
+    "cut_coverage": 0.714,
+    "speech_span": [
+      1.059,
+      47.877
+    ]
+  },
+  "locked": false
+}

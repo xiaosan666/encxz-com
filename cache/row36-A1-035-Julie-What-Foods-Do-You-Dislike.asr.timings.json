@@ -1,0 +1,109 @@
+{
+  "mp3": "A1-035-Julie-What-Foods-Do-You-Dislike.mp3",
+  "duration": 59.093,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "65d4caa28857244a:649981:1788403897",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.94,
+      "end": 4.14,
+      "en": "Hello, my name is Julie.",
+      "cn": "你好，我叫朱莉。",
+      "para": 0,
+      "expect": 0.94,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.14,
+      "end": 6.8,
+      "en": "I'm from America.",
+      "cn": "我来自美国。",
+      "para": 0,
+      "expect": 4.14,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 6.8,
+      "end": 13.44,
+      "en": "The question is, what foods do you dislike?",
+      "cn": "问题是，你不喜欢哪些食物？",
+      "para": 0,
+      "expect": 6.8,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 13.44,
+      "end": 31.84,
+      "en": "Well, I love sushi, and I love tacos, and I love pizza, but I dislike onions.",
+      "cn": "嗯，我喜欢寿司，也喜欢塔可，还喜欢披萨，但我不喜欢洋葱。",
+      "para": 1,
+      "expect": 13.44,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 31.84,
+      "end": 44.34,
+      "en": "I also dislike olives, and I hate tomatoes.",
+      "cn": "我也不喜欢橄榄，我讨厌西红柿",
+      "para": 1,
+      "expect": 31.84,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 44.34,
+      "end": 51.94,
+      "en": "I also hate cucumbers.",
+      "cn": "也讨厌黄瓜。",
+      "para": 1,
+      "expect": 44.34,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 51.94,
+      "end": 53.34,
+      "en": "What about you?",
+      "cn": "你呢？",
+      "para": 2,
+      "expect": 51.94,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 53.34,
+      "end": 59.093,
+      "en": "What foods do you dislike?",
+      "cn": "你不喜欢哪些食物？",
+      "para": 2,
+      "expect": 53.34,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 52,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

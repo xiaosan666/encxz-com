@@ -1,0 +1,144 @@
+{
+  "mp3": "A1-006-NERRY-DESCRIBE-FAMILY.mp3",
+  "duration": 61.531,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "34959596050162c2:650278:1788403928",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95,
+    "duration_fixed_from": 60.78,
+    "duration_fixed_to": 61.531
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.62,
+      "end": 6.4,
+      "en": "Hello, my name is Neri and I am from Belize.",
+      "cn": "你好，我叫内莉，我来自伯利兹。",
+      "para": 0,
+      "expect": 0.62,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 6.4,
+      "end": 12.07,
+      "en": "My question today is describe a family member.",
+      "cn": "今天我要问的问题是：描述一位家人。",
+      "para": 0,
+      "expect": 6.4,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 12.07,
+      "end": 20.27,
+      "en": "The family member that I am going to describe is my little sister.",
+      "cn": "我要描述的这位家人是我的小妹妹。",
+      "para": 1,
+      "expect": 12.07,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 20.27,
+      "end": 25.02,
+      "en": "My little sister is shorter than me.",
+      "cn": "她比我矮，也比我胖。",
+      "para": 1,
+      "expect": 20.27,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 25.02,
+      "end": 28.56,
+      "en": "She is also fatter than me.",
+      "cn": "她住得离我很远",
+      "para": 1,
+      "expect": 25.02,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 28.56,
+      "end": 34.18,
+      "en": "My little sister lives far away from me.",
+      "cn": "离我不近。",
+      "para": 1,
+      "expect": 28.56,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 34.18,
+      "end": 37.08,
+      "en": "She does not live close to me.",
+      "cn": "她笑起来很好看",
+      "para": 1,
+      "expect": 34.18,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 37.08,
+      "end": 45.28,
+      "en": "My little sister has a beautiful smile and she loves to dance.",
+      "cn": "而且特别爱跳舞。",
+      "para": 1,
+      "expect": 37.08,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 45.28,
+      "end": 49.72,
+      "en": "My little sister has blonde hair.",
+      "cn": "她有一头金发。",
+      "para": 1,
+      "expect": 45.28,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 49.72,
+      "end": 54.24,
+      "en": "My little sister is my best friend.",
+      "cn": "她是我最好的朋友。",
+      "para": 1,
+      "expect": 49.72,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 54.24,
+      "end": 60.78,
+      "en": "My question for you today is describe a family member.",
+      "cn": "今天我要问你们的问题是：描述一位家人。",
+      "para": 2,
+      "expect": 54.24,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 94,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

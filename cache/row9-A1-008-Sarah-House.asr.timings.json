@@ -1,0 +1,166 @@
+{
+  "mp3": "A1-008-SARAH-HOUSE.mp3",
+  "duration": 83.135,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "be14a4817b827ec4:812931:1788403926",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95,
+    "duration_fixed_from": 78.9,
+    "duration_fixed_to": 83.135
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 1.14,
+      "end": 19.78,
+      "en": "Hi, my name is Sarah and I will say 10 things about myself using articles \"a\" and \"the\" and I'll talk about what is in my house.",
+      "cn": "嗨，我叫莎拉。我会用冠词 a 和 the 说 10 件关于我自己的事，还要讲讲我家里都有些什么。",
+      "para": 0,
+      "expect": 1.14,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 19.78,
+      "end": 20.58,
+      "en": "Okay.",
+      "cn": "好，我有一台洗衣机，还有一个冰箱。",
+      "para": 1,
+      "expect": 19.78,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 20.58,
+      "end": 24.58,
+      "en": "I have a washing machine.",
+      "cn": "好，我有一台洗衣机，还有一个冰箱。",
+      "para": 1,
+      "expect": 20.58,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 24.58,
+      "end": 30.26,
+      "en": "I also have a fridge.",
+      "cn": "好，我有一台洗衣机，还有一个冰箱。",
+      "para": 1,
+      "expect": 24.58,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 30.26,
+      "end": 34.1,
+      "en": "I have a small stove.",
+      "cn": "我有一个小炉灶",
+      "para": 1,
+      "expect": 30.26,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 34.1,
+      "end": 38.38,
+      "en": "I want a bigger stove.",
+      "cn": "想要个更大的。",
+      "para": 1,
+      "expect": 34.1,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 38.38,
+      "end": 44.93,
+      "en": "I don't have an electric toaster.",
+      "cn": "我没有电烤面包机。",
+      "para": 1,
+      "expect": 38.38,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 44.93,
+      "end": 55.03,
+      "en": "I do have a vacuum cleaner, and I have a TV.",
+      "cn": "我有一台吸尘器，还有一台电视。",
+      "para": 1,
+      "expect": 44.93,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 55.03,
+      "end": 64.18,
+      "en": "I have an air conditioner, and I have a microwave.",
+      "cn": "我有一台空调，还有一个微波炉。",
+      "para": 1,
+      "expect": 55.03,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 64.18,
+      "end": 68.96,
+      "en": "I want another TV.",
+      "cn": "我还想要一台电视。",
+      "para": 1,
+      "expect": 64.18,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 68.96,
+      "end": 71.46,
+      "en": "So how about you?",
+      "cn": "那你呢？",
+      "para": 2,
+      "expect": 68.96,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 71.46,
+      "end": 77.88,
+      "en": "Can you say 10 things using articles about things in your house?",
+      "cn": "你能用冠词说说你家里的 10 样东西吗？",
+      "para": 2,
+      "expect": 71.46,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 77.88,
+      "end": 78.9,
+      "en": "You should try.",
+      "cn": "可以试试看。",
+      "para": 2,
+      "expect": 77.88,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 99,
+    "token_coverage": 0.99,
+    "low_confidence": false
+  },
+  "locked": false
+}

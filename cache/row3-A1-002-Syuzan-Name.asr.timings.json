@@ -1,0 +1,177 @@
+{
+  "mp3": "A1-002-SYUZAN-NAME.mp3",
+  "duration": 68.892,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "cc384b07cf91eefd:658078:1788403932",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95,
+    "duration_fixed_from": 67.51,
+    "duration_fixed_to": 68.892
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.78,
+      "end": 6.4,
+      "en": "Hello, my name is Syuzan.",
+      "cn": "你好，我叫苏珊",
+      "para": 0,
+      "expect": 0.78,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 6.4,
+      "end": 10.82,
+      "en": "I am from Armenia.",
+      "cn": "我来自亚美尼亚。",
+      "para": 0,
+      "expect": 6.4,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 10.82,
+      "end": 17.26,
+      "en": "My question is, what is your name?",
+      "cn": "我的问题是：你叫什么名字？",
+      "para": 0,
+      "expect": 10.82,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 17.26,
+      "end": 20.927,
+      "en": "My name is Syuzan.",
+      "cn": "我叫苏珊",
+      "para": 1,
+      "expect": 17.26,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 20.927,
+      "end": 27.56,
+      "en": "Syuzan, S-Y-U-Z-A-N.",
+      "cn": "S-Y-U-Z-A-N。",
+      "para": 1,
+      "expect": 20.927,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 27.56,
+      "end": 33.58,
+      "en": "It is not a difficult name, right?",
+      "cn": "这名字不难念，对吧？",
+      "para": 1,
+      "expect": 27.56,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 33.58,
+      "end": 36.22,
+      "en": "It is a beautiful name.",
+      "cn": "它是个很美的名字",
+      "para": 1,
+      "expect": 33.58,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 36.22,
+      "end": 42.45,
+      "en": "For me, it means flower.",
+      "cn": "对我来说，它的意思是花。",
+      "para": 1,
+      "expect": 36.22,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 42.45,
+      "end": 45.88,
+      "en": "I am a flower.",
+      "cn": "我就是一朵花。",
+      "para": 1,
+      "expect": 42.45,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 45.88,
+      "end": 51.05,
+      "en": "Syuzan is a common name.",
+      "cn": "苏珊是个很常见的名字",
+      "para": 1,
+      "expect": 45.88,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 51.05,
+      "end": 56.91,
+      "en": "Sometimes people call me Susie for short.",
+      "cn": "有时候大家会简称我叫苏西",
+      "para": 1,
+      "expect": 51.05,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 56.91,
+      "end": 60.01,
+      "en": "I like it too.",
+      "cn": "我也挺喜欢。",
+      "para": 1,
+      "expect": 56.91,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 60.01,
+      "end": 64.87,
+      "en": "My name is very special to me.",
+      "cn": "这个名字对我来说很特别。",
+      "para": 1,
+      "expect": 60.01,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 64.87,
+      "end": 67.51,
+      "en": "Tell me, what is your name?",
+      "cn": "跟我说说，你叫什么名字？",
+      "para": 2,
+      "expect": 64.87,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 80,
+    "token_coverage": 0.922,
+    "low_confidence": true
+  },
+  "locked": false
+}

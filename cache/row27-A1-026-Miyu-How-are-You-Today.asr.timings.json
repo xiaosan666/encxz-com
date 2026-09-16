@@ -1,0 +1,164 @@
+{
+  "mp3": "A1-026-Miyu-How-are-You-Today.mp3",
+  "duration": 45.788,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "ec8998cd7197962b:535950:1788403903",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 1.3,
+      "end": 5.12,
+      "en": "Hello, my name is Miyu.",
+      "cn": "你好，我叫美优。",
+      "para": 0,
+      "expect": 1.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 5.12,
+      "end": 7.3,
+      "en": "I'm from Japan.",
+      "cn": "我来自日本。",
+      "para": 0,
+      "expect": 5.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 7.3,
+      "end": 12.28,
+      "en": "My question is, how are you today?",
+      "cn": "我的问题是，你今天怎么样？",
+      "para": 0,
+      "expect": 7.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 12.28,
+      "end": 15.06,
+      "en": "I'm very good.",
+      "cn": "我挺好的。",
+      "para": 1,
+      "expect": 12.28,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 15.06,
+      "end": 18.24,
+      "en": "Today is a nice day.",
+      "cn": "今天天气不错",
+      "para": 1,
+      "expect": 15.06,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 18.24,
+      "end": 22.2,
+      "en": "It is cold, but it is sunny.",
+      "cn": "虽然有点冷，但是阳光很好。",
+      "para": 1,
+      "expect": 18.24,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 22.2,
+      "end": 25.1,
+      "en": "I feel energetic.",
+      "cn": "我感觉很有精神。",
+      "para": 1,
+      "expect": 22.2,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 25.1,
+      "end": 28.04,
+      "en": "I had breakfast.",
+      "cn": "我吃过早饭了，不累，也不困。",
+      "para": 1,
+      "expect": 25.1,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 28.04,
+      "end": 30.76,
+      "en": "I'm not tired.",
+      "cn": "我吃过早饭了，不累，也不困。",
+      "para": 1,
+      "expect": 28.04,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 30.76,
+      "end": 34.66,
+      "en": "I'm not sleepy.",
+      "cn": "我吃过早饭了，不累，也不困。",
+      "para": 1,
+      "expect": 30.76,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 34.66,
+      "end": 36.78,
+      "en": "I am at home.",
+      "cn": "我在家，跟家人待在一起。",
+      "para": 1,
+      "expect": 34.66,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 36.78,
+      "end": 40.94,
+      "en": "I am with my family.",
+      "cn": "我在家，跟家人待在一起。",
+      "para": 1,
+      "expect": 36.78,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 40.94,
+      "end": 45.788,
+      "en": "How are you today?",
+      "cn": "你今天怎么样？",
+      "para": 2,
+      "expect": 40.94,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 55,
+    "token_coverage": 0.982,
+    "low_confidence": false
+  },
+  "locked": false
+}

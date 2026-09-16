@@ -1,0 +1,120 @@
+{
+  "mp3": "A1-036-Kyle-Town-City-Mall.mp3",
+  "duration": 52.127,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "2c755e844993336a:629465:1788403895",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.98,
+      "end": 5.1,
+      "en": "Hello, my name is Kyle.",
+      "cn": "你好，我叫凯尔。",
+      "para": 0,
+      "expect": 0.98,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 5.1,
+      "end": 8.5,
+      "en": "I am from the UK.",
+      "cn": "我来自英国。",
+      "para": 0,
+      "expect": 5.1,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 8.5,
+      "end": 16.34,
+      "en": "My question today is, does your town or city have a mall?",
+      "cn": "今天我想问你的是，你的城镇或城市有商场吗？",
+      "para": 0,
+      "expect": 8.5,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 16.34,
+      "end": 20.16,
+      "en": "My town has a big mall.",
+      "cn": "我的城镇有一个很大的商场。",
+      "para": 1,
+      "expect": 16.34,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 20.16,
+      "end": 24.66,
+      "en": "It has many shops for many things.",
+      "cn": "里面有很多店，卖各种各样的东西。",
+      "para": 1,
+      "expect": 20.16,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 24.66,
+      "end": 30.54,
+      "en": "It has clothes stores, shoe stores, department stores.",
+      "cn": "有服装店、鞋店、百货商店",
+      "para": 1,
+      "expect": 24.66,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 30.54,
+      "end": 38.74,
+      "en": "It has a wide range of stores and restaurants.",
+      "cn": "还有很多其他商店和餐馆。",
+      "para": 1,
+      "expect": 30.54,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 38.74,
+      "end": 46.4,
+      "en": "My favorite store is the shoe store because I like to buy shoes.",
+      "cn": "我最喜欢的是鞋店，因为我喜欢买鞋。",
+      "para": 1,
+      "expect": 38.74,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 46.4,
+      "end": 52.127,
+      "en": "Does your town or city have a mall?",
+      "cn": "你的城镇或城市有商场吗？",
+      "para": 2,
+      "expect": 46.4,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 73,
+    "token_coverage": 0.973,
+    "low_confidence": false
+  },
+  "locked": false
+}

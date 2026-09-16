@@ -1,0 +1,144 @@
+{
+  "mp3": "A1-004-DANDARA-NATIONALITY.mp3",
+  "duration": 60.308,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "eaa9447cc9614430:649707:1788403930",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95,
+    "duration_fixed_from": 58.6,
+    "duration_fixed_to": 60.308
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.0,
+      "end": 2.12,
+      "en": "Hello, my name is Dandara.",
+      "cn": "你好，我叫丹达拉，我来自巴西。",
+      "para": 0,
+      "expect": 0.0,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 2.12,
+      "end": 8.98,
+      "en": "I'm from Brazil, and my question is, what is your nationality?",
+      "cn": "我的问题是：你是哪国人？",
+      "para": 0,
+      "expect": 2.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 8.98,
+      "end": 12.36,
+      "en": "Well, I am Brazilian.",
+      "cn": "嗯，我是巴西人。",
+      "para": 1,
+      "expect": 8.98,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 12.36,
+      "end": 17.9,
+      "en": "Brazil is a big country in South America, in Brazil.",
+      "cn": "巴西是南美洲的一个大国，在巴西",
+      "para": 1,
+      "expect": 12.36,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 17.9,
+      "end": 23.02,
+      "en": "People speak Portuguese, but we also study English.",
+      "cn": "大家说葡萄牙语，不过我们也会学英语。",
+      "para": 1,
+      "expect": 17.9,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 23.02,
+      "end": 32.34,
+      "en": "Brazil is popular for its beaches, carnival and samba.",
+      "cn": "巴西以海滩、狂欢节和桑巴舞出名。",
+      "para": 1,
+      "expect": 23.02,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 32.34,
+      "end": 37.52,
+      "en": "People always ask me if I can dance samba.",
+      "cn": "总有人问我会不会跳桑巴",
+      "para": 1,
+      "expect": 32.34,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 37.52,
+      "end": 43.82,
+      "en": "I usually say, \"yes, a little.\"",
+      "cn": "我一般都说：“会一点点。",
+      "para": 1,
+      "expect": 37.52,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 43.82,
+      "end": 52.68,
+      "en": "I am very proud to be Brazilian and I love sharing about Brazil with other people.",
+      "cn": "”我特别自豪自己是巴西人，也很喜欢跟别人聊巴西。",
+      "para": 1,
+      "expect": 43.82,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 52.68,
+      "end": 55.76,
+      "en": "What about you?",
+      "cn": "你呢？",
+      "para": 2,
+      "expect": 52.68,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 55.76,
+      "end": 58.6,
+      "en": "What is your nationality?",
+      "cn": "你是哪国人？",
+      "para": 2,
+      "expect": 55.76,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 85,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

@@ -1,0 +1,381 @@
+{
+  "mp3": "A1-001-SARAH-TEN-THINGS.mp3",
+  "duration": 72.809,
+  "method": "silencedetect+dp",
+  "params": {
+    "noise_db": -32.0,
+    "min_sil_dur": 0.2,
+    "tol": 0.9
+  },
+  "silences": [
+    [
+      0.0,
+      1.607
+    ],
+    [
+      1.843,
+      2.61
+    ],
+    [
+      3.794,
+      4.365
+    ],
+    [
+      6.395,
+      6.69
+    ],
+    [
+      7.737,
+      8.525
+    ],
+    [
+      9.233,
+      9.676
+    ],
+    [
+      10.887,
+      11.25
+    ],
+    [
+      11.495,
+      11.857
+    ],
+    [
+      12.024,
+      13.781
+    ],
+    [
+      15.637,
+      16.921
+    ],
+    [
+      18.838,
+      19.957
+    ],
+    [
+      21.38,
+      21.581
+    ],
+    [
+      21.645,
+      21.853
+    ],
+    [
+      22.338,
+      23.539
+    ],
+    [
+      24.695,
+      25.175
+    ],
+    [
+      25.742,
+      26.118
+    ],
+    [
+      26.517,
+      28.164
+    ],
+    [
+      29.487,
+      30.086
+    ],
+    [
+      30.556,
+      32.231
+    ],
+    [
+      33.202,
+      33.501
+    ],
+    [
+      33.896,
+      34.101
+    ],
+    [
+      35.611,
+      36.481
+    ],
+    [
+      37.369,
+      37.748
+    ],
+    [
+      38.321,
+      39.886
+    ],
+    [
+      40.693,
+      41.251
+    ],
+    [
+      41.454,
+      41.772
+    ],
+    [
+      43.165,
+      44.157
+    ],
+    [
+      44.965,
+      45.354
+    ],
+    [
+      45.886,
+      47.729
+    ],
+    [
+      49.402,
+      49.735
+    ],
+    [
+      50.408,
+      51.796
+    ],
+    [
+      52.971,
+      53.237
+    ],
+    [
+      53.639,
+      55.271
+    ],
+    [
+      56.487,
+      56.728
+    ],
+    [
+      58.096,
+      59.12
+    ],
+    [
+      59.82,
+      60.157
+    ],
+    [
+      60.71,
+      62.149
+    ],
+    [
+      62.907,
+      63.538
+    ],
+    [
+      65.875,
+      66.238
+    ],
+    [
+      67.657,
+      68.301
+    ],
+    [
+      68.905,
+      69.602
+    ],
+    [
+      70.352,
+      72.809
+    ]
+  ],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 1.607,
+      "end": 15.204,
+      "en": "Hi, my name is Sarah and I will say 10 things about myself using present simple with Be.",
+      "cn": "",
+      "para": 0,
+      "expect": 1.607,
+      "source": "start",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 15.204,
+      "end": 18.226,
+      "en": "My name is Sarah.",
+      "cn": "",
+      "para": 1,
+      "expect": 15.204,
+      "source": "expect",
+      "dev": 1.075
+    },
+    {
+      "i": 2,
+      "start": 18.226,
+      "end": 21.581,
+      "en": "I am a mother.",
+      "cn": "",
+      "para": 2,
+      "expect": 18.226,
+      "source": "expect",
+      "dev": 1.171
+    },
+    {
+      "i": 3,
+      "start": 21.581,
+      "end": 25.175,
+      "en": "I am also a teacher.",
+      "cn": "",
+      "para": 3,
+      "expect": 21.248,
+      "source": "pause",
+      "dev": 0.333
+    },
+    {
+      "i": 4,
+      "start": 25.175,
+      "end": 28.164,
+      "en": "I am not a farmer.",
+      "cn": "",
+      "para": 4,
+      "expect": 25.025,
+      "source": "pause",
+      "dev": 0.15
+    },
+    {
+      "i": 5,
+      "start": 28.164,
+      "end": 32.231,
+      "en": "I am not shy.",
+      "cn": "",
+      "para": 5,
+      "expect": 28.802,
+      "source": "pause",
+      "dev": 0.638
+    },
+    {
+      "i": 6,
+      "start": 32.231,
+      "end": 36.481,
+      "en": "My daughter is seven years old.",
+      "cn": "",
+      "para": 6,
+      "expect": 31.824,
+      "source": "pause",
+      "dev": 0.407
+    },
+    {
+      "i": 7,
+      "start": 36.481,
+      "end": 39.103,
+      "en": "She is brave.",
+      "cn": "",
+      "para": 6,
+      "expect": 36.357,
+      "source": "pause",
+      "dev": 0.124
+    },
+    {
+      "i": 8,
+      "start": 39.103,
+      "end": 43.661,
+      "en": "My son is five years old.",
+      "cn": "",
+      "para": 7,
+      "expect": 38.623,
+      "source": "pause",
+      "dev": 0.48
+    },
+    {
+      "i": 9,
+      "start": 43.661,
+      "end": 45.354,
+      "en": "He is kind.",
+      "cn": "",
+      "para": 7,
+      "expect": 43.156,
+      "source": "pause",
+      "dev": 0.505
+    },
+    {
+      "i": 10,
+      "start": 45.354,
+      "end": 47.729,
+      "en": "My children are friendly.",
+      "cn": "",
+      "para": 8,
+      "expect": 45.422,
+      "source": "pause",
+      "dev": 0.068
+    },
+    {
+      "i": 11,
+      "start": 47.729,
+      "end": 51.796,
+      "en": "They are happy, too.",
+      "cn": "",
+      "para": 8,
+      "expect": 48.444,
+      "source": "pause",
+      "dev": 0.715
+    },
+    {
+      "i": 12,
+      "start": 51.796,
+      "end": 55.271,
+      "en": "My family is from the USA.",
+      "cn": "",
+      "para": 9,
+      "expect": 51.466,
+      "source": "pause",
+      "dev": 0.33
+    },
+    {
+      "i": 13,
+      "start": 55.271,
+      "end": 58.608,
+      "en": "We are American.",
+      "cn": "",
+      "para": 9,
+      "expect": 55.998,
+      "source": "pause",
+      "dev": 0.727
+    },
+    {
+      "i": 14,
+      "start": 58.608,
+      "end": 60.157,
+      "en": "How about you?",
+      "cn": "",
+      "para": 10,
+      "expect": 58.265,
+      "source": "pause",
+      "dev": 0.343
+    },
+    {
+      "i": 15,
+      "start": 60.157,
+      "end": 68.301,
+      "en": "Can you say 10 things using simple present with Be?",
+      "cn": "",
+      "para": 11,
+      "expect": 60.531,
+      "source": "pause",
+      "dev": 0.374
+    },
+    {
+      "i": 16,
+      "start": 68.301,
+      "end": 70.352,
+      "en": "You should try.",
+      "cn": "",
+      "para": 12,
+      "expect": 68.085,
+      "source": "pause",
+      "dev": 0.216
+    }
+  ],
+  "quality": {
+    "mean_dev": 0.478,
+    "max_dev": 1.171,
+    "pause_cuts": 14,
+    "total_cuts": 16,
+    "cut_coverage": 0.875,
+    "speech_span": [
+      1.607,
+      70.352
+    ]
+  },
+  "locked": false
+}

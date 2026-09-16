@@ -1,0 +1,109 @@
+{
+  "mp3": "A1-010-JULIE-WHERE-FRIENDS-FROM.mp3",
+  "duration": 49.894,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "942a9197175931e9:554341:1788403923",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.69,
+      "end": 4.99,
+      "en": "Hello, my name is Julie.",
+      "cn": "你好，我叫朱莉",
+      "para": 0,
+      "expect": 0.69,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.99,
+      "end": 8.01,
+      "en": "I am from America.",
+      "cn": "来自美国。",
+      "para": 0,
+      "expect": 4.99,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 8.01,
+      "end": 13.17,
+      "en": "My question is, where are your friends from?",
+      "cn": "我的问题是：你的朋友都来自哪里？",
+      "para": 0,
+      "expect": 8.01,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 13.17,
+      "end": 20.25,
+      "en": "My friends are from America.",
+      "cn": "我的朋友来自美国",
+      "para": 1,
+      "expect": 13.17,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 20.25,
+      "end": 26.05,
+      "en": "My friends are from Argentina.",
+      "cn": "有来自阿根廷的",
+      "para": 1,
+      "expect": 20.25,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 26.05,
+      "end": 37.74,
+      "en": "My friends are from Venezuela, and my friends are from Spain.",
+      "cn": "有来自委内瑞拉的，还有来自西班牙的。",
+      "para": 1,
+      "expect": 26.05,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 37.74,
+      "end": 43.14,
+      "en": "I don't have friends from France.",
+      "cn": "我没有来自法国的朋友。",
+      "para": 1,
+      "expect": 37.74,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 43.14,
+      "end": 49.894,
+      "en": "And you, where are your friends from?",
+      "cn": "那你呢，你的朋友都来自哪里？",
+      "para": 2,
+      "expect": 43.14,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 51,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

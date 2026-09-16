@@ -1,0 +1,84 @@
+# ============================================================
+# .gitattributes —— 管“文件属性”，不管“传不传”
+#   传不传  -> .gitignore
+#   怎么存/怎么比对/是否算源码/打包是否带上 -> 本文件
+# ============================================================
+
+# ---------- 1. 换行符：仓库内统一 LF，避免跨平台整文件 diff ----------
+* text=auto eol=lf
+
+# Windows 脚本例外，保持 CRLF
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
+
+# ---------- 2. 二进制文件：禁止换行符转换，diff 显示为 Binary ----------
+# 音频 / 视频（data/*.mp3、output/*.mp4 等）
+*.mp3  binary
+*.wav  binary
+*.m4a  binary
+*.aac  binary
+*.flac binary
+*.mp4  binary
+*.mov  binary
+*.mkv  binary
+*.webm binary
+
+# 图片 / 字体
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.gif  binary
+*.ico  binary
+*.bmp  binary
+*.tiff binary
+*.ttf  binary
+*.otf  binary
+*.woff binary
+*.woff2 binary
+
+# 办公文档 / 表格（data/en.xlsx 是核心数据源，必须按二进制存）
+*.xlsx binary
+*.xls  binary
+*.docx binary
+*.pptx binary
+*.pdf  binary
+
+# 模型权重 / 压缩包
+*.bin  binary
+*.pt   binary
+*.pth  binary
+*.onnx binary
+*.safetensors binary
+*.zip  binary
+*.7z   binary
+*.tar  binary
+*.gz   binary
+*.pyc  binary
+
+# ---------- 3. 让 diff 更可读：把 xlsx 当二进制不尝试文本 diff ----------
+*.xlsx -diff
+*.mp3  -diff
+*.mp4  -diff
+*.png  -diff
+
+# ---------- 4. 排除项同步登记：export-ignore ----------
+# 只影响 `git archive` 打包（发布压缩包），不影响 push/clone。
+# 与 .gitignore 保持一致：这些即使将来被提交，也不会进打包产物。
+# 注：output/ 按需求纳入版本管理，因此【不加】export-ignore。
+.venv/          export-ignore
+models/         export-ignore
+__pycache__/    export-ignore
+.gitignore      export-ignore
+.gitattributes  export-ignore
+.DS_Store       export-ignore
+cache/          export-ignore
+
+# ---------- 5. GitHub linguist 语言统计 ----------
+# 音频/模型/缓存不算“源码”，避免仓库语言统计被污染
+data/*.mp3      linguist-vendored
+data/*.wav      linguist-vendored
+assets/*.png    linguist-vendored
+cache/*         linguist-detectable=false
+work/*.json     linguist-detectable=false

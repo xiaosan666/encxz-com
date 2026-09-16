@@ -1,0 +1,164 @@
+{
+  "mp3": "A1-018-MIYU-HOUSE-APARTMENT-BIG.mp3",
+  "duration": 54.96,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "57b1bee141c86089:655545:1788403909",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.98,
+      "end": 4.56,
+      "en": "Hello, my name is Miyu.",
+      "cn": "你好，我叫美优",
+      "para": 0,
+      "expect": 0.98,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.56,
+      "end": 6.8,
+      "en": "I'm from Japan.",
+      "cn": "来自日本。",
+      "para": 0,
+      "expect": 4.56,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 6.8,
+      "end": 11.84,
+      "en": "My question is, is your apartment big?",
+      "cn": "我的问题是：你住的公寓大吗？",
+      "para": 0,
+      "expect": 6.8,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 11.84,
+      "end": 16.12,
+      "en": "My apartment is not big.",
+      "cn": "我的公寓不大",
+      "para": 1,
+      "expect": 11.84,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 16.12,
+      "end": 19.98,
+      "en": "My apartment has one bedroom.",
+      "cn": "只有一间卧室。",
+      "para": 1,
+      "expect": 16.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 19.98,
+      "end": 23.84,
+      "en": "The bedroom is very big.",
+      "cn": "卧室挺大的",
+      "para": 1,
+      "expect": 19.98,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 23.84,
+      "end": 27.48,
+      "en": "It has a bed and a desk.",
+      "cn": "里面有一张床和一张书桌",
+      "para": 1,
+      "expect": 23.84,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 27.48,
+      "end": 30.72,
+      "en": "The window is big.",
+      "cn": "窗户也很大。",
+      "para": 1,
+      "expect": 27.48,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 30.72,
+      "end": 34.3,
+      "en": "The living room is small.",
+      "cn": "客厅比较小",
+      "para": 1,
+      "expect": 30.72,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 34.3,
+      "end": 38.54,
+      "en": "It has a sofa and a TV.",
+      "cn": "有一张沙发和一台电视。",
+      "para": 1,
+      "expect": 34.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 38.54,
+      "end": 44.16,
+      "en": "My kitchen is small, but the window is big.",
+      "cn": "厨房很小，不过窗户挺大。",
+      "para": 1,
+      "expect": 38.54,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 44.16,
+      "end": 49.92,
+      "en": "The bathroom is not big, but it has a bathtub.",
+      "cn": "浴室不大，但有浴缸。",
+      "para": 1,
+      "expect": 44.16,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 49.92,
+      "end": 54.96,
+      "en": "How is your apartment?",
+      "cn": "你的公寓怎么样？",
+      "para": 2,
+      "expect": 49.92,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 76,
+    "token_coverage": 0.987,
+    "low_confidence": false
+  },
+  "locked": false
+}

@@ -1,0 +1,197 @@
+{
+  "mp3": "A1-030-Miyu-Who-Goes-to-School.mp3",
+  "duration": 54.473,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "129c872803b5d5d0:677337:1788403900",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.72,
+      "end": 4.12,
+      "en": "Hello, my name is Miyu.",
+      "cn": "你好，我叫美优。",
+      "para": 0,
+      "expect": 0.72,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.12,
+      "end": 6.14,
+      "en": "I'm from Japan.",
+      "cn": "我来自日本。",
+      "para": 0,
+      "expect": 4.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 6.14,
+      "end": 10.8,
+      "en": "My question is, who goes to school?",
+      "cn": "我的问题是，谁在上学？",
+      "para": 0,
+      "expect": 6.14,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 10.8,
+      "end": 14.26,
+      "en": "My nephew goes to school.",
+      "cn": "我侄子在上学。",
+      "para": 1,
+      "expect": 10.8,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 14.26,
+      "end": 16.25,
+      "en": "His name is Mickey.",
+      "cn": "他叫米奇",
+      "para": 1,
+      "expect": 14.26,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 16.25,
+      "end": 20.32,
+      "en": "He's 13 years old.",
+      "cn": "13 岁",
+      "para": 1,
+      "expect": 16.25,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 20.32,
+      "end": 23.52,
+      "en": "He goes to junior high school.",
+      "cn": "上初中。",
+      "para": 1,
+      "expect": 20.32,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 23.52,
+      "end": 26.66,
+      "en": "The school is near a lake.",
+      "cn": "学校就在湖边。",
+      "para": 1,
+      "expect": 23.52,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 26.66,
+      "end": 30.72,
+      "en": "Mickey loves to play the piano.",
+      "cn": "米奇特别喜欢弹钢琴",
+      "para": 1,
+      "expect": 26.66,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 30.72,
+      "end": 33.86,
+      "en": "He plays the piano in class.",
+      "cn": "他在班里弹钢琴",
+      "para": 1,
+      "expect": 30.72,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 33.86,
+      "end": 37.84,
+      "en": "He's very good at the piano.",
+      "cn": "弹得特别好，拿过很多奖。",
+      "para": 1,
+      "expect": 33.86,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 37.84,
+      "end": 41.4,
+      "en": "He has many prizes.",
+      "cn": "米奇有个妹妹，没有兄弟。",
+      "para": 1,
+      "expect": 37.84,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 41.4,
+      "end": 44.84,
+      "en": "Mickey has a younger sister.",
+      "cn": "米奇有个妹妹，没有兄弟。",
+      "para": 1,
+      "expect": 41.4,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 44.84,
+      "end": 48.12,
+      "en": "He doesn't have a brother.",
+      "cn": "米奇有个妹妹，没有兄弟。",
+      "para": 1,
+      "expect": 44.84,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 48.12,
+      "end": 51.42,
+      "en": "His sister goes to school, too.",
+      "cn": "他妹妹也在上学。",
+      "para": 1,
+      "expect": 48.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 51.42,
+      "end": 54.473,
+      "en": "Do you go to school?",
+      "cn": "你上学吗？",
+      "para": 2,
+      "expect": 51.42,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 84,
+    "token_coverage": 0.976,
+    "low_confidence": false
+  },
+  "locked": false
+}

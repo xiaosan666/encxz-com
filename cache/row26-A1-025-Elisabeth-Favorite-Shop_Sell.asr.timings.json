@@ -1,0 +1,175 @@
+{
+  "mp3": "A1-025-Elisabeth-Favorite-Shop Sell.mp3",
+  "duration": 65.34,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "b1a64ddf733aeff0:655995:1788403903",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.91,
+      "end": 3.89,
+      "en": "Hello, my name is Elizabeth.",
+      "cn": "你好，我叫伊丽莎白。",
+      "para": 0,
+      "expect": 0.91,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 3.89,
+      "end": 12.27,
+      "en": "I'm from America, and my question is, what does your favorite shop sell?",
+      "cn": "我来自美国。我的问题是，你最喜欢的店卖什么？",
+      "para": 0,
+      "expect": 3.89,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 12.27,
+      "end": 15.75,
+      "en": "My favorite shop is a coffee shop.",
+      "cn": "我最喜欢的店是一家咖啡店。",
+      "para": 1,
+      "expect": 12.27,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 15.75,
+      "end": 18.87,
+      "en": "It sells coffee and tea.",
+      "cn": "那儿卖咖啡和茶",
+      "para": 1,
+      "expect": 15.75,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 18.87,
+      "end": 24.03,
+      "en": "It also sells t-shirts and coffee mugs.",
+      "cn": "也卖 T 恤和咖啡杯。",
+      "para": 1,
+      "expect": 18.87,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 24.03,
+      "end": 26.95,
+      "en": "The shop also serves really nice coffee.",
+      "cn": "这家店的咖啡特别好喝",
+      "para": 1,
+      "expect": 24.03,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 26.95,
+      "end": 31.79,
+      "en": "It also serves really nice tea with honey.",
+      "cn": "加了蜂蜜的茶也很不错。",
+      "para": 1,
+      "expect": 26.95,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 31.79,
+      "end": 35.97,
+      "en": "The shop has chairs and tables outside.",
+      "cn": "店外面有桌椅",
+      "para": 1,
+      "expect": 31.79,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 35.97,
+      "end": 40.07,
+      "en": "It has nice big chairs upstairs.",
+      "cn": "楼上还有很舒服的大椅子",
+      "para": 1,
+      "expect": 35.97,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 40.07,
+      "end": 43.59,
+      "en": "It has many plants inside.",
+      "cn": "店里摆了很多绿植。",
+      "para": 1,
+      "expect": 40.07,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 43.59,
+      "end": 46.35,
+      "en": "The shop is near my house.",
+      "cn": "这家店离我家很近",
+      "para": 1,
+      "expect": 43.59,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 46.35,
+      "end": 50.57,
+      "en": "I like to buy tea and work on my computer there.",
+      "cn": "我喜欢去那儿买杯茶，用电脑干点活。",
+      "para": 1,
+      "expect": 46.35,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 50.57,
+      "end": 57.71,
+      "en": "The shop does not sell books like another coffee shop in town.",
+      "cn": "它不像城里另一家咖啡店那样卖书。",
+      "para": 1,
+      "expect": 50.57,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 57.71,
+      "end": 65.34,
+      "en": "My question for you is, what does your favorite shop sell?",
+      "cn": "我想问你的是，你最喜欢的店卖什么？",
+      "para": 2,
+      "expect": 57.71,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 111,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

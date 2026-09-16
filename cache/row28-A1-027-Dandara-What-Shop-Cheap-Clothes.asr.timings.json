@@ -1,0 +1,208 @@
+{
+  "mp3": "A1-027-Dandara-What-Shop-Cheap-Clothes.mp3",
+  "duration": 92.902,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "0c371e8e30cc134f:887934:1788403902",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.85,
+      "end": 3.39,
+      "en": "Hello, my name is Dandara.",
+      "cn": "你好，我叫丹达拉。",
+      "para": 0,
+      "expect": 0.85,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 3.39,
+      "end": 9.883,
+      "en": "I'm from Brazil, and my question is, what shop sells cheap clothes?",
+      "cn": "我来自巴西。我的问题是，哪家店卖的衣服便宜？",
+      "para": 0,
+      "expect": 3.39,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 9.883,
+      "end": 13.77,
+      "en": "There is a shop near my house.",
+      "cn": "我家附近有家店，叫 For",
+      "para": 1,
+      "expect": 9.883,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 13.77,
+      "end": 17.39,
+      "en": "It's called Forever 21.",
+      "cn": "ever 21。",
+      "para": 1,
+      "expect": 13.77,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 17.39,
+      "end": 20.21,
+      "en": "This shop has good prices.",
+      "cn": "这家店价格挺实惠",
+      "para": 1,
+      "expect": 17.39,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 20.21,
+      "end": 30.03,
+      "en": "It sells jackets, t-shirts and pants.",
+      "cn": "卖夹克、T 恤和裤子。",
+      "para": 1,
+      "expect": 20.21,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 30.03,
+      "end": 35.87,
+      "en": "Jackets cost about $30.",
+      "cn": "夹克大概 30 美元",
+      "para": 1,
+      "expect": 30.03,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 35.87,
+      "end": 46.49,
+      "en": "Pants cost about $15, and t-shirts cost about $10.",
+      "cn": "裤子大概 15 美元，T 恤大概 10 美元。",
+      "para": 1,
+      "expect": 35.87,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 46.49,
+      "end": 48.39,
+      "en": "I like to go there.",
+      "cn": "我喜欢去那儿。",
+      "para": 2,
+      "expect": 46.49,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 48.39,
+      "end": 54.35,
+      "en": "My mom also loves going there.",
+      "cn": "我妈也特别爱去",
+      "para": 2,
+      "expect": 48.39,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 54.35,
+      "end": 63.83,
+      "en": "She likes to buy t-shirts because she thinks t-shirts are very cheap there.",
+      "cn": "她喜欢买 T 恤，因为她觉得那儿的 T 恤特别便宜。",
+      "para": 2,
+      "expect": 54.35,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 63.83,
+      "end": 68.67,
+      "en": "My brother does not like to go there.",
+      "cn": "我弟弟不喜欢去那儿",
+      "para": 2,
+      "expect": 63.83,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 68.67,
+      "end": 71.63,
+      "en": "He doesn't like shopping.",
+      "cn": "他不爱逛街。",
+      "para": 2,
+      "expect": 68.67,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 71.63,
+      "end": 78.29,
+      "en": "My sister and I often go there together.",
+      "cn": "我和我姐姐经常一起去",
+      "para": 2,
+      "expect": 71.63,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 78.29,
+      "end": 82.87,
+      "en": "We like to buy jackets there.",
+      "cn": "我们喜欢在那儿买夹克。",
+      "para": 2,
+      "expect": 78.29,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 82.87,
+      "end": 85.29,
+      "en": "What about you?",
+      "cn": "你呢？",
+      "para": 3,
+      "expect": 82.87,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 16,
+      "start": 85.29,
+      "end": 92.902,
+      "en": "What shops sell cheap clothes where you live?",
+      "cn": "你住的地方哪家店卖的衣服便宜？",
+      "para": 3,
+      "expect": 85.29,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 116,
+    "token_coverage": 0.974,
+    "low_confidence": false
+  },
+  "locked": false
+}

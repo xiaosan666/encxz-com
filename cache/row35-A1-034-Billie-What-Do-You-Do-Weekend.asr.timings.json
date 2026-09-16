@@ -1,0 +1,131 @@
+{
+  "mp3": "A1-034-Billie-What-Do-You-Do-Weekend.mp3",
+  "duration": 77.6,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "2c330e3579bda482:910286:1788403898",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.14,
+      "end": 9.34,
+      "en": "Hi, my name is Billy and I live in South Africa.",
+      "cn": "你好，我叫比利，住在南非。",
+      "para": 0,
+      "expect": 0.14,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 9.34,
+      "end": 19.36,
+      "en": "Today, I will talk about what do I do on the weekend?",
+      "cn": "今天我要讲讲我周末都做些什么。",
+      "para": 0,
+      "expect": 9.34,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 19.36,
+      "end": 26.84,
+      "en": "What do I do on the weekend?",
+      "cn": "周末我都做些什么呢？",
+      "para": 0,
+      "expect": 19.36,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 26.84,
+      "end": 33.84,
+      "en": "On the weekend, I go shopping.",
+      "cn": "周末我会去购物。",
+      "para": 1,
+      "expect": 26.84,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 33.84,
+      "end": 37.22,
+      "en": "I buy food.",
+      "cn": "我会买食物、零食，还会买很多家里要用的东西。",
+      "para": 1,
+      "expect": 33.84,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 37.22,
+      "end": 41.52,
+      "en": "I buy snacks.",
+      "cn": "我会买食物、零食，还会买很多家里要用的东西。",
+      "para": 1,
+      "expect": 37.22,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 41.52,
+      "end": 49.3,
+      "en": "I buy many things for the house.",
+      "cn": "我会买食物、零食，还会买很多家里要用的东西。",
+      "para": 1,
+      "expect": 41.52,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 49.3,
+      "end": 57.1,
+      "en": "On the weekend, I also sometimes clean.",
+      "cn": "周末我有时也会打扫。",
+      "para": 1,
+      "expect": 49.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 57.1,
+      "end": 75.0,
+      "en": "I clean the house, and sometimes I sleep or watch a movie with my friends or family.",
+      "cn": "我会打扫房子，有时还会睡觉，或者和朋友、家人一起看电影。",
+      "para": 1,
+      "expect": 57.1,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 75.0,
+      "end": 77.6,
+      "en": "Thank you.",
+      "cn": "谢谢。",
+      "para": 2,
+      "expect": 75.0,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 75,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

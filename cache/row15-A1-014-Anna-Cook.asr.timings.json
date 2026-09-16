@@ -1,0 +1,210 @@
+{
+  "mp3": "A1-014-ANNA-COOK.mp3",
+  "duration": 38.304,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "57b67d95358b54a4:229824:1789372753",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95,
+    "duration_fixed_from": 37.26,
+    "duration_fixed_to": 38.304
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.0,
+      "end": 2.5,
+      "en": "Hello, my name is Anna.",
+      "cn": "你好，我叫安娜",
+      "para": 0,
+      "expect": 0.0,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 2.5,
+      "end": 4.3,
+      "en": "I am from Italy.",
+      "cn": "来自意大利。",
+      "para": 0,
+      "expect": 2.5,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 4.3,
+      "end": 7.2,
+      "en": "My question is, do you like to cook?",
+      "cn": "我的问题是：你喜欢做饭吗？",
+      "para": 0,
+      "expect": 4.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 7.2,
+      "end": 9.7,
+      "en": "Yes, I like to cook.",
+      "cn": "喜欢，我每天都做饭",
+      "para": 1,
+      "expect": 7.2,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 9.7,
+      "end": 11.58,
+      "en": "I cook every day.",
+      "cn": "给家里人做。",
+      "para": 1,
+      "expect": 9.7,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 11.58,
+      "end": 13.62,
+      "en": "I cook for my family.",
+      "cn": "我会做意大利面和汤。",
+      "para": 1,
+      "expect": 11.58,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 13.62,
+      "end": 15.88,
+      "en": "I cook pasta and soup.",
+      "cn": "我不做肉",
+      "para": 1,
+      "expect": 13.62,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 15.88,
+      "end": 17.76,
+      "en": "I do not cook meat.",
+      "cn": "因为我不爱吃肉。",
+      "para": 1,
+      "expect": 15.88,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 17.76,
+      "end": 20.04,
+      "en": "I do not like meat.",
+      "cn": "我妈妈会做肉",
+      "para": 1,
+      "expect": 17.76,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 20.04,
+      "end": 22.02,
+      "en": "My mother cooks meat.",
+      "cn": "我爸爸负责煮米饭。",
+      "para": 1,
+      "expect": 20.04,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 22.02,
+      "end": 24.16,
+      "en": "My father cooks rice.",
+      "cn": "我弟弟不做饭",
+      "para": 1,
+      "expect": 22.02,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 24.16,
+      "end": 26.52,
+      "en": "My brother does not cook.",
+      "cn": "但他吃得很多。",
+      "para": 1,
+      "expect": 24.16,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 26.52,
+      "end": 28.08,
+      "en": "He eats a lot.",
+      "cn": "我喜欢和妈",
+      "para": 1,
+      "expect": 26.52,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 28.08,
+      "end": 30.62,
+      "en": "I like to cook with my mother.",
+      "cn": "妈一起做饭",
+      "para": 1,
+      "expect": 28.08,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 30.62,
+      "end": 33.14,
+      "en": "We cook together on Sunday.",
+      "cn": "周日我们会一起下厨。",
+      "para": 1,
+      "expect": 30.62,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 33.14,
+      "end": 34.96,
+      "en": "I am a good cook.",
+      "cn": "我做饭还挺不错的。",
+      "para": 1,
+      "expect": 33.14,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 16,
+      "start": 34.96,
+      "end": 37.26,
+      "en": "My question for you is, do you like to cook?",
+      "cn": "我想问你的是：你喜欢做饭吗？",
+      "para": 2,
+      "expect": 34.96,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 90,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

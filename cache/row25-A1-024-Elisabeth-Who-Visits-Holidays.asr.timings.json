@@ -1,0 +1,197 @@
+{
+  "mp3": "A1-024-Elisabeth-Who-Visits-Holidays.mp3",
+  "duration": 68.103,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "a5722107c791af1d:694691:1788403904",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.66,
+      "end": 3.78,
+      "en": "Hello, my name is Elizabeth.",
+      "cn": "你好，我叫伊丽莎白。",
+      "para": 0,
+      "expect": 0.66,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 3.78,
+      "end": 11.92,
+      "en": "I am from America, and my question is, who visits you on the holidays?",
+      "cn": "我来自美国。我的问题是，过节的时候谁来看你？",
+      "para": 0,
+      "expect": 3.78,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 11.92,
+      "end": 15.98,
+      "en": "My sister visits me on the holidays.",
+      "cn": "过节的时候我妹妹会来看我。",
+      "para": 1,
+      "expect": 11.92,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 15.98,
+      "end": 19.24,
+      "en": "She is my younger sister.",
+      "cn": "她是我妹妹",
+      "para": 1,
+      "expect": 15.98,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 19.24,
+      "end": 22.48,
+      "en": "She sleeps at my house.",
+      "cn": "住在我家",
+      "para": 1,
+      "expect": 19.24,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 22.48,
+      "end": 26.88,
+      "en": "She eats at restaurants with me.",
+      "cn": "跟我一起去餐馆吃饭。",
+      "para": 1,
+      "expect": 22.48,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 26.88,
+      "end": 30.78,
+      "en": "She does not like meat.",
+      "cn": "她不吃肉",
+      "para": 1,
+      "expect": 26.88,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 30.78,
+      "end": 33.66,
+      "en": "She eats vegetables.",
+      "cn": "只吃蔬菜。",
+      "para": 1,
+      "expect": 30.78,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 33.66,
+      "end": 36.56,
+      "en": "She likes to dance.",
+      "cn": "她喜欢跳舞",
+      "para": 1,
+      "expect": 33.66,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 36.56,
+      "end": 40.84,
+      "en": "She dances with me at parties.",
+      "cn": "在聚会上跟我一起跳。",
+      "para": 1,
+      "expect": 36.56,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 40.84,
+      "end": 44.54,
+      "en": "She visits with my friends.",
+      "cn": "她也会见见我的朋友。",
+      "para": 1,
+      "expect": 40.84,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 44.54,
+      "end": 48.96,
+      "en": "She drives to see my brother here.",
+      "cn": "她还开车去看我哥哥",
+      "para": 1,
+      "expect": 44.54,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 48.96,
+      "end": 52.36,
+      "en": "He has a wife and a baby.",
+      "cn": "他就在这儿，有老婆和一个宝宝。",
+      "para": 1,
+      "expect": 48.96,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 52.36,
+      "end": 56.1,
+      "en": "She likes to hold the baby.",
+      "cn": "她喜欢抱宝宝。",
+      "para": 1,
+      "expect": 52.36,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 56.1,
+      "end": 62.24,
+      "en": "My sister has fun when she visits me on the holidays.",
+      "cn": "过节时妹妹来看我，她玩得很开心。",
+      "para": 1,
+      "expect": 56.1,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 62.24,
+      "end": 68.103,
+      "en": "My question for you is who visits you on the holidays?",
+      "cn": "我想问你的是，过节的时候谁来看你？",
+      "para": 2,
+      "expect": 62.24,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 107,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

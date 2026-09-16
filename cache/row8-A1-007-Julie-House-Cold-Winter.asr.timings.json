@@ -1,0 +1,133 @@
+{
+  "mp3": "A1-007-JULIE-HOUSE-COLD-WINTER.mp3",
+  "duration": 81.001,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "0817a7e90842d4c9:949971:1788403927",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95,
+    "duration_fixed_from": 76.71,
+    "duration_fixed_to": 81.001
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 1.58,
+      "end": 4.96,
+      "en": "Hello, my name is Julie.",
+      "cn": "你好，我叫朱莉",
+      "para": 0,
+      "expect": 1.58,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.96,
+      "end": 8.44,
+      "en": "I am from America.",
+      "cn": "来自美国。",
+      "para": 0,
+      "expect": 4.96,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 8.44,
+      "end": 17.46,
+      "en": "My question today, is your house cold in winter?",
+      "cn": "我今天的问题是：你家冬天冷吗？",
+      "para": 0,
+      "expect": 8.44,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 17.46,
+      "end": 18.78,
+      "en": "Yes.",
+      "cn": "冷。",
+      "para": 1,
+      "expect": 17.46,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 18.78,
+      "end": 43.6,
+      "en": "My house is very cold in winter, but my heater is warm and my jacket is warm, and my sweater is warm, and my hood is warm.",
+      "cn": "我家冬天特别冷，不过我的暖气很暖和，夹克很暖，毛衣很暖，帽子也暖和。",
+      "para": 1,
+      "expect": 18.78,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 43.6,
+      "end": 49.83,
+      "en": "But my house is not warm.",
+      "cn": "可我家就是不暖",
+      "para": 1,
+      "expect": 43.6,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 49.83,
+      "end": 55.55,
+      "en": "My house is very cold outside.",
+      "cn": "屋里冷得很。",
+      "para": 1,
+      "expect": 49.83,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 55.55,
+      "end": 65.07,
+      "en": "It is very cold in winter, but in summer it is not cold.",
+      "cn": "冬天真的很冷，不过夏天不冷",
+      "para": 1,
+      "expect": 55.55,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 65.07,
+      "end": 70.03,
+      "en": "In summer, it is very hot.",
+      "cn": "夏天非常热。",
+      "para": 1,
+      "expect": 65.07,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 70.03,
+      "end": 76.71,
+      "en": "So my question for you is, is your house cold in winter?",
+      "cn": "所以我想问你的是：你家冬天冷吗？",
+      "para": 2,
+      "expect": 70.03,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 90,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

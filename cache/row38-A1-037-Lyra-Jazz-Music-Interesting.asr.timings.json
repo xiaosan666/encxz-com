@@ -1,0 +1,164 @@
+{
+  "mp3": "A1-037-Lyra-Jazz-Music-Interesting.mp3",
+  "duration": 59.72,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "10d823a68348d81d:694103:1788403894",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.75,
+      "end": 6.45,
+      "en": "Hello, my name is Lyra.",
+      "cn": "你好，我叫莱拉。",
+      "para": 0,
+      "expect": 0.75,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 6.45,
+      "end": 10.23,
+      "en": "I am from Kosovo.",
+      "cn": "我来自科索沃。",
+      "para": 0,
+      "expect": 6.45,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 10.23,
+      "end": 17.09,
+      "en": "My question is, is jazz music interesting?",
+      "cn": "我的问题是，爵士乐有意思吗？",
+      "para": 0,
+      "expect": 10.23,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 17.09,
+      "end": 19.19,
+      "en": "Yes.",
+      "cn": "有意思。",
+      "para": 1,
+      "expect": 17.09,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 19.19,
+      "end": 23.75,
+      "en": "Jazz music is very interesting.",
+      "cn": "爵士乐很有意思。",
+      "para": 1,
+      "expect": 19.19,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 23.75,
+      "end": 27.39,
+      "en": "I like this type of music.",
+      "cn": "我喜欢这种音乐。",
+      "para": 1,
+      "expect": 23.75,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 27.39,
+      "end": 31.23,
+      "en": "I sometimes listen to it.",
+      "cn": "我有时会听。",
+      "para": 1,
+      "expect": 27.39,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 31.23,
+      "end": 37.39,
+      "en": "Jazz music is not popular in my country.",
+      "cn": "在我的国家，爵士乐不流行",
+      "para": 1,
+      "expect": 31.23,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 37.39,
+      "end": 41.61,
+      "en": "This music is popular in America.",
+      "cn": "但在美国很流行。",
+      "para": 1,
+      "expect": 37.39,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 41.61,
+      "end": 47.81,
+      "en": "Jazz music sounds very unique.",
+      "cn": "爵士乐听起来非常独特。",
+      "para": 1,
+      "expect": 41.61,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 47.81,
+      "end": 52.85,
+      "en": "A lot of people love jazz music.",
+      "cn": "很多人都喜欢爵士乐。",
+      "para": 1,
+      "expect": 47.81,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 52.85,
+      "end": 55.45,
+      "en": "What do you think?",
+      "cn": "你觉得呢？",
+      "para": 2,
+      "expect": 52.85,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 55.45,
+      "end": 59.72,
+      "en": "Is jazz music interesting?",
+      "cn": "爵士乐有意思吗？",
+      "para": 2,
+      "expect": 55.45,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 68,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

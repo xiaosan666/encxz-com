@@ -1,0 +1,153 @@
+{
+  "mp3": "A1-011-DANDARA-HOUSE-APARTMENT-NEW.mp3",
+  "duration": 62.472,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "92408e25b527cd4a:578472:1788403920",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 1.1,
+      "end": 3.8,
+      "en": "Hello, my name is Dandara.",
+      "cn": "你好，我叫丹达拉",
+      "para": 0,
+      "expect": 1.1,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 3.8,
+      "end": 4.98,
+      "en": "I'm from Brazil.",
+      "cn": "来自巴西。",
+      "para": 0,
+      "expect": 3.8,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 4.98,
+      "end": 12.5,
+      "en": "And my question is, is your house or apartment new?",
+      "cn": "我的问题是：你的房子或公寓是新的吗？",
+      "para": 0,
+      "expect": 4.98,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 12.5,
+      "end": 16.26,
+      "en": "My apartment is not new.",
+      "cn": "我的公寓不是新的",
+      "para": 1,
+      "expect": 12.5,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 16.26,
+      "end": 21.12,
+      "en": "It is old, but comfortable.",
+      "cn": "有点旧，但住着很舒服",
+      "para": 1,
+      "expect": 16.26,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 21.12,
+      "end": 25.92,
+      "en": "I like living here.",
+      "cn": "我喜欢住在这儿。",
+      "para": 1,
+      "expect": 21.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 25.92,
+      "end": 29.68,
+      "en": "My apartment is in a busy area.",
+      "cn": "我的公寓在一个热闹的地段",
+      "para": 1,
+      "expect": 25.92,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 29.68,
+      "end": 36.88,
+      "en": "It is close to restaurants and shops.",
+      "cn": "离餐馆和商店都很近。",
+      "para": 1,
+      "expect": 29.68,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 36.88,
+      "end": 47.6,
+      "en": "The furniture in my apartment is very simple and it has some decorations.",
+      "cn": "家里的家具很简单，也有一些装饰品。",
+      "para": 1,
+      "expect": 36.88,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 47.6,
+      "end": 53.76,
+      "en": "My apartment is perfect for me.",
+      "cn": "这套公寓对我来说刚刚好。",
+      "para": 1,
+      "expect": 47.6,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 53.76,
+      "end": 57.04,
+      "en": "And what about you?",
+      "cn": "那你呢？",
+      "para": 2,
+      "expect": 53.76,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 57.04,
+      "end": 62.472,
+      "en": "Is your house or apartment new?",
+      "cn": "你的房子或公寓是新的吗？",
+      "para": 3,
+      "expect": 57.04,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 77,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

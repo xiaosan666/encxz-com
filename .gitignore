@@ -1,0 +1,49 @@
+# ============================================================
+# .gitignore —— 决定哪些文件【不进提交 / 不推送】
+# 规则从上到下匹配，! 开头为反选（重新纳入）
+# ============================================================
+
+# ---------- 1. Python 运行环境（可重建：pip install -r requirements.txt）----------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- 2. 本地模型缓存（1.9G，首次运行自动下载）----------
+models/
+
+# 注意：output/（生成的 mp4，192M）按需求【纳入版本管理】，故不在此排除。
+# 若日后想改为不传，在此加回 `output/` 即可。
+
+# ---------- 3. 表格自动备份 / 副本（工具每次写回都会生成）----------
+data/en.backup-*.xlsx
+data/en_副本.xlsx
+data/*.backup-*.xlsx
+~$*.xlsx
+*.xlsx~
+
+# ---------- 4. macOS / 编辑器 / 杂物 ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+:memory:.ses
+*.log
+.idea/
+.vscode/
+*.swp
+*~
+
+# ---------- 5. 保留目录本身（空目录 git 不跟踪）----------
+!cache/.gitkeep
+!work/.gitkeep

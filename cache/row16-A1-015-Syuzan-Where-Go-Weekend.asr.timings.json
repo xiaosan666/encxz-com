@@ -1,0 +1,230 @@
+{
+  "mp3": "A1-015-SYUZAN-WHERE-GO-WEEKEND.mp3",
+  "duration": 81.012,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "c762b329a3711c0b:786335:1788403911",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.75,
+      "end": 4.71,
+      "en": "Hello, my name is Susan.",
+      "cn": "你好，我叫苏珊",
+      "para": 0,
+      "expect": 0.75,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.71,
+      "end": 8.21,
+      "en": "I am from Armenia.",
+      "cn": "来自亚美尼亚。",
+      "para": 0,
+      "expect": 4.71,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 8.21,
+      "end": 14.39,
+      "en": "My question is, where do you go on the weekend?",
+      "cn": "我的问题是：你周末都去哪儿？",
+      "para": 0,
+      "expect": 8.21,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 14.39,
+      "end": 19.49,
+      "en": "I go to the beach every weekend.",
+      "cn": "每个周末我都去海边。",
+      "para": 1,
+      "expect": 14.39,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 19.49,
+      "end": 22.31,
+      "en": "I don't stay at home.",
+      "cn": "我不会待在家里，总是和朋友一起去。",
+      "para": 1,
+      "expect": 19.49,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 22.31,
+      "end": 29.05,
+      "en": "I always go there with my friend.",
+      "cn": "我不会待在家里，总是和朋友一起去。",
+      "para": 1,
+      "expect": 22.31,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 29.05,
+      "end": 33.53,
+      "en": "We spend a lot of time there.",
+      "cn": "我不会待在家里，总是和朋友一起去。",
+      "para": 1,
+      "expect": 29.05,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 33.53,
+      "end": 36.09,
+      "en": "We relax.",
+      "cn": "我们在那儿待很长时间，放松一下。",
+      "para": 1,
+      "expect": 33.53,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 36.09,
+      "end": 39.71,
+      "en": "I enjoy the view.",
+      "cn": "我们在那儿待很长时间，放松一下。",
+      "para": 1,
+      "expect": 36.09,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 39.71,
+      "end": 42.19,
+      "en": "I read a book.",
+      "cn": "我们在那儿待很长时间，放松一下。",
+      "para": 1,
+      "expect": 39.71,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 42.19,
+      "end": 44.89,
+      "en": "I do my lessons.",
+      "cn": "我喜欢看风景",
+      "para": 1,
+      "expect": 42.19,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 44.89,
+      "end": 46.89,
+      "en": "Usually I paint.",
+      "cn": "会读读书",
+      "para": 1,
+      "expect": 44.89,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 46.89,
+      "end": 53.33,
+      "en": "My friend doesn't paint with me.",
+      "cn": "也会做做功课，一般还会画画。",
+      "para": 1,
+      "expect": 46.89,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 53.33,
+      "end": 58.52,
+      "en": "She doesn't like it.",
+      "cn": "我朋友不跟我一起画",
+      "para": 1,
+      "expect": 53.33,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 58.52,
+      "end": 61.74,
+      "en": "She listens to music.",
+      "cn": "她不喜欢。",
+      "para": 1,
+      "expect": 58.52,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 61.74,
+      "end": 65.87,
+      "en": "She is always on her phone.",
+      "cn": "她会听音乐，一直抱着手机",
+      "para": 1,
+      "expect": 61.74,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 16,
+      "start": 65.87,
+      "end": 70.37,
+      "en": "She doesn't work there.",
+      "cn": "不在那儿干活",
+      "para": 1,
+      "expect": 65.87,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 17,
+      "start": 70.37,
+      "end": 75.33,
+      "en": "She just enjoys her time.",
+      "cn": "就是享受自己的时间。",
+      "para": 1,
+      "expect": 70.37,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 18,
+      "start": 75.33,
+      "end": 81.012,
+      "en": "And you, where do you go on the weekend?",
+      "cn": "那你呢，你周末都去哪儿？",
+      "para": 2,
+      "expect": 75.33,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 100,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

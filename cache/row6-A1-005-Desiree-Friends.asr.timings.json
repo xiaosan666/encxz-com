@@ -1,0 +1,122 @@
+{
+  "mp3": "A1-005-DESIREE-FRIENDS.mp3",
+  "duration": 65.532,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "c879264b4c109657:803671:1788403929",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95,
+    "duration_fixed_from": 63.04,
+    "duration_fixed_to": 65.532
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.82,
+      "end": 5.74,
+      "en": "Hello, my name is Desiree.",
+      "cn": "你好，我叫德西蕾",
+      "para": 0,
+      "expect": 0.82,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 5.74,
+      "end": 10.76,
+      "en": "I am from a country called South Africa.",
+      "cn": "我来自一个叫南非的国家。",
+      "para": 0,
+      "expect": 5.74,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 10.76,
+      "end": 18.74,
+      "en": "My question today is, who are your friends?",
+      "cn": "今天我要问的问题是：你的朋友都是谁？",
+      "para": 0,
+      "expect": 10.76,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 18.74,
+      "end": 26.925,
+      "en": "My friends are Candace, Lisa and Mandy.",
+      "cn": "我的朋友是坎迪斯、莉萨和曼迪。",
+      "para": 1,
+      "expect": 18.74,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 26.925,
+      "end": 36.3,
+      "en": "Candace has long brown hair and is really short.",
+      "cn": "坎迪斯有一头棕色的长发，个子特别矮。",
+      "para": 1,
+      "expect": 26.925,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 36.3,
+      "end": 42.1,
+      "en": "Mandy has blonde hair and is very funny.",
+      "cn": "曼迪是金发，特别逗，总能把我逗笑。",
+      "para": 1,
+      "expect": 36.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 42.1,
+      "end": 51.18,
+      "en": "She makes me laugh a lot, and Lisa lives all the way over in Wales.",
+      "cn": "莉萨住在很远的威尔士，我只能跟她",
+      "para": 1,
+      "expect": 42.1,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 51.18,
+      "end": 57.56,
+      "en": "I only speak to her on messages and I really miss her.",
+      "cn": "发消息聊天，真的很想她。",
+      "para": 1,
+      "expect": 51.18,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 57.56,
+      "end": 63.04,
+      "en": "My question for you is, who are your friends?",
+      "cn": "我要问你们的问题是：你的朋友都是谁？",
+      "para": 2,
+      "expect": 57.56,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 81,
+    "token_coverage": 0.988,
+    "low_confidence": false
+  },
+  "locked": false
+}

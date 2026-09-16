@@ -1,0 +1,363 @@
+{
+  "mp3": "A1-047-ELISABETH-ZOO.mp3",
+  "duration": 70.657,
+  "method": "silencedetect+dp",
+  "params": {
+    "noise_db": -35.0,
+    "min_sil_dur": 0.15,
+    "tol": 1.2
+  },
+  "silences": [
+    [
+      0.0,
+      0.728
+    ],
+    [
+      1.572,
+      1.722
+    ],
+    [
+      3.324,
+      3.705
+    ],
+    [
+      5.357,
+      5.766
+    ],
+    [
+      6.511,
+      6.745
+    ],
+    [
+      8.211,
+      8.553
+    ],
+    [
+      10.59,
+      10.759
+    ],
+    [
+      11.835,
+      13.242
+    ],
+    [
+      16.18,
+      16.555
+    ],
+    [
+      18.422,
+      18.576
+    ],
+    [
+      18.637,
+      19.275
+    ],
+    [
+      21.826,
+      22.023
+    ],
+    [
+      23.017,
+      23.419
+    ],
+    [
+      24.669,
+      25.059
+    ],
+    [
+      26.784,
+      26.953
+    ],
+    [
+      27.107,
+      27.731
+    ],
+    [
+      28.715,
+      29.297
+    ],
+    [
+      29.306,
+      29.913
+    ],
+    [
+      32.05,
+      33.284
+    ],
+    [
+      36.459,
+      37.323
+    ],
+    [
+      38.702,
+      39.123
+    ],
+    [
+      40.649,
+      40.862
+    ],
+    [
+      42.289,
+      42.535
+    ],
+    [
+      43.519,
+      44.025
+    ],
+    [
+      45.715,
+      46.262
+    ],
+    [
+      46.906,
+      47.119
+    ],
+    [
+      47.269,
+      47.436
+    ],
+    [
+      48.069,
+      48.728
+    ],
+    [
+      49.502,
+      49.903
+    ],
+    [
+      50.814,
+      51.813
+    ],
+    [
+      53.686,
+      54.376
+    ],
+    [
+      56.058,
+      56.702
+    ],
+    [
+      57.173,
+      57.49
+    ],
+    [
+      59.192,
+      59.484
+    ],
+    [
+      60.392,
+      60.777
+    ],
+    [
+      61.149,
+      61.363
+    ],
+    [
+      61.935,
+      62.169
+    ],
+    [
+      62.8,
+      63.002
+    ],
+    [
+      63.414,
+      64.213
+    ],
+    [
+      64.218,
+      64.622
+    ],
+    [
+      66.152,
+      66.445
+    ],
+    [
+      67.171,
+      67.327
+    ],
+    [
+      69.03,
+      70.657
+    ]
+  ],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.728,
+      "end": 3.705,
+      "en": "Hello, my name is Elizabeth.",
+      "cn": "你好，我叫伊丽莎白。",
+      "para": 0,
+      "expect": 0.728,
+      "source": "start",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 3.705,
+      "end": 12.538,
+      "en": "I am from America, and my question is, do you have a zoo in your town?",
+      "cn": "我来自美国。我的问题是，你们镇上有动物园吗？",
+      "para": 0,
+      "expect": 3.355,
+      "source": "pause",
+      "dev": 0.35
+    },
+    {
+      "i": 2,
+      "start": 12.538,
+      "end": 16.555,
+      "en": "I do not have a zoo in my town.",
+      "cn": "我们镇上没有动物园。",
+      "para": 1,
+      "expect": 11.761,
+      "source": "pause",
+      "dev": 0.777
+    },
+    {
+      "i": 3,
+      "start": 16.555,
+      "end": 18.576,
+      "en": "My town is small.",
+      "cn": "我们镇很小。",
+      "para": 1,
+      "expect": 16.49,
+      "source": "pause",
+      "dev": 0.065
+    },
+    {
+      "i": 4,
+      "start": 18.576,
+      "end": 20.693,
+      "en": "It has many animals.",
+      "cn": "那里有很多动物。",
+      "para": 1,
+      "expect": 18.591,
+      "source": "pause",
+      "dev": 0.015
+    },
+    {
+      "i": 5,
+      "start": 20.693,
+      "end": 32.667,
+      "en": "It has raccoons, it has squirrels, it has dogs and cats, it has ducks, but it does not have a zoo.",
+      "cn": "有浣熊、松鼠、狗、猫和鸭子，但没有动物园。",
+      "para": 1,
+      "expect": 20.693,
+      "source": "expect",
+      "dev": 1.33
+    },
+    {
+      "i": 6,
+      "start": 32.667,
+      "end": 35.93,
+      "en": "I visit the zoo in a another town.",
+      "cn": "我会去另一个镇的动物园。",
+      "para": 1,
+      "expect": 31.726,
+      "source": "pause",
+      "dev": 0.941
+    },
+    {
+      "i": 7,
+      "start": 35.93,
+      "end": 39.123,
+      "en": "It is a nice zoo.",
+      "cn": "那是个不错的动物园。",
+      "para": 1,
+      "expect": 35.93,
+      "source": "expect",
+      "dev": 1.393
+    },
+    {
+      "i": 8,
+      "start": 39.123,
+      "end": 40.862,
+      "en": "It is a small zoo.",
+      "cn": "它虽然不大，但很不错。",
+      "para": 1,
+      "expect": 38.557,
+      "source": "pause",
+      "dev": 0.566
+    },
+    {
+      "i": 9,
+      "start": 40.862,
+      "end": 46.262,
+      "en": "It does not have elephants, but it has giraffes.",
+      "cn": "那里没有大象，不过有长颈鹿。",
+      "para": 1,
+      "expect": 41.184,
+      "source": "pause",
+      "dev": 0.322
+    },
+    {
+      "i": 10,
+      "start": 46.262,
+      "end": 49.903,
+      "en": "It has big birds, it has zebras.",
+      "cn": "那里有大鸟和斑马。",
+      "para": 1,
+      "expect": 45.912,
+      "source": "pause",
+      "dev": 0.35
+    },
+    {
+      "i": 11,
+      "start": 49.903,
+      "end": 54.376,
+      "en": "It does not have tigers, it does not have lions.",
+      "cn": "那里没有老虎，也没有狮子。",
+      "para": 1,
+      "expect": 49.59,
+      "source": "pause",
+      "dev": 0.313
+    },
+    {
+      "i": 12,
+      "start": 54.376,
+      "end": 59.484,
+      "en": "But I love to visit the zoo.",
+      "cn": "不过我很喜欢去动物园。",
+      "para": 1,
+      "expect": 54.844,
+      "source": "pause",
+      "dev": 0.468
+    },
+    {
+      "i": 13,
+      "start": 59.484,
+      "end": 62.169,
+      "en": "I can feed the farm animals there.",
+      "cn": "我可以在那里喂农场动物。",
+      "para": 1,
+      "expect": 58.522,
+      "source": "pause",
+      "dev": 0.962
+    },
+    {
+      "i": 14,
+      "start": 62.169,
+      "end": 69.03,
+      "en": "My question for you is, do you have a zoo in your town?",
+      "cn": "我想问你的是，你们镇上有动物园吗？",
+      "para": 2,
+      "expect": 62.2,
+      "source": "pause",
+      "dev": 0.031
+    }
+  ],
+  "quality": {
+    "mean_dev": 0.563,
+    "max_dev": 1.393,
+    "pause_cuts": 12,
+    "total_cuts": 14,
+    "cut_coverage": 0.857,
+    "speech_span": [
+      0.728,
+      69.03
+    ]
+  },
+  "locked": false
+}

@@ -1,0 +1,4 @@
+pillow>=10.0
+openpyxl>=3.1
+# 语音识别对齐（默认的同步方案）。不装的话用 --align-engine silence 回退。
+faster-whisper>=1.0

@@ -1,0 +1,188 @@
+{
+  "mp3": "B2-032-DANIEL-FRIEND-QUALITY.mp3",
+  "duration": 73.104,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "effbbfde160115d3:438624:1789373275",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95,
+    "duration_fixed_from": 72.08,
+    "duration_fixed_to": 73.104
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.0,
+      "end": 3.94,
+      "en": "Hi, my name is Daniel and I'm from Ireland.",
+      "cn": "嗨，我叫丹尼尔，来自爱尔兰。",
+      "para": 0,
+      "expect": 0.0,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 3.94,
+      "end": 8.34,
+      "en": "My question is, what is the most important quality in a friend?",
+      "cn": "我的问题是：你觉得朋友最重要的品质是什么？",
+      "para": 0,
+      "expect": 3.94,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 8.34,
+      "end": 13.38,
+      "en": "That's an interesting question, and I've thought about it quite a bit over the years.",
+      "cn": "这个问题挺有意思，这些年我也认真想过。",
+      "para": 1,
+      "expect": 8.34,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 13.38,
+      "end": 17.66,
+      "en": "If I had to choose just one quality, I would say honesty.",
+      "cn": "如果只能选一个，我会说是诚实。",
+      "para": 1,
+      "expect": 13.38,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 17.66,
+      "end": 19.88,
+      "en": "The reason is simple.",
+      "cn": "原因很简单：",
+      "para": 1,
+      "expect": 17.66,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 19.88,
+      "end": 24.8,
+      "en": "A friendship can survive almost anything, but it can't survive dishonesty.",
+      "cn": "一段友谊几乎能扛住任何事，却扛不住欺骗。",
+      "para": 1,
+      "expect": 19.88,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 24.8,
+      "end": 31.56,
+      "en": "If a friend lies to me, even about something small, I start to question everything else they've told me.",
+      "cn": "如果一个朋友对我撒谎，哪怕是很小的事，我也会开始怀疑他跟我说过的其他所有话。",
+      "para": 1,
+      "expect": 24.8,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 31.56,
+      "end": 35.72,
+      "en": "Of course, there are other things that matter a great deal.",
+      "cn": "当然，还有其他一些东西也很重要。",
+      "para": 2,
+      "expect": 31.56,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 35.72,
+      "end": 39.88,
+      "en": "Loyalty is important, and so is the ability to listen.",
+      "cn": "忠诚很重要，倾听的能力也很重要。",
+      "para": 2,
+      "expect": 35.72,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 39.88,
+      "end": 47.86,
+      "en": "I have a friend who is terrible at giving advice, but he is wonderful at listening, and honestly, that's usually what I need.",
+      "cn": "我有个朋友，给建议特别不在行，但特别会听人说话——说实话，我需要的往往就是这个。",
+      "para": 2,
+      "expect": 39.88,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 47.86,
+      "end": 50.14,
+      "en": "Kindness matters too.",
+      "cn": "善良也很重要。",
+      "para": 2,
+      "expect": 47.86,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 50.14,
+      "end": 55.26,
+      "en": "I think you can tell a lot about a person by how they treat people who can do nothing for them.",
+      "cn": "我觉得，看一个人怎么对待那些对他毫无用处的人，就能看出很多东西。",
+      "para": 2,
+      "expect": 50.14,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 55.26,
+      "end": 62.68,
+      "en": "But if I'm being honest, what I value most is a friend who tells me the truth, even when the truth is uncomfortable.",
+      "cn": "不过说心里话，我最看重的还是那种愿意跟我说真话的朋友，哪怕真话让人不舒服。",
+      "para": 3,
+      "expect": 55.26,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 62.68,
+      "end": 68.16,
+      "en": "That kind of friend is hard to find, and when you find one, you should hold on to them.",
+      "cn": "这样的朋友很难遇到，遇到了就该好好珍惜。",
+      "para": 3,
+      "expect": 62.68,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 68.16,
+      "end": 72.08,
+      "en": "So my question for you is, what is the most important quality in a friend?",
+      "cn": "那么我想问你：你觉得朋友最重要的品质是什么？",
+      "para": 4,
+      "expect": 68.16,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 207,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

@@ -1,0 +1,164 @@
+{
+  "mp3": "A1-022-Miyu-Do-You-Want-a-New-Pet.mp3",
+  "duration": 49.387,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "308010bd422f0a42:588034:1788403905",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 1.07,
+      "end": 4.99,
+      "en": "Hello, my name is Miyu.",
+      "cn": "你好，我叫美优。",
+      "para": 0,
+      "expect": 1.07,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.99,
+      "end": 8.01,
+      "en": "I'm from Japan.",
+      "cn": "我来自日本。",
+      "para": 0,
+      "expect": 4.99,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 8.01,
+      "end": 12.73,
+      "en": "My question is, do you want a new pet?",
+      "cn": "我的问题是，你想养新宠物吗？",
+      "para": 0,
+      "expect": 8.01,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 12.73,
+      "end": 16.15,
+      "en": "Yes, I want a pet.",
+      "cn": "想啊，我想养宠物。",
+      "para": 1,
+      "expect": 12.73,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 16.15,
+      "end": 20.09,
+      "en": "I don't have a pet now.",
+      "cn": "我现在还没养。",
+      "para": 1,
+      "expect": 16.15,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 20.09,
+      "end": 22.97,
+      "en": "I want a cat.",
+      "cn": "我想养只猫",
+      "para": 1,
+      "expect": 20.09,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 22.97,
+      "end": 26.53,
+      "en": "They are cute and furry.",
+      "cn": "猫咪又可爱毛又软。",
+      "para": 1,
+      "expect": 22.97,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 26.53,
+      "end": 30.53,
+      "en": "I also want a parrot.",
+      "cn": "我还想养只鹦鹉",
+      "para": 1,
+      "expect": 26.53,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 30.53,
+      "end": 35.15,
+      "en": "They are very cute and colorful.",
+      "cn": "鹦鹉特别可爱，颜色也鲜艳",
+      "para": 1,
+      "expect": 30.53,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 35.15,
+      "end": 39.61,
+      "en": "They can talk and sing.",
+      "cn": "还会说话、会唱歌。",
+      "para": 1,
+      "expect": 35.15,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 39.61,
+      "end": 42.81,
+      "en": "I don't want a lizard.",
+      "cn": "我不想养蜥蜴",
+      "para": 1,
+      "expect": 39.61,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 42.81,
+      "end": 45.77,
+      "en": "They eat insects.",
+      "cn": "蜥蜴吃虫子。",
+      "para": 1,
+      "expect": 42.81,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 45.77,
+      "end": 49.387,
+      "en": "Do you want a new pet?",
+      "cn": "你想养新宠物吗？",
+      "para": 2,
+      "expect": 45.77,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 67,
+    "token_coverage": 0.985,
+    "low_confidence": false
+  },
+  "locked": false
+}

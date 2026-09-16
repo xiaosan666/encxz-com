@@ -1,0 +1,98 @@
+{
+  "mp3": "A1-020-Billie-What-Your-Schedule-Today.mp3",
+  "duration": 64.039,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "f6d14f4dfee20f0a:748807:1788403907",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.62,
+      "end": 8.84,
+      "en": "Hi, my name is Billy and I live in South Africa.",
+      "cn": "嗨，我叫比利，我住在南非。",
+      "para": 0,
+      "expect": 0.62,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 8.84,
+      "end": 18.42,
+      "en": "Today I will talk about what is on my schedule today.",
+      "cn": "今天我来聊聊我今天的安排。",
+      "para": 0,
+      "expect": 8.84,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 18.42,
+      "end": 23.82,
+      "en": "What is on my schedule today?",
+      "cn": "我今天的安排是什么呢？",
+      "para": 1,
+      "expect": 18.42,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 23.82,
+      "end": 33.46,
+      "en": "Today is big holiday, so I don't go to work.",
+      "cn": "今天是个大节日，所以我不用上班。",
+      "para": 1,
+      "expect": 23.82,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 33.46,
+      "end": 54.86,
+      "en": "I want to clean my house, and I want to cook a very good meal or food for dinner.",
+      "cn": "我想打扫一下房子，还想做一顿特别好吃的晚饭。",
+      "para": 1,
+      "expect": 33.46,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 54.86,
+      "end": 62.56,
+      "en": "My schedule is not busy today, so I am happy.",
+      "cn": "今天的安排不忙，所以我挺开心的。",
+      "para": 1,
+      "expect": 54.86,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 62.56,
+      "end": 64.039,
+      "en": "Bye.",
+      "cn": "拜拜。",
+      "para": 1,
+      "expect": 62.56,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 68,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

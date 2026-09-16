@@ -1,0 +1,300 @@
+{
+  "mp3": "A1-048-MIYU-WHERE-DO-YOU-EAT-LUNCH.mp3",
+  "duration": 54.333,
+  "method": "silencedetect+dp",
+  "params": {
+    "noise_db": -35.0,
+    "min_sil_dur": 0.15,
+    "tol": 1.2
+  },
+  "silences": [
+    [
+      0.0,
+      0.52
+    ],
+    [
+      0.584,
+      0.999
+    ],
+    [
+      1.455,
+      2.307
+    ],
+    [
+      3.934,
+      4.684
+    ],
+    [
+      5.963,
+      7.083
+    ],
+    [
+      8.343,
+      8.708
+    ],
+    [
+      10.29,
+      11.63
+    ],
+    [
+      12.452,
+      12.607
+    ],
+    [
+      14.608,
+      15.737
+    ],
+    [
+      16.766,
+      16.968
+    ],
+    [
+      18.137,
+      19.272
+    ],
+    [
+      21.073,
+      22.809
+    ],
+    [
+      23.814,
+      23.964
+    ],
+    [
+      24.745,
+      24.917
+    ],
+    [
+      25.641,
+      26.701
+    ],
+    [
+      28.554,
+      30.054
+    ],
+    [
+      31.096,
+      31.253
+    ],
+    [
+      32.396,
+      34.077
+    ],
+    [
+      35.14,
+      35.554
+    ],
+    [
+      36.985,
+      37.384
+    ],
+    [
+      38.406,
+      39.933
+    ],
+    [
+      40.733,
+      40.94
+    ],
+    [
+      41.811,
+      43.684
+    ],
+    [
+      44.47,
+      44.816
+    ],
+    [
+      45.317,
+      45.498
+    ],
+    [
+      46.894,
+      47.533
+    ],
+    [
+      47.535,
+      47.921
+    ],
+    [
+      48.642,
+      48.884
+    ],
+    [
+      49.871,
+      51.288
+    ],
+    [
+      52.782,
+      54.333
+    ]
+  ],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.52,
+      "end": 4.684,
+      "en": "Hello, my name is Miyu.",
+      "cn": "你好，我叫美优。",
+      "para": 0,
+      "expect": 0.52,
+      "source": "start",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.684,
+      "end": 6.523,
+      "en": "I'm from Japan.",
+      "cn": "我来自日本。",
+      "para": 0,
+      "expect": 3.828,
+      "source": "pause",
+      "dev": 0.856
+    },
+    {
+      "i": 2,
+      "start": 6.523,
+      "end": 10.96,
+      "en": "My question is, where do you eat lunch?",
+      "cn": "我的问题是，你在哪里吃午饭？",
+      "para": 0,
+      "expect": 5.812,
+      "source": "pause",
+      "dev": 0.711
+    },
+    {
+      "i": 3,
+      "start": 10.96,
+      "end": 15.737,
+      "en": "I normally eat lunch at the cafeteria.",
+      "cn": "我通常在食堂吃午饭。",
+      "para": 1,
+      "expect": 11.105,
+      "source": "pause",
+      "dev": 0.145
+    },
+    {
+      "i": 4,
+      "start": 15.737,
+      "end": 19.272,
+      "en": "The cafeteria is in the office.",
+      "cn": "食堂在办公室里，在一楼。",
+      "para": 1,
+      "expect": 15.736,
+      "source": "pause",
+      "dev": 0.001
+    },
+    {
+      "i": 5,
+      "start": 19.272,
+      "end": 23.964,
+      "en": "It is on the ground floor.",
+      "cn": "食堂在办公室里，在一楼。",
+      "para": 1,
+      "expect": 19.705,
+      "source": "pause",
+      "dev": 0.433
+    },
+    {
+      "i": 6,
+      "start": 23.964,
+      "end": 26.701,
+      "en": "The cafeteria has many options.",
+      "cn": "食堂有很多选择。",
+      "para": 1,
+      "expect": 23.674,
+      "source": "pause",
+      "dev": 0.29
+    },
+    {
+      "i": 7,
+      "start": 26.701,
+      "end": 30.054,
+      "en": "I eat noodles a lot.",
+      "cn": "我经常吃面条。",
+      "para": 1,
+      "expect": 26.982,
+      "source": "pause",
+      "dev": 0.281
+    },
+    {
+      "i": 8,
+      "start": 30.054,
+      "end": 33.236,
+      "en": "I sometimes eat sandwiches.",
+      "cn": "有时候也吃三明治。",
+      "para": 1,
+      "expect": 30.289,
+      "source": "pause",
+      "dev": 0.235
+    },
+    {
+      "i": 9,
+      "start": 33.236,
+      "end": 37.384,
+      "en": "The cafeteria doesn't have pizza or hamburgers.",
+      "cn": "食堂没有披萨或汉堡包。",
+      "para": 1,
+      "expect": 32.936,
+      "source": "pause",
+      "dev": 0.3
+    },
+    {
+      "i": 10,
+      "start": 37.384,
+      "end": 40.94,
+      "en": "The food is very cheap.",
+      "cn": "这里的食物很便宜。",
+      "para": 1,
+      "expect": 37.566,
+      "source": "pause",
+      "dev": 0.182
+    },
+    {
+      "i": 11,
+      "start": 40.94,
+      "end": 45.498,
+      "en": "My colleague does not eat in the cafeteria.",
+      "cn": "我的同事不在食堂吃饭。",
+      "para": 1,
+      "expect": 40.874,
+      "source": "pause",
+      "dev": 0.066
+    },
+    {
+      "i": 12,
+      "start": 45.498,
+      "end": 48.884,
+      "en": "She eats at her desk.",
+      "cn": "她在自己的办公桌前吃。",
+      "para": 1,
+      "expect": 46.167,
+      "source": "pause",
+      "dev": 0.669
+    },
+    {
+      "i": 13,
+      "start": 48.884,
+      "end": 52.782,
+      "en": "Where do you have lunch?",
+      "cn": "你通常在哪里吃午饭？",
+      "para": 2,
+      "expect": 49.474,
+      "source": "pause",
+      "dev": 0.59
+    }
+  ],
+  "quality": {
+    "mean_dev": 0.366,
+    "max_dev": 0.856,
+    "pause_cuts": 13,
+    "total_cuts": 13,
+    "cut_coverage": 1.0,
+    "speech_span": [
+      0.52,
+      52.782
+    ]
+  },
+  "locked": false
+}

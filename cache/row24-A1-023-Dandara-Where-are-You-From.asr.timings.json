@@ -1,0 +1,153 @@
+{
+  "mp3": "A1-023-Dandara-Where-are-You-From.mp3",
+  "duration": 59.186,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "6e2a50fe246c157a:532113:1788403904",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.78,
+      "end": 3.26,
+      "en": "Hello, my name is Dandara.",
+      "cn": "你好，我叫丹达拉。",
+      "para": 0,
+      "expect": 0.78,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 3.26,
+      "end": 9.16,
+      "en": "I'm from Brazil, and my question is, where are you from?",
+      "cn": "我来自巴西。我的问题是，你来自哪里？",
+      "para": 0,
+      "expect": 3.26,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 9.16,
+      "end": 11.15,
+      "en": "I'm from Sao Paulo.",
+      "cn": "我来自圣保罗。",
+      "para": 1,
+      "expect": 9.16,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 11.15,
+      "end": 14.84,
+      "en": "Sao Paulo is a big city.",
+      "cn": "圣保罗是座大城市",
+      "para": 1,
+      "expect": 11.15,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 14.84,
+      "end": 18.92,
+      "en": "There are many people here.",
+      "cn": "人特别多。",
+      "para": 1,
+      "expect": 14.84,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 18.92,
+      "end": 26.35,
+      "en": "People often travel to Sao Paulo to find a new job.",
+      "cn": "很多人会来圣保罗找工作。",
+      "para": 1,
+      "expect": 18.92,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 26.35,
+      "end": 30.65,
+      "en": "I live with my friends here.",
+      "cn": "我在这儿跟朋友一起住",
+      "para": 1,
+      "expect": 26.35,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 30.65,
+      "end": 35.65,
+      "en": "My family lives in another city.",
+      "cn": "我家人住在另一个城市。",
+      "para": 1,
+      "expect": 30.65,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 35.65,
+      "end": 43.37,
+      "en": "I love Sao Paulo because there are many things to do here.",
+      "cn": "我很喜欢圣保罗，因为这儿能做的事情很多",
+      "para": 1,
+      "expect": 35.65,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 43.37,
+      "end": 53.25,
+      "en": "For example, you can go shopping, visit museums, and go to different restaurants.",
+      "cn": "比如逛街、逛博物馆、去各种各样的餐馆。",
+      "para": 1,
+      "expect": 43.37,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 53.25,
+      "end": 55.75,
+      "en": "What about you?",
+      "cn": "你呢？",
+      "para": 2,
+      "expect": 53.25,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 55.75,
+      "end": 59.186,
+      "en": "Where are you from?",
+      "cn": "你来自哪里？",
+      "para": 2,
+      "expect": 55.75,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 89,
+    "token_coverage": 0.953,
+    "low_confidence": false
+  },
+  "locked": false
+}
