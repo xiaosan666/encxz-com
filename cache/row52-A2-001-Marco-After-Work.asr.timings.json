@@ -1,0 +1,208 @@
+{
+  "mp3": "A2-001-Marco-After-Work.mp3",
+  "duration": 54.504,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "931d7d1361b16da3:327024:1789373061",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.0,
+      "end": 3.56,
+      "en": "Hi, my name is Marco and I'm from Spain.",
+      "cn": "嗨，我叫马尔科，来自西班牙。",
+      "para": 0,
+      "expect": 0.0,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 3.56,
+      "end": 7.62,
+      "en": "My question is, what do you usually do after work?",
+      "cn": "我的问题是：你下班后通常做什么？",
+      "para": 0,
+      "expect": 3.56,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 7.62,
+      "end": 11.32,
+      "en": "On most days, I finish work at six o'clock.",
+      "cn": "大多数时候，我六点下班。",
+      "para": 1,
+      "expect": 7.62,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 11.32,
+      "end": 14.42,
+      "en": "After work, I usually go to the gym.",
+      "cn": "下班后我一般去健身房",
+      "para": 1,
+      "expect": 11.32,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 14.42,
+      "end": 16.88,
+      "en": "I go there three times a week.",
+      "cn": "一周去三次。",
+      "para": 1,
+      "expect": 14.42,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 16.88,
+      "end": 20.26,
+      "en": "I run on the treadmill and I lift some weights.",
+      "cn": "我会在跑步机上跑一跑，再练点力量。",
+      "para": 1,
+      "expect": 16.88,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 20.26,
+      "end": 23.66,
+      "en": "After the gym, I go home and I take a shower.",
+      "cn": "健身完就回家洗澡，然后做晚饭。",
+      "para": 1,
+      "expect": 20.26,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 23.66,
+      "end": 25.76,
+      "en": "Then I cook dinner.",
+      "cn": "我不做什么复杂的菜，通常就是拌个沙拉、煮点意大利面。",
+      "para": 1,
+      "expect": 23.66,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 25.76,
+      "end": 28.04,
+      "en": "I don't cook anything difficult.",
+      "cn": "我不做什么复杂的菜，通常就是拌个沙拉、煮点意大利面。",
+      "para": 1,
+      "expect": 25.76,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 28.04,
+      "end": 31.3,
+      "en": "I usually make a salad and some pasta.",
+      "cn": "我不做什么复杂的菜，通常就是拌个沙拉、煮点意大利面。",
+      "para": 1,
+      "expect": 28.04,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 31.3,
+      "end": 35.2,
+      "en": "After dinner, I watch a little TV or I read.",
+      "cn": "吃完晚饭，我会看会儿电视或者看看书。",
+      "para": 1,
+      "expect": 31.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 35.2,
+      "end": 38.64,
+      "en": "I don't stay up late because I start work early.",
+      "cn": "我不熬夜，因为上班早。",
+      "para": 1,
+      "expect": 35.2,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 38.64,
+      "end": 41.42,
+      "en": "On Fridays, I do something different.",
+      "cn": "不过周五就不一样了",
+      "para": 1,
+      "expect": 38.64,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 41.42,
+      "end": 45.96,
+      "en": "I meet my friends at a cafe, and we talk for a few hours.",
+      "cn": "我会和朋友在咖啡馆见面，一聊就是好几个小时。",
+      "para": 1,
+      "expect": 41.42,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 45.96,
+      "end": 49.88,
+      "en": "So my weekdays are quiet, but my Friday nights are fun.",
+      "cn": "所以我的工作日挺安静，但周五晚上很有意思。",
+      "para": 1,
+      "expect": 45.96,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 49.88,
+      "end": 51.66,
+      "en": "What about you?",
+      "cn": "你呢？",
+      "para": 2,
+      "expect": 49.88,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 16,
+      "start": 51.66,
+      "end": 54.504,
+      "en": "What do you usually do after work?",
+      "cn": "你下班后通常做什么？",
+      "para": 2,
+      "expect": 51.66,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 143,
+    "token_coverage": 0.986,
+    "low_confidence": false
+  },
+  "locked": false
+}

@@ -1,0 +1,219 @@
+{
+  "mp3": "A1-040-Elisabeth-Who-Meet-Every-Day.mp3",
+  "duration": 70.355,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "a8e77593219f09ec:707325:1788403893",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.72,
+      "end": 3.84,
+      "en": "Hello, my name is Elizabeth.",
+      "cn": "你好，我叫伊丽莎白。",
+      "para": 0,
+      "expect": 0.72,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 3.84,
+      "end": 12.42,
+      "en": "I am from America, and my question is, who do you meet every day?",
+      "cn": "我来自美国。我的问题是，你每天会见到谁？",
+      "para": 0,
+      "expect": 3.84,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 12.42,
+      "end": 15.38,
+      "en": "I meet my friend every day.",
+      "cn": "我每天都会见我的朋友。",
+      "para": 1,
+      "expect": 12.42,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 15.38,
+      "end": 17.4,
+      "en": "Her name is Megan.",
+      "cn": "她叫梅根。",
+      "para": 1,
+      "expect": 15.38,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 17.4,
+      "end": 20.08,
+      "en": "She is tall.",
+      "cn": "她个子很高",
+      "para": 1,
+      "expect": 17.4,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 20.08,
+      "end": 22.32,
+      "en": "She has brown hair.",
+      "cn": "留着棕色头发。",
+      "para": 1,
+      "expect": 20.08,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 22.32,
+      "end": 26.9,
+      "en": "I drive to a coffee shop every morning.",
+      "cn": "我每天早上开车去一家咖啡店。",
+      "para": 1,
+      "expect": 22.32,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 26.9,
+      "end": 28.3,
+      "en": "I see her there.",
+      "cn": "我会在那里见到她。",
+      "para": 1,
+      "expect": 26.9,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 28.3,
+      "end": 32.1,
+      "en": "Megan works at the coffee shop.",
+      "cn": "梅根在咖啡店工作。",
+      "para": 1,
+      "expect": 28.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 32.1,
+      "end": 34.34,
+      "en": "I order tea.",
+      "cn": "我会点茶",
+      "para": 1,
+      "expect": 32.1,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 34.34,
+      "end": 38.38,
+      "en": "I sometimes order a sweet snack.",
+      "cn": "有时也会点甜点。",
+      "para": 1,
+      "expect": 34.34,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 38.38,
+      "end": 42.16,
+      "en": "I talk with Megan about work.",
+      "cn": "关于工作，我会和梅根聊天。",
+      "para": 1,
+      "expect": 38.38,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 42.16,
+      "end": 46.14,
+      "en": "I do not talk about problems.",
+      "cn": "我不会谈论麻烦事。",
+      "para": 1,
+      "expect": 42.16,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 46.14,
+      "end": 51.08,
+      "en": "She talks to me about events at the coffee shop.",
+      "cn": "她会跟我说咖啡店里的活动。",
+      "para": 1,
+      "expect": 46.14,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 51.08,
+      "end": 57.46,
+      "en": "I do not meet my other friend, Madison, every day.",
+      "cn": "我的另一个朋友麦迪逊不是每天都见。",
+      "para": 1,
+      "expect": 51.08,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 57.46,
+      "end": 60.24,
+      "en": "She works at a hospital.",
+      "cn": "她在一家医院工作。",
+      "para": 1,
+      "expect": 57.46,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 16,
+      "start": 60.24,
+      "end": 65.12,
+      "en": "I meet her on Saturday and Sunday.",
+      "cn": "我只有周六和周日才见她。",
+      "para": 1,
+      "expect": 60.24,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 17,
+      "start": 65.12,
+      "end": 70.355,
+      "en": "My question for you is who do you meet every day?",
+      "cn": "我想问你的是，你每天会见到谁？",
+      "para": 2,
+      "expect": 65.12,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 118,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

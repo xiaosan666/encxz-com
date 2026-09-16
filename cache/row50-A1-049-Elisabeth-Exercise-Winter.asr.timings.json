@@ -1,0 +1,230 @@
+{
+  "mp3": "A1-049-Elisabeth-Exercise-Winter.mp3",
+  "duration": 73.002,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "0467be547fece88d:726996:1788403885",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.94,
+      "end": 4.42,
+      "en": "Hello, my name is Elizabeth.",
+      "cn": "你好，我叫伊丽莎白。",
+      "para": 0,
+      "expect": 0.94,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.42,
+      "end": 6.46,
+      "en": "I am from America.",
+      "cn": "我来自美国。",
+      "para": 0,
+      "expect": 4.42,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 6.46,
+      "end": 13.4,
+      "en": "And my question is, do you exercise in winter?",
+      "cn": "我的问题是，你冬天锻炼吗？",
+      "para": 0,
+      "expect": 6.46,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 13.4,
+      "end": 17.12,
+      "en": "Yes, I exercise in winter.",
+      "cn": "是的，我冬天会锻炼。",
+      "para": 1,
+      "expect": 13.4,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 17.12,
+      "end": 20.26,
+      "en": "I like to walk my dog.",
+      "cn": "我喜欢遛狗。",
+      "para": 1,
+      "expect": 17.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 20.26,
+      "end": 22.42,
+      "en": "I walk my dog to the park.",
+      "cn": "我带狗去公园。",
+      "para": 1,
+      "expect": 20.26,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 22.42,
+      "end": 27.32,
+      "en": "I walk two hours a day.",
+      "cn": "我每天走路两个小时。",
+      "para": 1,
+      "expect": 22.42,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 27.32,
+      "end": 30.44,
+      "en": "I do not belong to a gym.",
+      "cn": "我不去健身房。",
+      "para": 1,
+      "expect": 27.32,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 30.44,
+      "end": 34.0,
+      "en": "I like to exercise by myself.",
+      "cn": "我喜欢自己锻炼。",
+      "para": 1,
+      "expect": 30.44,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 34.0,
+      "end": 38.52,
+      "en": "I lift weights at my house.",
+      "cn": "我在家里举重。",
+      "para": 1,
+      "expect": 34.0,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 38.52,
+      "end": 41.92,
+      "en": "I ride my bike.",
+      "cn": "我骑自行车。",
+      "para": 1,
+      "expect": 38.52,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 41.92,
+      "end": 48.02,
+      "en": "It is cold outside, but I like to exercise inside.",
+      "cn": "外面很冷，但我喜欢在室内锻炼。",
+      "para": 1,
+      "expect": 41.92,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 48.02,
+      "end": 49.78,
+      "en": "I run outside.",
+      "cn": "我会在外面跑步。",
+      "para": 1,
+      "expect": 48.02,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 49.78,
+      "end": 53.46,
+      "en": "I run with my friend on the street.",
+      "cn": "我和朋友一起在街上跑步。",
+      "para": 1,
+      "expect": 49.78,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 53.46,
+      "end": 55.66,
+      "en": "I run twice a week.",
+      "cn": "我每周跑两次。",
+      "para": 1,
+      "expect": 53.46,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 55.66,
+      "end": 60.8,
+      "en": "I like to race, so I need to practice.",
+      "cn": "我喜欢比赛，所以我需要练习。",
+      "para": 1,
+      "expect": 55.66,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 16,
+      "start": 60.8,
+      "end": 64.08,
+      "en": "Yes, I like to exercise in winter.",
+      "cn": "是的，我喜欢在冬天锻炼。",
+      "para": 1,
+      "expect": 60.8,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 17,
+      "start": 64.08,
+      "end": 67.52,
+      "en": "It is not as hot as summer.",
+      "cn": "冬天没有夏天那么热。",
+      "para": 1,
+      "expect": 64.08,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 18,
+      "start": 67.52,
+      "end": 73.002,
+      "en": "My question for you is, do you exercise in winter?",
+      "cn": "我想问你的是，你冬天锻炼吗？",
+      "para": 2,
+      "expect": 67.52,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 125,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

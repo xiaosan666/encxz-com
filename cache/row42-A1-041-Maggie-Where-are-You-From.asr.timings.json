@@ -1,0 +1,153 @@
+{
+  "mp3": "A1-041-Maggie-Where-are-You-From.mp3",
+  "duration": 66.895,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "5e1e836af44af997:657198:1788403892",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.46,
+      "end": 3.76,
+      "en": "Hi, my name is Maggie.",
+      "cn": "你好，我叫玛吉。",
+      "para": 0,
+      "expect": 0.46,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 3.76,
+      "end": 10.22,
+      "en": "I am from America, and my question is, where are you from?",
+      "cn": "我来自美国。我的问题是，你来自哪里？",
+      "para": 0,
+      "expect": 3.76,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 10.22,
+      "end": 13.32,
+      "en": "I am from Springfield.",
+      "cn": "我来自斯普林菲尔德。",
+      "para": 1,
+      "expect": 10.22,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 13.32,
+      "end": 17.32,
+      "en": "Springfield is a city in America.",
+      "cn": "斯普林菲尔德是美国的一座城市。",
+      "para": 1,
+      "expect": 13.32,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 17.32,
+      "end": 23.54,
+      "en": "There are 67 cities in America named Springfield.",
+      "cn": "美国有67个叫斯普林菲尔德的城市。",
+      "para": 1,
+      "expect": 17.32,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 23.54,
+      "end": 28.98,
+      "en": "I am from the Springfield that is in Missouri.",
+      "cn": "我来自密苏里州的斯普林菲尔德。",
+      "para": 1,
+      "expect": 23.54,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 28.98,
+      "end": 35.34,
+      "en": "Missouri is a state in the middle of America.",
+      "cn": "密苏里州位于美国中部。",
+      "para": 1,
+      "expect": 28.98,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 35.34,
+      "end": 38.3,
+      "en": "I like Springfield.",
+      "cn": "我很喜欢斯普林菲尔德。",
+      "para": 1,
+      "expect": 35.34,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 38.3,
+      "end": 45.2,
+      "en": "My Springfield is not big, but there are many things to do.",
+      "cn": "我的斯普林菲尔德不大，但有很多事情可做。",
+      "para": 2,
+      "expect": 38.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 45.2,
+      "end": 51.74,
+      "en": "There are many restaurants, parks, and shops.",
+      "cn": "这里有很多餐馆、公园和商店。",
+      "para": 2,
+      "expect": 45.2,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 51.74,
+      "end": 64.42,
+      "en": "There are not any beaches in Springfield, and there are not any mountains, but there are many rivers and lakes.",
+      "cn": "斯普林菲尔德没有海滩，也没有山，但有很多河流和湖泊。",
+      "para": 2,
+      "expect": 51.74,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 64.42,
+      "end": 66.895,
+      "en": "Where are you from?",
+      "cn": "你来自哪里？",
+      "para": 3,
+      "expect": 64.42,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 98,
+    "token_coverage": 0.96,
+    "low_confidence": false
+  },
+  "locked": false
+}

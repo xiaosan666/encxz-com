@@ -1,0 +1,186 @@
+{
+  "mp3": "A1-047-Elisabeth-Zoo.mp3",
+  "duration": 70.657,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "7cb5420947f1e1bd:734454:1788403887",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.62,
+      "end": 3.52,
+      "en": "Hello, my name is Elizabeth.",
+      "cn": "你好，我叫伊丽莎白。",
+      "para": 0,
+      "expect": 0.62,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 3.52,
+      "end": 12.74,
+      "en": "I am from America, and my question is, do you have a zoo in your town?",
+      "cn": "我来自美国。我的问题是，你们镇上有动物园吗？",
+      "para": 0,
+      "expect": 3.52,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 12.74,
+      "end": 16.36,
+      "en": "I do not have a zoo in my town.",
+      "cn": "我们镇上没有动物园。",
+      "para": 1,
+      "expect": 12.74,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 16.36,
+      "end": 18.98,
+      "en": "My town is small.",
+      "cn": "我们镇很小。",
+      "para": 1,
+      "expect": 16.36,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 18.98,
+      "end": 20.9,
+      "en": "It has many animals.",
+      "cn": "那里有很多动物。",
+      "para": 1,
+      "expect": 18.98,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 20.9,
+      "end": 32.64,
+      "en": "It has raccoons, it has squirrels, it has dogs and cats, it has ducks, but it does not have a zoo.",
+      "cn": "有浣熊、松鼠、狗、猫和鸭子，但没有动物园。",
+      "para": 1,
+      "expect": 20.9,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 32.64,
+      "end": 37.04,
+      "en": "I visit the zoo in a another town.",
+      "cn": "我会去另一个镇的动物园。",
+      "para": 1,
+      "expect": 32.64,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 37.04,
+      "end": 38.84,
+      "en": "It is a nice zoo.",
+      "cn": "那是个不错的动物园。",
+      "para": 1,
+      "expect": 37.04,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 38.84,
+      "end": 40.64,
+      "en": "It is a small zoo.",
+      "cn": "它虽然不大，但很不错。",
+      "para": 1,
+      "expect": 38.84,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 40.64,
+      "end": 45.86,
+      "en": "It does not have elephants, but it has giraffes.",
+      "cn": "那里没有大象，不过有长颈鹿。",
+      "para": 1,
+      "expect": 40.64,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 45.86,
+      "end": 51.16,
+      "en": "It has big birds, it has zebras.",
+      "cn": "那里有大鸟和斑马。",
+      "para": 1,
+      "expect": 45.86,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 51.16,
+      "end": 56.08,
+      "en": "It does not have tigers, it does not have lions.",
+      "cn": "那里没有老虎，也没有狮子。",
+      "para": 1,
+      "expect": 51.16,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 56.08,
+      "end": 59.5,
+      "en": "But I love to visit the zoo.",
+      "cn": "不过我很喜欢去动物园。",
+      "para": 1,
+      "expect": 56.08,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 59.5,
+      "end": 64.46,
+      "en": "I can feed the farm animals there.",
+      "cn": "我可以在那里喂农场动物。",
+      "para": 1,
+      "expect": 59.5,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 64.46,
+      "end": 70.657,
+      "en": "My question for you is, do you have a zoo in your town?",
+      "cn": "我想问你的是，你们镇上有动物园吗？",
+      "para": 2,
+      "expect": 64.46,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 129,
+    "token_coverage": 0.992,
+    "low_confidence": false
+  },
+  "locked": false
+}

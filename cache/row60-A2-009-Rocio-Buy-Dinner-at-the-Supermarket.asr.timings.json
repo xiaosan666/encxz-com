@@ -1,0 +1,142 @@
+{
+  "mp3": "A2-009-Rocio-Buy-Dinner-at-the-Supermarket.mp3",
+  "duration": 74.532,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "865c4612012f7316:1492344:1788432235",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.21,
+      "end": 4.55,
+      "en": "Hello, my name is Rocio and I am from El Salvador.",
+      "cn": "你好，我叫罗西奥，来自萨尔瓦多。",
+      "para": 0,
+      "expect": 0.21,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.55,
+      "end": 10.05,
+      "en": "My question is, do you buy dinner at the supermarket?",
+      "cn": "我的问题是：你会在超市买晚饭吗？",
+      "para": 0,
+      "expect": 4.55,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 10.05,
+      "end": 13.69,
+      "en": "Do I buy dinner at the supermarket?",
+      "cn": "我会在超市买晚饭吗？",
+      "para": 1,
+      "expect": 10.05,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 13.69,
+      "end": 18.47,
+      "en": "Sometimes whenever I'm busy, I buy dinner.",
+      "cn": "有时候一忙起来，我就会买。",
+      "para": 1,
+      "expect": 13.69,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 18.47,
+      "end": 24.85,
+      "en": "At the supermarket, they have pre-made foods that are very easy to heat up.",
+      "cn": "超市里有做好的现成食物，热一热就能吃，很方便。",
+      "para": 1,
+      "expect": 18.47,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 24.85,
+      "end": 39.35,
+      "en": "I like to buy sushi or rice with vegetables, but I don't like to buy fast food because it's not very healthy.",
+      "cn": "我喜欢买寿司，或者蔬菜炒饭，但我不太爱买快餐，因为不太健康。",
+      "para": 1,
+      "expect": 24.85,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 39.35,
+      "end": 45.29,
+      "en": "I also don't like frozen meals because they don't taste really fresh.",
+      "cn": "我也不喜欢冷冻食品，味道总感觉不够新鲜。",
+      "para": 1,
+      "expect": 39.35,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 45.29,
+      "end": 52.49,
+      "en": "So I buy vegetables and chicken and cook at home.",
+      "cn": "所以我会买些蔬菜和鸡肉，回家自己做。",
+      "para": 1,
+      "expect": 45.29,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 52.49,
+      "end": 64.35,
+      "en": "The supermarket is very convenient for me whenever I am busy because it has many options for pre-made food.",
+      "cn": "对我来说，忙的时候超市真的很方便，因为现成的食物选择挺多。",
+      "para": 1,
+      "expect": 52.49,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 64.35,
+      "end": 69.17,
+      "en": "But I prefer to cook if there is time.",
+      "cn": "不过只要时间来得及，我还是更愿意自己做饭。",
+      "para": 1,
+      "expect": 64.35,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 69.17,
+      "end": 74.532,
+      "en": "And do you buy dinner at the supermarket?",
+      "cn": "那么，你会在超市买晚饭吗？",
+      "para": 2,
+      "expect": 69.17,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 132,
+    "token_coverage": 0.992,
+    "low_confidence": false
+  },
+  "locked": false
+}

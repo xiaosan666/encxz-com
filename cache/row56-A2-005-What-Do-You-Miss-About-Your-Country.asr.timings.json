@@ -1,0 +1,142 @@
+{
+  "mp3": "A2-005-What-Do-You-Miss-About-Your-Country.mp3",
+  "duration": 53.712,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "5fdc2d551f76a27d:322272:1789351278",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.0,
+      "end": 2.1,
+      "en": "Hi, my name is Sarah.",
+      "cn": "嗨，我叫萨拉",
+      "para": 0,
+      "expect": 0.0,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 2.1,
+      "end": 4.26,
+      "en": "I come from England.",
+      "cn": "我来自英国。",
+      "para": 0,
+      "expect": 2.1,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 4.26,
+      "end": 7.62,
+      "en": "And my question is what do you miss about your home country?",
+      "cn": "我的问题是：你最想念自己国家的什么？",
+      "para": 0,
+      "expect": 4.26,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 7.62,
+      "end": 10.6,
+      "en": "So currently I am living in Thailand.",
+      "cn": "我现在住在泰国",
+      "para": 1,
+      "expect": 7.62,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 10.6,
+      "end": 15.36,
+      "en": "I've been living here for the past six years now, six, seven years.",
+      "cn": "已经在这儿住了 6 年，6、7 年了。",
+      "para": 1,
+      "expect": 10.6,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 15.36,
+      "end": 23.3,
+      "en": "And yeah, I love it here, but there's definitely things I miss about England, first of all, my friends and my family, of course.",
+      "cn": "我很喜欢这里，但肯定有些东西是我在英国会想念的。",
+      "para": 1,
+      "expect": 15.36,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 23.3,
+      "end": 31.12,
+      "en": "I think that is the main thing, especially when it comes to Christmas, birthdays, any type of holiday, New Year, anything.",
+      "cn": "首先当然是我的朋友和家人，我觉得这是最主要的，尤其是到了圣诞节、生日、各种节日",
+      "para": 1,
+      "expect": 23.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 31.12,
+      "end": 33.62,
+      "en": "I really start to miss home.",
+      "cn": "新年什么的，我就特别想家。",
+      "para": 1,
+      "expect": 31.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 33.62,
+      "end": 40.04,
+      "en": "And I even miss the cold weather and the snow when it gets to Christmas time, which I'd never thought I'd say about England.",
+      "cn": "到了圣诞节前后，我甚至连寒冷的天气和雪都想念，这话我以前从没想过自己会说。",
+      "para": 1,
+      "expect": 33.62,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 40.04,
+      "end": 46.98,
+      "en": "But yeah, I think it's a lot more festive at home during holidays and especially when you're surrounded by your loved ones.",
+      "cn": "不过我觉得，过节的时候家里更有节日气氛，尤其是身边都是你爱的人。",
+      "para": 2,
+      "expect": 40.04,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 46.98,
+      "end": 53.712,
+      "en": "So yeah, definitely the biggest thing I miss at home is friends, family, and sharing the holidays together.",
+      "cn": "所以没错，我最想念的还是朋友、家人，还有一起过节的那种感觉。",
+      "para": 2,
+      "expect": 46.98,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 156,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

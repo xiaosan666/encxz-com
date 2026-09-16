@@ -1,0 +1,65 @@
+{
+  "mp3": "A2-004-Lesya-What-Time-is-It-Now.mp3",
+  "duration": 30.972,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "7a149eea3ee17f9d:620899:1788432234",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.94,
+      "end": 3.58,
+      "en": "Hi, I am Lisa.",
+      "cn": "嗨，我是莉萨",
+      "para": 0,
+      "expect": 0.94,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 3.58,
+      "end": 5.9,
+      "en": "I am from Ukraine.",
+      "cn": "我来自乌克兰。",
+      "para": 0,
+      "expect": 3.58,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 5.9,
+      "end": 11.0,
+      "en": "My question is, what time is it now?",
+      "cn": "我的问题是：现在几点了？",
+      "para": 0,
+      "expect": 5.9,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 11.0,
+      "end": 30.972,
+      "en": "Now I am in Ukraine and it is 11:30 AM but I usually live in Poland and in Poland now it is 10:30 AM.",
+      "cn": "我现在在乌克兰，这里是上午 11 点半，不过我平时住在波兰，波兰现在是上午 10 点半。",
+      "para": 1,
+      "expect": 11.0,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 42,
+    "token_coverage": 0.833,
+    "low_confidence": true
+  },
+  "locked": false
+}

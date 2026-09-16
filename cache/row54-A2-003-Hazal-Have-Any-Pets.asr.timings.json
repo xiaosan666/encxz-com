@@ -1,0 +1,219 @@
+{
+  "mp3": "A2-003-Hazal-Have-Any-Pets.mp3",
+  "duration": 54.38,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "f85bea95d157649c:1089013:1788432235",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.27,
+      "end": 1.47,
+      "en": "Hello.",
+      "cn": "你好，我叫哈扎尔，我来自土耳其。",
+      "para": 0,
+      "expect": 0.27,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 1.47,
+      "end": 5.33,
+      "en": "My name is Hazal and I'm from Turkey.",
+      "cn": "你好，我叫哈扎尔，我来自土耳其。",
+      "para": 0,
+      "expect": 1.47,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 5.33,
+      "end": 8.75,
+      "en": "My question is, do you have any pets?",
+      "cn": "我的问题是：你养宠物吗？",
+      "para": 0,
+      "expect": 5.33,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 8.75,
+      "end": 10.65,
+      "en": "Yes, I have a pet.",
+      "cn": "养，我有一只宠物",
+      "para": 1,
+      "expect": 8.75,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 10.65,
+      "end": 12.71,
+      "en": "I have a cat.",
+      "cn": "是一只猫。",
+      "para": 1,
+      "expect": 10.65,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 12.71,
+      "end": 15.11,
+      "en": "My cat's name is Lily.",
+      "cn": "我的猫叫莉莉",
+      "para": 1,
+      "expect": 12.71,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 15.11,
+      "end": 17.83,
+      "en": "Lily is four years old.",
+      "cn": "4 岁了。",
+      "para": 1,
+      "expect": 15.11,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 17.83,
+      "end": 21.29,
+      "en": "She is small and very soft.",
+      "cn": "她个子小，毛特别软。",
+      "para": 1,
+      "expect": 17.83,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 21.29,
+      "end": 26.09,
+      "en": "Lily sleeps in the mornings and plays with her toys in the evenings.",
+      "cn": "莉莉上午睡觉，晚上玩她的玩具",
+      "para": 1,
+      "expect": 21.29,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 26.09,
+      "end": 30.55,
+      "en": "Her favorite toy is a ball.",
+      "cn": "她最喜欢的玩具是个球。",
+      "para": 1,
+      "expect": 26.09,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 30.55,
+      "end": 33.99,
+      "en": "I give Lily food every morning.",
+      "cn": "我每天早上给她喂食",
+      "para": 1,
+      "expect": 30.55,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 33.99,
+      "end": 38.27,
+      "en": "She eats and drinks water every day.",
+      "cn": "她每天吃喝都有。",
+      "para": 1,
+      "expect": 33.99,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 38.27,
+      "end": 40.27,
+      "en": "I love my cat.",
+      "cn": "我很爱我的猫",
+      "para": 1,
+      "expect": 38.27,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 40.27,
+      "end": 42.83,
+      "en": "She makes me very happy.",
+      "cn": "她让我特别开心。",
+      "para": 1,
+      "expect": 40.27,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 42.83,
+      "end": 45.33,
+      "en": "I also love dogs.",
+      "cn": "我也很喜欢狗",
+      "para": 1,
+      "expect": 42.83,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 45.33,
+      "end": 49.29,
+      "en": "I want a dog, but I do not have a dog yet.",
+      "cn": "我想养一只，不过现在还没养。",
+      "para": 1,
+      "expect": 45.33,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 16,
+      "start": 49.29,
+      "end": 51.03,
+      "en": "How about you?",
+      "cn": "你呢？",
+      "para": 2,
+      "expect": 49.29,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 17,
+      "start": 51.03,
+      "end": 54.38,
+      "en": "Do you have any pets?",
+      "cn": "你养宠物吗？",
+      "para": 3,
+      "expect": 51.03,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 108,
+    "token_coverage": 0.981,
+    "low_confidence": false
+  },
+  "locked": false
+}

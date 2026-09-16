@@ -1,0 +1,208 @@
+{
+  "mp3": "A1-046-Syuzhan-Big-Yard.mp3",
+  "duration": 79.806,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "7874ed8c40017646:806672:1788403888",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.85,
+      "end": 4.53,
+      "en": "Hello, my name is Syuzan.",
+      "cn": "你好，我叫苏珊。",
+      "para": 0,
+      "expect": 0.85,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.53,
+      "end": 7.99,
+      "en": "I am from Armenia.",
+      "cn": "我来自亚美尼亚。",
+      "para": 0,
+      "expect": 4.53,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 7.99,
+      "end": 14.96,
+      "en": "My question is, do you have a big yard?",
+      "cn": "我的问题是，你有大院子吗？",
+      "para": 0,
+      "expect": 7.99,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 14.96,
+      "end": 18.34,
+      "en": "I live in a village.",
+      "cn": "我住在一个村子里。",
+      "para": 1,
+      "expect": 14.96,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 18.34,
+      "end": 26.12,
+      "en": "We have a big yard in front of our house.",
+      "cn": "我们房子前面有个大院子。",
+      "para": 1,
+      "expect": 18.34,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 26.12,
+      "end": 31.67,
+      "en": "There are a lot of trees and flowers there.",
+      "cn": "那里有很多树和花。",
+      "para": 1,
+      "expect": 26.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 31.67,
+      "end": 37.97,
+      "en": "We grow vegetables and fruits.",
+      "cn": "我们种蔬菜和水果。",
+      "para": 1,
+      "expect": 31.67,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 37.97,
+      "end": 43.45,
+      "en": "I don't take care of our yard.",
+      "cn": "我不负责打理院子。",
+      "para": 1,
+      "expect": 37.97,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 43.45,
+      "end": 48.49,
+      "en": "My grandfather takes care of it.",
+      "cn": "是我祖父在照看它。",
+      "para": 1,
+      "expect": 43.45,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 48.49,
+      "end": 52.53,
+      "en": "We also have animals there.",
+      "cn": "那里也有动物。",
+      "para": 1,
+      "expect": 48.49,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 52.53,
+      "end": 59.99,
+      "en": "My grandfather keeps many pigs and chickens.",
+      "cn": "我祖父养了很多猪和鸡。",
+      "para": 1,
+      "expect": 52.53,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 59.99,
+      "end": 64.54,
+      "en": "We don't have a dog.",
+      "cn": "我们没有狗。",
+      "para": 1,
+      "expect": 59.99,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 64.54,
+      "end": 68.02,
+      "en": "I usually walk in our yard.",
+      "cn": "我通常在院子里散步。",
+      "para": 1,
+      "expect": 64.54,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 68.02,
+      "end": 70.38,
+      "en": "I relax there.",
+      "cn": "我会在那里放松",
+      "para": 1,
+      "expect": 68.02,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 70.38,
+      "end": 72.64,
+      "en": "I read books there.",
+      "cn": "也会在那里看书。",
+      "para": 1,
+      "expect": 70.38,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 72.64,
+      "end": 74.9,
+      "en": "I love it.",
+      "cn": "我很喜欢那里。",
+      "para": 1,
+      "expect": 72.64,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 16,
+      "start": 74.9,
+      "end": 79.806,
+      "en": "And you, do you have a big yard?",
+      "cn": "你呢，有大院子吗？",
+      "para": 2,
+      "expect": 74.9,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 101,
+    "token_coverage": 0.99,
+    "low_confidence": false
+  },
+  "locked": false
+}

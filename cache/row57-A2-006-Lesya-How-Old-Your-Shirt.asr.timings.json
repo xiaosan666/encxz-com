@@ -1,0 +1,164 @@
+{
+  "mp3": "A2-006-Lesya-How-Old-Your-Shirt.mp3",
+  "duration": 65.772,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "c9a8a3639b36c113:1316801:1788432235",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 1.26,
+      "end": 4.42,
+      "en": "Hi, my name is Lisa.",
+      "cn": "嗨，我叫莉萨",
+      "para": 0,
+      "expect": 1.26,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.42,
+      "end": 7.14,
+      "en": "I am from Ukraine.",
+      "cn": "我来自乌克兰。",
+      "para": 0,
+      "expect": 4.42,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 7.14,
+      "end": 11.8,
+      "en": "My question is, how old is your shirt?",
+      "cn": "我的问题是：你这件衬衫穿多久了？",
+      "para": 0,
+      "expect": 7.14,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 11.8,
+      "end": 15.34,
+      "en": "I have two shirts.",
+      "cn": "我有两件衬衫。",
+      "para": 1,
+      "expect": 11.8,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 15.34,
+      "end": 21.12,
+      "en": "This shirt is not very new.",
+      "cn": "这件不太新了",
+      "para": 1,
+      "expect": 15.34,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 21.12,
+      "end": 24.42,
+      "en": "Maybe from last year.",
+      "cn": "大概是去年的",
+      "para": 1,
+      "expect": 21.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 24.42,
+      "end": 29.82,
+      "en": "This shirt is 1-year-old.",
+      "cn": "穿了 1 年了。",
+      "para": 1,
+      "expect": 24.42,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 29.82,
+      "end": 32.08,
+      "en": "This is a jacket.",
+      "cn": "这是件夹克",
+      "para": 1,
+      "expect": 29.82,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 32.08,
+      "end": 34.98,
+      "en": "This jacket is new.",
+      "cn": "这件是新的",
+      "para": 1,
+      "expect": 32.08,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 34.98,
+      "end": 41.02,
+      "en": "This jacket is from two months ago.",
+      "cn": "两个月前买的。",
+      "para": 1,
+      "expect": 34.98,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 41.02,
+      "end": 44.86,
+      "en": "I change my style a lot.",
+      "cn": "我的风格变得挺多",
+      "para": 1,
+      "expect": 41.02,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 44.86,
+      "end": 52.9,
+      "en": "I change my style often, and I buy a lot of new clothes.",
+      "cn": "经常换风格，也买很多新衣服。",
+      "para": 1,
+      "expect": 44.86,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 52.9,
+      "end": 65.772,
+      "en": "But if material is good, if the shirt looks good, I wear it for a long time.",
+      "cn": "不过如果料子好，衣服也好看，我就会穿很久。",
+      "para": 1,
+      "expect": 52.9,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 89,
+    "token_coverage": 0.977,
+    "low_confidence": false
+  },
+  "locked": false
+}

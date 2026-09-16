@@ -1,0 +1,142 @@
+{
+  "mp3": "A1-045-Julie-What-Shop-Sells-Clothes-for-Teens.mp3",
+  "duration": 74.627,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "09d32294b296bf4b:912240:1788403889",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.69,
+      "end": 4.29,
+      "en": "Hello, my name is Julie.",
+      "cn": "你好，我叫朱莉。",
+      "para": 0,
+      "expect": 0.69,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.29,
+      "end": 7.07,
+      "en": "I'm from America.",
+      "cn": "我来自美国。",
+      "para": 0,
+      "expect": 4.29,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 7.07,
+      "end": 17.37,
+      "en": "Today's question is what shop sells clothes for teens?",
+      "cn": "今天的问题是，什么商店卖青少年服装？",
+      "para": 0,
+      "expect": 7.07,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 17.37,
+      "end": 22.55,
+      "en": "My niece is 13 years old.",
+      "cn": "我的侄女13岁。",
+      "para": 1,
+      "expect": 17.37,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 22.55,
+      "end": 24.83,
+      "en": "She is a teenager.",
+      "cn": "她是个青少年。",
+      "para": 1,
+      "expect": 22.55,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 24.83,
+      "end": 30.19,
+      "en": "She shops at H&M.",
+      "cn": "她经常去 H&M 买东西。",
+      "para": 1,
+      "expect": 24.83,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 30.19,
+      "end": 34.39,
+      "en": "H&M is a shop.",
+      "cn": "H&M 是一家商店。",
+      "para": 1,
+      "expect": 30.19,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 34.39,
+      "end": 38.09,
+      "en": "H&M sells clothes for teens.",
+      "cn": "H&M 卖青少年服装。",
+      "para": 1,
+      "expect": 34.39,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 38.09,
+      "end": 59.55,
+      "en": "My niece buys shirts, shorts, pants, dresses, sweaters, socks, shoes, and many other things at H&M.",
+      "cn": "我的侄女会在 H&M 买衬衫、短裤、裤子、连衣裙、毛衣、袜子、鞋子，还有很多其他东西。",
+      "para": 1,
+      "expect": 38.09,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 59.55,
+      "end": 63.07,
+      "en": "She shops at H&M with her friends.",
+      "cn": "她常常和朋友一起去 H&M。",
+      "para": 1,
+      "expect": 59.55,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 63.07,
+      "end": 74.627,
+      "en": "My question for you is what shop sells clothes for teens in your country?",
+      "cn": "我想问你的是，在你的国家，什么商店卖青少年服装？",
+      "para": 2,
+      "expect": 63.07,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 82,
+    "token_coverage": 1.0,
+    "low_confidence": false
+  },
+  "locked": false
+}

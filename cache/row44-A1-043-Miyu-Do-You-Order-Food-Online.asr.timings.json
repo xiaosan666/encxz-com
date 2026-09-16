@@ -1,0 +1,186 @@
+{
+  "mp3": "A1-043-Miyu-Do-You-Order-Food-Online.mp3",
+  "duration": 58.908,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "e346d70de10eed62:727434:1788403891",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 1.26,
+      "end": 2.56,
+      "en": "Hello.",
+      "cn": "你好，我叫美优。",
+      "para": 0,
+      "expect": 1.26,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 2.56,
+      "end": 5.04,
+      "en": "My name is Miyu.",
+      "cn": "你好，我叫美优。",
+      "para": 0,
+      "expect": 2.56,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 5.04,
+      "end": 7.06,
+      "en": "I'm from Japan.",
+      "cn": "我来自日本。",
+      "para": 0,
+      "expect": 5.04,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 7.06,
+      "end": 11.12,
+      "en": "My question is, do you order food online?",
+      "cn": "我的问题是，你会在线订餐吗？",
+      "para": 0,
+      "expect": 7.06,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 11.12,
+      "end": 14.66,
+      "en": "Yes, I order food online.",
+      "cn": "是的，我会在线订餐。",
+      "para": 1,
+      "expect": 11.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 14.66,
+      "end": 18.38,
+      "en": "It is very simple and quick.",
+      "cn": "这非常简单快捷。",
+      "para": 1,
+      "expect": 14.66,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 18.38,
+      "end": 22.48,
+      "en": "I am sometimes lazy and tired.",
+      "cn": "我有时会有点懒，也会有点累。",
+      "para": 1,
+      "expect": 18.38,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 22.48,
+      "end": 25.56,
+      "en": "I usually get pizza or kebab.",
+      "cn": "我通常点披萨或烤肉串。",
+      "para": 1,
+      "expect": 22.48,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 25.56,
+      "end": 31.02,
+      "en": "The food comes in 30 minutes.",
+      "cn": "食物大约30分钟就能送到。",
+      "para": 1,
+      "expect": 25.56,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 31.02,
+      "end": 35.52,
+      "en": "I also order groceries online.",
+      "cn": "我也会在线买日用品。",
+      "para": 1,
+      "expect": 31.02,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 35.52,
+      "end": 40.84,
+      "en": "I get drinks, vegetables, and meat.",
+      "cn": "我会买饮料、蔬菜和肉类。",
+      "para": 1,
+      "expect": 35.52,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 40.84,
+      "end": 45.48,
+      "en": "The supermarket is far away from my house.",
+      "cn": "超市离我家很远。",
+      "para": 1,
+      "expect": 40.84,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 45.48,
+      "end": 48.12,
+      "en": "I can save time.",
+      "cn": "我可以节省时间。",
+      "para": 1,
+      "expect": 45.48,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 48.12,
+      "end": 50.22,
+      "en": "It is very convenient.",
+      "cn": "这很方便。",
+      "para": 1,
+      "expect": 48.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 50.22,
+      "end": 58.908,
+      "en": "Do you buy groceries online?",
+      "cn": "你会在线买日用品吗？",
+      "para": 2,
+      "expect": 50.22,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 77,
+    "token_coverage": 0.987,
+    "low_confidence": false
+  },
+  "locked": false
+}

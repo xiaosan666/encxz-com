@@ -1,0 +1,131 @@
+{
+  "mp3": "A1-042-Kyle-What-Desserts-Do-You-Like.mp3",
+  "duration": 51.059,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "110abe8a0b7fb578:609783:1788403892",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.82,
+      "end": 3.82,
+      "en": "Hello, my name is Kyle.",
+      "cn": "你好，我叫凯尔。",
+      "para": 0,
+      "expect": 0.82,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 3.82,
+      "end": 15.8,
+      "en": "I am from the UK and my question for you today is, what desserts do you like?",
+      "cn": "我来自英国。",
+      "para": 0,
+      "expect": 3.82,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 15.8,
+      "end": 19.72,
+      "en": "What desserts do you like?",
+      "cn": "我的问题是，你喜欢什么甜点？",
+      "para": 0,
+      "expect": 15.8,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 19.72,
+      "end": 23.5,
+      "en": "I like cheesecake.",
+      "cn": "我喜欢芝士蛋糕。",
+      "para": 1,
+      "expect": 19.72,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 23.5,
+      "end": 26.86,
+      "en": "I like brownies.",
+      "cn": "我喜欢布朗尼。",
+      "para": 1,
+      "expect": 23.5,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 26.86,
+      "end": 30.48,
+      "en": "I like ice cream.",
+      "cn": "我喜欢冰淇淋。",
+      "para": 1,
+      "expect": 26.86,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 30.48,
+      "end": 35.12,
+      "en": "I don't like mouse.",
+      "cn": "我不喜欢慕斯。",
+      "para": 1,
+      "expect": 30.48,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 35.12,
+      "end": 38.5,
+      "en": "I don't like tiramisu.",
+      "cn": "我不喜欢提拉米苏。",
+      "para": 1,
+      "expect": 35.12,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 38.5,
+      "end": 46.92,
+      "en": "I don't like custard.",
+      "cn": "我不喜欢卡仕达酱。",
+      "para": 1,
+      "expect": 38.5,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 46.92,
+      "end": 51.059,
+      "en": "What desserts do you like?",
+      "cn": "你喜欢什么甜点？",
+      "para": 2,
+      "expect": 46.92,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 54,
+    "token_coverage": 0.981,
+    "low_confidence": false
+  },
+  "locked": false
+}

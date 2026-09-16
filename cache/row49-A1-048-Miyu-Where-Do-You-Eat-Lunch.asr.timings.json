@@ -1,0 +1,175 @@
+{
+  "mp3": "A1-048-Miyu-Where-Do-You-Eat-Lunch.mp3",
+  "duration": 54.333,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "8d4219c64054b904:676965:1788403887",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.62,
+      "end": 4.54,
+      "en": "Hello, my name is Miyu.",
+      "cn": "你好，我叫美优。",
+      "para": 0,
+      "expect": 0.62,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 4.54,
+      "end": 7.06,
+      "en": "I'm from Japan.",
+      "cn": "我来自日本。",
+      "para": 0,
+      "expect": 4.54,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 7.06,
+      "end": 11.04,
+      "en": "My question is, where do you eat lunch?",
+      "cn": "我的问题是，你在哪里吃午饭？",
+      "para": 0,
+      "expect": 7.06,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 11.04,
+      "end": 15.28,
+      "en": "I normally eat lunch at the cafeteria.",
+      "cn": "我通常在食堂吃午饭。",
+      "para": 1,
+      "expect": 11.04,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 15.28,
+      "end": 18.94,
+      "en": "The cafeteria is in the office.",
+      "cn": "食堂在办公室里",
+      "para": 1,
+      "expect": 15.28,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 18.94,
+      "end": 21.98,
+      "en": "It is on the ground floor.",
+      "cn": "在一楼。",
+      "para": 1,
+      "expect": 18.94,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 21.98,
+      "end": 26.3,
+      "en": "The cafeteria has many options.",
+      "cn": "食堂有很多选择。",
+      "para": 1,
+      "expect": 21.98,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 26.3,
+      "end": 28.44,
+      "en": "I eat noodles a lot.",
+      "cn": "我经常吃面条。",
+      "para": 1,
+      "expect": 26.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 28.44,
+      "end": 34.04,
+      "en": "I sometimes eat sandwiches.",
+      "cn": "有时候也吃三明治。",
+      "para": 1,
+      "expect": 28.44,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 34.04,
+      "end": 39.58,
+      "en": "The cafeteria doesn't have pizza or hamburgers.",
+      "cn": "食堂没有披萨或汉堡包。",
+      "para": 1,
+      "expect": 34.04,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 39.58,
+      "end": 43.38,
+      "en": "The food is very cheap.",
+      "cn": "这里的食物很便宜。",
+      "para": 1,
+      "expect": 39.58,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 43.38,
+      "end": 47.58,
+      "en": "My colleague does not eat in the cafeteria.",
+      "cn": "我的同事不在食堂吃饭。",
+      "para": 1,
+      "expect": 43.38,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 47.58,
+      "end": 51.1,
+      "en": "She eats at her desk.",
+      "cn": "她在自己的办公桌前吃。",
+      "para": 1,
+      "expect": 47.58,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 51.1,
+      "end": 54.333,
+      "en": "Where do you have lunch?",
+      "cn": "你通常在哪里吃午饭？",
+      "para": 2,
+      "expect": 51.1,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 79,
+    "token_coverage": 0.987,
+    "low_confidence": false
+  },
+  "locked": false
+}

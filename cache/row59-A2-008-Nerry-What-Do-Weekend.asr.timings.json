@@ -1,0 +1,120 @@
+{
+  "mp3": "A2-008-Nerry-What-Do-Weekend.mp3",
+  "duration": 65.68,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "03593dd09b48e5be:1315234:1788432235",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 1.01,
+      "end": 5.75,
+      "en": "Hello, my name is Nerry and I am from Belize.",
+      "cn": "你好，我叫内莉，来自伯利兹。",
+      "para": 0,
+      "expect": 1.01,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 5.75,
+      "end": 11.13,
+      "en": "My question today is, what do you do on the weekend?",
+      "cn": "我今天想问的是：你周末都做什么？",
+      "para": 0,
+      "expect": 5.75,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 11.13,
+      "end": 17.39,
+      "en": "On the weekend, I like to rest and clean my house.",
+      "cn": "周末我喜欢休息，还有打扫屋子。",
+      "para": 1,
+      "expect": 11.13,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 17.39,
+      "end": 23.83,
+      "en": "I sweep the floor and mop the floor, and I do laundry.",
+      "cn": "我会扫地、拖地，再洗洗衣服。",
+      "para": 1,
+      "expect": 17.39,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 23.83,
+      "end": 39.09,
+      "en": "I also do self-care, such as getting my nails done, getting my hair done, or getting my eyelashes done.",
+      "cn": "我还会做些自己的事，比如做美甲、做头发，或者接睫毛。",
+      "para": 1,
+      "expect": 23.83,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 39.09,
+      "end": 45.77,
+      "en": "The weekends is usually laidback and slow for me.",
+      "cn": "对我来说，周末一般都很悠闲、很慢节奏。",
+      "para": 1,
+      "expect": 39.09,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 45.77,
+      "end": 50.31,
+      "en": "I rest and prepare myself for the new week.",
+      "cn": "我会好好休息，也为新的一周做准备。",
+      "para": 1,
+      "expect": 45.77,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 50.31,
+      "end": 60.41,
+      "en": "I prepare myself by meditating, reflecting on journaling in my book.",
+      "cn": "我会冥想，也会在日记本上写点东西，反思一下。",
+      "para": 1,
+      "expect": 50.31,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 60.41,
+      "end": 65.68,
+      "en": "My question to you is what do you do on the weekend?",
+      "cn": "我想问你的就是：你周末都做什么呢？",
+      "para": 2,
+      "expect": 60.41,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 105,
+    "token_coverage": 0.952,
+    "low_confidence": false
+  },
+  "locked": false
+}

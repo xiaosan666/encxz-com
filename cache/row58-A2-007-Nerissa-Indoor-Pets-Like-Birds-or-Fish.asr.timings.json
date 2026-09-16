@@ -1,0 +1,164 @@
+{
+  "mp3": "A2-007-Nerissa-Indoor-Pets-Like-Birds-or-Fish.mp3",
+  "duration": 58.512,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "af2ceaec277780cb:1171560:1788432235",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.78,
+      "end": 1.9,
+      "en": "Hello.",
+      "cn": "你好，我叫里萨，我来自菲律宾。",
+      "para": 0,
+      "expect": 0.78,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 1.9,
+      "end": 5.74,
+      "en": "My name's Risa and I'm from the Philippines.",
+      "cn": "你好，我叫里萨，我来自菲律宾。",
+      "para": 0,
+      "expect": 1.9,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 5.74,
+      "end": 12.06,
+      "en": "My question is, do you like indoor pets, like birds or fish?",
+      "cn": "我的问题是：你喜欢鸟、鱼这类室内宠物吗？",
+      "para": 0,
+      "expect": 5.74,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 12.06,
+      "end": 14.04,
+      "en": "Well, yes I do.",
+      "cn": "嗯，我喜欢。",
+      "para": 1,
+      "expect": 12.06,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 14.04,
+      "end": 17.6,
+      "en": "I like indoor pets like birds or fish.",
+      "cn": "我喜欢鸟、鱼这类室内宠物",
+      "para": 1,
+      "expect": 14.04,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 17.6,
+      "end": 20.66,
+      "en": "They are easy to take care of.",
+      "cn": "它们很好照顾。",
+      "para": 1,
+      "expect": 17.6,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 20.66,
+      "end": 22.82,
+      "en": "I have a hedgehog.",
+      "cn": "我养了一只刺猬",
+      "para": 1,
+      "expect": 20.66,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 22.82,
+      "end": 27.68,
+      "en": "My hedgehog lives in a big cage with food and water.",
+      "cn": "它住在一个大笼子里，里面有吃的有水。",
+      "para": 1,
+      "expect": 22.82,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 27.68,
+      "end": 33.74,
+      "en": "I clean its cage every week.",
+      "cn": "我每个星期给它清理笼子。",
+      "para": 1,
+      "expect": 27.68,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 33.74,
+      "end": 43.94,
+      "en": "Hedgehogs don't need to take a bath every day, so I only clean it once or twice a month.",
+      "cn": "刺猬不用每天洗澡，所以我一个月只给它清洁一两次。",
+      "para": 1,
+      "expect": 33.74,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 43.94,
+      "end": 47.38,
+      "en": "I like taking pictures of it.",
+      "cn": "我喜欢给它拍照",
+      "para": 1,
+      "expect": 43.94,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 47.38,
+      "end": 52.18,
+      "en": "Sometimes I let it run around the living room.",
+      "cn": "有时候还让它在客厅里跑来跑去。",
+      "para": 1,
+      "expect": 47.38,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 52.18,
+      "end": 58.512,
+      "en": "I love my indoor pet because it's so cute.",
+      "cn": "我很喜欢我这只室内宠物，它太可爱了。",
+      "para": 1,
+      "expect": 52.18,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 105,
+    "token_coverage": 0.981,
+    "low_confidence": false
+  },
+  "locked": false
+}

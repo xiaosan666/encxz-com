@@ -1,0 +1,329 @@
+{
+  "mp3": "A2-002-Todd-Much-a-Lot.mp3",
+  "duration": 99.717,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "fbc19b1fb402dc5a:998108:1788432235",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 0.14,
+      "end": 0.86,
+      "en": "Hey guys.",
+      "cn": "嘿，大家好。",
+      "para": 0,
+      "expect": 0.14,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 0.86,
+      "end": 5.0,
+      "en": "In this video I'm going to talk about my two homes and how they're very different.",
+      "cn": "这个视频里我要聊聊我的两个家，还有它们有多不一样。",
+      "para": 0,
+      "expect": 0.86,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 5.0,
+      "end": 9.88,
+      "en": "So I live about half the year in Japan and half the year in Thailand.",
+      "cn": "我一年大概一半时间住在日本，一半时间住在泰国",
+      "para": 1,
+      "expect": 5.0,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 9.88,
+      "end": 13.86,
+      "en": "And my life is different in each place.",
+      "cn": "两边的生活很不一样。",
+      "para": 1,
+      "expect": 9.88,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 13.86,
+      "end": 16.92,
+      "en": "So in Thailand, I don't cook much.",
+      "cn": "在泰国，我很少做饭",
+      "para": 1,
+      "expect": 13.86,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 16.92,
+      "end": 23.56,
+      "en": "Actually, I don't cook at all because my little apartment does not have a kitchen, so I eat out often.",
+      "cn": "其实我完全不做饭，因为我那个小公寓没有厨房，所以我经常在外面吃。",
+      "para": 1,
+      "expect": 16.92,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 23.56,
+      "end": 28.58,
+      "en": "Actually, I eat out all the time in Japan, though.",
+      "cn": "不过在日本，我倒是几乎天天在外面吃",
+      "para": 1,
+      "expect": 23.56,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 28.58,
+      "end": 31.66,
+      "en": "I cook some In Japan.",
+      "cn": "在日本也会做一点。",
+      "para": 1,
+      "expect": 28.58,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 31.66,
+      "end": 35.48,
+      "en": "I don't use the bus that much.",
+      "cn": "在日本我不太坐公交",
+      "para": 1,
+      "expect": 31.66,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 35.48,
+      "end": 38.46,
+      "en": "I have a car, so I drive a lot.",
+      "cn": "我有车，所以经常开车。",
+      "para": 1,
+      "expect": 35.48,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 38.46,
+      "end": 41.4,
+      "en": "But in Thailand, I don't drive at all.",
+      "cn": "但在泰国我完全不自己开车",
+      "para": 1,
+      "expect": 38.46,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 11,
+      "start": 41.4,
+      "end": 42.9,
+      "en": "I never drive actually.",
+      "cn": "真的一次都不开",
+      "para": 1,
+      "expect": 41.4,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 12,
+      "start": 42.9,
+      "end": 45.86,
+      "en": "So I either take the bus or I take the BTS.",
+      "cn": "我要么坐公交，要么坐 BTS。",
+      "para": 1,
+      "expect": 42.9,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 13,
+      "start": 45.86,
+      "end": 47.82,
+      "en": "So that's a little bit different.",
+      "cn": "这一点就不太一样。",
+      "para": 1,
+      "expect": 45.86,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 14,
+      "start": 47.82,
+      "end": 51.86,
+      "en": "Also in Japan, I don't walk much, don't walk around that much.",
+      "cn": "还有，在日本我走路不多，不太到处走。",
+      "para": 1,
+      "expect": 47.82,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 15,
+      "start": 51.86,
+      "end": 54.6,
+      "en": "But in Thailand, I walk around a lot.",
+      "cn": "但在泰国我走很多路",
+      "para": 1,
+      "expect": 51.86,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 16,
+      "start": 54.6,
+      "end": 56.74,
+      "en": "I walk to the park, I walk down the street.",
+      "cn": "走去公园，沿着街走",
+      "para": 1,
+      "expect": 54.6,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 17,
+      "start": 56.74,
+      "end": 57.74,
+      "en": "I'm just always walking.",
+      "cn": "我一直在走路。",
+      "para": 1,
+      "expect": 56.74,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 18,
+      "start": 57.74,
+      "end": 59.66,
+      "en": "So I kind of like that.",
+      "cn": "我还挺喜欢这样的。",
+      "para": 1,
+      "expect": 57.74,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 19,
+      "start": 59.66,
+      "end": 63.38,
+      "en": "In Japan, I speak Japanese, but I don't speak that much.",
+      "cn": "在日本我说日语，但说得不多",
+      "para": 2,
+      "expect": 59.66,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 20,
+      "start": 63.38,
+      "end": 64.28,
+      "en": "Actually.",
+      "cn": "说实话我也不",
+      "para": 2,
+      "expect": 63.38,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 21,
+      "start": 64.28,
+      "end": 65.02,
+      "en": "I don't know why.",
+      "cn": "知道为什么。",
+      "para": 2,
+      "expect": 64.28,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 22,
+      "start": 65.02,
+      "end": 70.68,
+      "en": "I guess because people don't talk as much in Japan, and maybe my Japanese is not as good.",
+      "cn": "我猜是因为在日本大家话不多，也可能是我日语不够好。",
+      "para": 2,
+      "expect": 65.02,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 23,
+      "start": 70.68,
+      "end": 77.9,
+      "en": "But in Thailand, I speak Thai a lot, so maybe that's also a little bit different.",
+      "cn": "但在泰国，我经常说泰语，所以这可能也有点不一样。",
+      "para": 2,
+      "expect": 70.68,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 24,
+      "start": 77.9,
+      "end": 83.3,
+      "en": "In Thailand, I don't spend that much money, but Bangkok is getting more expensive.",
+      "cn": "在泰国我花钱不算多，不过曼谷越来越贵了。",
+      "para": 2,
+      "expect": 77.9,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 25,
+      "start": 83.3,
+      "end": 94.9,
+      "en": "And then where I live in Japan's not too expensive, so I don't spend that much money there, but I spend much more money on rent in Japan than I do in Thailand.",
+      "cn": "而我住的日本那边物价不太高，所以我在这两个地方花费都不算多，但我在日本花在房租上的钱比泰国多得多。",
+      "para": 2,
+      "expect": 83.3,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 26,
+      "start": 94.9,
+      "end": 96.56,
+      "en": "So both places are great.",
+      "cn": "所以这两个地方都很好",
+      "para": 2,
+      "expect": 94.9,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 27,
+      "start": 96.56,
+      "end": 99.717,
+      "en": "I love 'em, but they're just a little bit different.",
+      "cn": "我都很喜欢，只是有点不一样。",
+      "para": 2,
+      "expect": 96.56,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 285,
+    "token_coverage": 0.993,
+    "low_confidence": false
+  },
+  "locked": false
+}
