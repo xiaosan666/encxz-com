@@ -13,6 +13,16 @@
   var MP3_DIR = 'data/';
   var MP4_DIR = 'output/';
   var FAV_KEY = 'encxz.favorites.v1';
+  var SCROLL_KEY = 'encxz.scroll.v1';    // 主页面浏览位置（像素）
+  var PROGRESS_KEY = 'encxz.progress.v1';// 每条媒体播放进度（秒）
+  var AUTO_KEY = 'encxz.autoplay.v1';    // 自动播放模式
+
+  /* 自动播放模式：单次（默认）→ 顺序（播完下一节）→ 循环（本节循环） */
+  var AUTO_MODES = [
+    { key: 'once', label: '单次', hint: '只播一遍，播完停止' },
+    { key: 'seq',  label: '顺序', hint: '播完自动播下一节' },
+    { key: 'loop', label: '循环', hint: '本节循环播放' }
+  ];
 
   /* ---------- 状态 ---------- */
   var state = {
@@ -27,7 +37,12 @@
     probedIds: new Set(),   // 已发起过探测的 id（避免重复请求）
     openId: null,
     tab: 'audio',
-    lastFocus: null
+    lastFocus: null,
+    autoMode: 'once',   // once | seq | loop
+    scrollY: 0,         // 待恢复的浏览位置
+    progress: {},       // 'id|audio' -> 秒
+    mediaId: null,      // 当前媒体元素所属课时
+    mediaTab: null      // 当前媒体元素的类型
   };
 
   var cardEls = new Map();  // id -> { tag, videoBtn }
@@ -187,6 +202,155 @@
   }
 
   /* ============================================================
+     浏览位置 / 播放进度（localStorage）
+     —— 刷新后回到上次滚动处，并接着上次的播放进度继续听
+     ============================================================ */
+  var restoringScroll = false;   // 正在恢复位置：期间不写回，避免覆盖
+  var pendingScrollRestore = false; // 弹层打开时挂起的恢复请求
+
+  function lsGet(key) {
+    try { return localStorage.getItem(key); } catch (e) { return null; }
+  }
+  function lsSet(key, val) {
+    try { localStorage.setItem(key, val); } catch (e) { /* 隐私模式：忽略 */ }
+  }
+
+  /* ---------- 页面滚动位置 ---------- */
+  function currentScrollY() {
+    return Math.round(window.pageYOffset || document.documentElement.scrollTop || 0);
+  }
+
+  function saveScrollPos() {
+    if (restoringScroll || pendingScrollRestore) return;
+    // 弹层打开时主体被锁定，此时窗口位置仍是列表位置，照常记录
+    lsSet(SCROLL_KEY, String(currentScrollY()));
+  }
+
+  function loadScrollPos() {
+    var v = parseInt(lsGet(SCROLL_KEY), 10);
+    state.scrollY = (isFinite(v) && v > 0) ? v : 0;
+  }
+
+  /** 数据渲染完成后再滚动：卡片是异步生成的，页面高度需要重试几次 */
+  function restoreScrollPos() {
+    var target = state.scrollY;
+    if (!target) return;
+    // 弹层开着时主体被锁定，先记账，等关闭后再回到列表位置
+    if (state.openId) { pendingScrollRestore = true; return; }
+    pendingScrollRestore = false;
+    restoringScroll = true;
+    var tries = 0;
+    (function tick() {
+      if (!restoringScroll) return;
+      window.scrollTo(0, target);
+      tries++;
+      var maxY = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+      // 卡片高度会被视频标签等异步结果影响，多校准几次；页面高度不够就继续等
+      if (tries < 6 || (tries < 14 && maxY + 4 < target)) {
+        setTimeout(tick, 130);
+      } else {
+        // 校准结束：把缓存修正为真实落点，避免误差累积
+        var actual = currentScrollY();
+        if (actual > 0) lsSet(SCROLL_KEY, String(actual));
+        setTimeout(function () { restoringScroll = false; }, 200);
+      }
+    })();
+  }
+
+  /** 用户主动操作时立刻放弃恢复，避免和用户抢滚动条 */
+  function cancelScrollRestore() { restoringScroll = false; }
+
+  /* ---------- 播放进度 ---------- */
+  function progressKey(id, kind) { return id + '|' + kind; }
+
+  function loadProgress() {
+    try {
+      var raw = lsGet(PROGRESS_KEY);
+      if (!raw) return;
+      var obj = JSON.parse(raw);
+      if (obj && typeof obj === 'object') state.progress = obj;
+    } catch (e) { state.progress = {}; }
+  }
+
+  function saveProgressMap() {
+    try { lsSet(PROGRESS_KEY, JSON.stringify(state.progress)); } catch (e) {}
+  }
+
+  function getProgress(id, kind) {
+    var v = state.progress[progressKey(id, kind)];
+    return (typeof v === 'number' && isFinite(v)) ? v : 0;
+  }
+
+  function saveProgress(id, kind, seconds) {
+    if (!id || !kind || !isFinite(seconds) || seconds < 0) return;
+    state.progress[progressKey(id, kind)] = Math.round(seconds * 10) / 10;
+    saveProgressMap();
+  }
+
+  function clearProgress(id, kind) {
+    if (!id || !kind) return;
+    if (!(progressKey(id, kind) in state.progress)) return;
+    delete state.progress[progressKey(id, kind)];
+    saveProgressMap();
+  }
+
+  /** 把当前媒体元素的时间点写回缓存（切换/关闭/离开页面时调用） */
+  function persistCurrentMedia() {
+    var media = mediaPanel.querySelector('audio, video');
+    if (!media || !state.mediaId || media.ended) return;
+    saveProgress(state.mediaId, state.mediaTab, media.currentTime);
+  }
+
+  function fmtTime(sec) {
+    sec = Math.max(0, Math.floor(sec || 0));
+    var m = Math.floor(sec / 60), s = sec % 60;
+    return m + ':' + (s < 10 ? '0' + s : s);
+  }
+
+  function mediaKeyKind(isAudio) { return isAudio ? 'audio' : 'video'; }
+
+  /* ---------- 自动播放模式 ---------- */
+  function loadAutoMode() {
+    var v = lsGet(AUTO_KEY);
+    if (v && AUTO_MODES.some(function (m) { return m.key === v; })) state.autoMode = v;
+  }
+
+  function autoModeInfo(key) {
+    for (var i = 0; i < AUTO_MODES.length; i++) {
+      if (AUTO_MODES[i].key === (key || state.autoMode)) return AUTO_MODES[i];
+    }
+    return AUTO_MODES[0];
+  }
+
+  /** 同步按钮外观，并把 loop 落到当前媒体元素上 */
+  function syncAutoBtn() {
+    var btn = $('sheetAuto');
+    if (!btn) return;
+    var info = autoModeInfo();
+    btn.dataset.auto = info.key;
+    btn.setAttribute('aria-pressed', String(info.key !== 'once'));
+    btn.setAttribute('aria-label', '自动播放：' + info.label + '（' + info.hint + '）');
+    btn.title = '自动播放：' + info.label + '（' + info.hint + '）';
+    $('sheetAutoText').textContent = info.label;
+    var media = mediaPanel.querySelector('audio, video');
+    if (media) media.loop = info.key === 'loop';
+  }
+
+  function cycleAutoMode() {
+    var idx = 0;
+    AUTO_MODES.forEach(function (m, i) { if (m.key === state.autoMode) idx = i; });
+    var next = AUTO_MODES[(idx + 1) % AUTO_MODES.length];
+    state.autoMode = next.key;
+    lsSet(AUTO_KEY, next.key);
+    syncAutoBtn();
+    var btn = $('sheetAuto');
+    btn.classList.remove('is-pop');
+    void btn.offsetWidth;
+    btn.classList.add('is-pop');
+    toast('自动播放：' + next.label + '（' + next.hint + '）');
+  }
+
+  /* ============================================================
      加载并解析 xlsx
      ============================================================ */
   /** 按表头名定位列，列顺序/列名微调都能兼容 */
@@ -323,6 +487,8 @@
         renderStats();
         render();
         updateFavBadge();
+        // 延后一拍：若本次带 #深链 打开弹层，恢复会挂起到关闭时再执行
+        setTimeout(restoreScrollPos, 0);
       })
       .catch(function (err) {
         skeleton.hidden = true;
@@ -611,10 +777,10 @@
   /* ============================================================
      详情弹层：播放 / 下载 / 中英对照
      ============================================================ */
-  function openSheet(item, tab) {
+  function openSheet(item, tab, isAuto) {
     state.openId = item.id;
     state.tab = tab || 'audio';
-    state.lastFocus = document.activeElement;
+    if (!isAuto) state.lastFocus = document.activeElement;
 
     $('sheetLevel').className = 'level-badge ' + levelClass(item.level);
     $('sheetLevel').textContent = item.level || '—';
@@ -634,8 +800,9 @@
     dlVideo.setAttribute('aria-disabled', String(vMissing));
 
     renderLines(item);
-    switchTab(state.tab, item);
+    switchTab(state.tab, item, isAuto);
     syncSheetFav();
+    syncAutoBtn();
 
     sheet.hidden = false;
     backdrop.hidden = false;
@@ -649,7 +816,8 @@
     // 深链：便于分享单节课程
     try { history.replaceState(null, '', '#' + encodeURIComponent(item.id)); } catch (e) {}
 
-    setTimeout(function () { $('sheetClose').focus(); }, 60);
+    // 自动续播时不抢焦点，免得连续播放时焦点乱跳
+    if (!isAuto) setTimeout(function () { $('sheetClose').focus(); }, 60);
   }
 
   function closeSheet() {
@@ -660,6 +828,8 @@
     document.body.classList.remove('is-locked');
     state.openId = null;
     try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
+    // 页面加载时若带着 #深链，列表位置要等弹层关掉再还原
+    if (pendingScrollRestore) setTimeout(restoreScrollPos, 0);
     setTimeout(function () {
       sheet.hidden = true;
       backdrop.hidden = true;
@@ -668,27 +838,27 @@
   }
 
   function stopMedia() {
-    var media = mediaPanel.querySelector('audio, video');
-    if (media) {
-      try { media.pause(); } catch (e) {}
-      media.removeAttribute('src');
-      try { media.load(); } catch (e) {}
-    }
-    mediaPanel.textContent = '';
+    persistCurrentMedia();
+    teardownMediaPanel();
   }
 
-  function switchTab(tab, itemArg) {
-    state.tab = tab;
+  function switchTab(tab, itemArg, isAuto) {
     var item = itemArg || currentItem();
     if (!item) return;
+    persistCurrentMedia();          // 换媒体前先结清上一段的进度
+    state.tab = tab;
     var isAudio = tab === 'audio';
+    var kind = mediaKeyKind(isAudio);
+    state.mediaId = null;
+    state.mediaTab = null;
+
     $('tabAudio').classList.toggle('is-active', isAudio);
     $('tabVideo').classList.toggle('is-active', !isAudio);
     $('tabAudio').setAttribute('aria-selected', String(isAudio));
     $('tabVideo').setAttribute('aria-selected', String(!isAudio));
     mediaPanel.setAttribute('aria-labelledby', isAudio ? 'tabAudio' : 'tabVideo');
 
-    mediaPanel.textContent = '';
+    teardownMediaPanel();
     if (isAudio) {
       var audio = document.createElement('audio');
       audio.controls = true;
@@ -699,11 +869,16 @@
         mediaPanel.appendChild(placeholder('⚠️', '音频加载失败', '请确认 data/ 下存在 ' + item.mp3));
       });
       mediaPanel.appendChild(audio);
+      state.mediaId = item.id;
+      state.mediaTab = kind;
+      wireMedia(audio, item, kind);
       var p = audio.play();
-      if (p && p.catch) p.catch(function () { /* 非用户手势触发时浏览器会拦截，忽略 */ });
+      if (p && p.catch) p.catch(function () { onPlayBlocked(isAuto); });
     } else {
       if (state.missingVideo.has(item.id)) {
+        if (isAuto) { switchTab('audio', item, true); return; }
         mediaPanel.appendChild(placeholder('🎬', '这节课的视频还没生成', '可以先用音频练习听力，视频生成后刷新页面即可出现。'));
+        syncAutoBtn();
         return;
       }
       var video = document.createElement('video');
@@ -719,14 +894,166 @@
         var refs = cardEls.get(item.id);
         if (refs) applyVideoState(item.id, refs.tag, refs.videoBtn);
         $('sheetVideoFlag').hidden = false;
+        // 自动续播时不要卡在错误页，退回音频继续
+        if (isAuto) { toast('这节课的视频还没生成，已改为播放音频'); switchTab('audio', item, true); return; }
         mediaPanel.textContent = '';
         mediaPanel.appendChild(placeholder('🎬', '这节课的视频还没生成', '可以先用音频练习听力，视频生成后刷新页面即可出现。'));
         toast('视频尚未生成');
       });
       mediaPanel.appendChild(video);
+      state.mediaId = item.id;
+      state.mediaTab = kind;
+      wireMedia(video, item, kind);
       var pv = video.play();
-      if (pv && pv.catch) pv.catch(function () {});
+      if (pv && pv.catch) pv.catch(function () { onPlayBlocked(isAuto); });
     }
+    syncAutoBtn();
+  }
+
+  function onPlayBlocked(isAuto) {
+    if (isAuto) toast('浏览器拦截了自动播放，点一下播放键即可继续');
+  }
+
+  /** 元素是否仍是当前展示的媒体：卸载后残留的 timeupdate 会把 0 写回缓存 */
+  function isLiveMedia(media) {
+    return !!media && !media.__retired && media.isConnected &&
+      mediaPanel.querySelector('audio, video') === media;
+  }
+
+  /** 卸载当前媒体：先标记“退休”，再清理，避免解绑过程中的事件写回脏数据 */
+  function teardownMediaPanel() {
+    var media = mediaPanel.querySelector('audio, video');
+    if (media) {
+      media.__retired = true;
+      try { media.pause(); } catch (e) {}
+      media.removeAttribute('src');
+      try { media.load(); } catch (e) {}
+      if (media.__blobUrl) {
+        try { URL.revokeObjectURL(media.__blobUrl); } catch (e) {}
+        media.__blobUrl = null;
+      }
+    }
+    mediaPanel.textContent = '';
+    state.mediaId = null;
+    state.mediaTab = null;
+  }
+
+  /** 服务器不支持 Range（如 python -m http.server）时跳转会被忽略：
+      整段取回本地再定位，保证“续播”处处可用。只在该失败分支触发一次。 */
+  function resumeViaBlob(media, item, kind, saved, wasPlaying) {
+    if (media.__blobbed || typeof fetch !== 'function' || !window.URL || !URL.createObjectURL) return false;
+    var src = media.currentSrc || media.src;
+    if (!src || /^blob:/.test(src)) return false;
+    media.__blobbed = true;
+    fetch(src)
+      .then(function (res) {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.blob();
+      })
+      .then(function (blob) {
+        if (!isLiveMedia(media)) return;
+        media.__blobUrl = URL.createObjectURL(blob);
+        media.addEventListener('loadedmetadata', function once() {
+          media.removeEventListener('loadedmetadata', once);
+          if (!isLiveMedia(media)) return;
+          try { media.currentTime = saved; } catch (e) { }
+          if (wasPlaying) {
+            var p = media.play();
+            if (p && p.catch) p.catch(function () {});
+          }
+        });
+        media.src = media.__blobUrl;
+        toast('本地服务不支持 Range，已整段载入并续播（' + fmtTime(saved) + '）');
+      })
+      .catch(function () {
+        if (!isLiveMedia(media)) return;
+        clearProgress(item.id, kind);
+        toast('服务器不支持断点续播（需支持 Range 请求），已从头播放');
+      });
+    return true;
+  }
+
+  /* ============================================================
+     媒体事件：记录进度 / 续播 / 循环 / 自动下一节
+     ============================================================ */
+  function wireMedia(media, item, kind) {
+    var saved = getProgress(item.id, kind);
+    var resumed = false;
+    var lastTick = 0;
+
+    if (state.autoMode === 'loop') media.loop = true;
+
+    // 元数据就绪后跳到上次的位置（已听到结尾则从头开始，避免只差一两秒还去续播）
+    media.addEventListener('loadedmetadata', function () {
+      if (!isLiveMedia(media) || resumed) return;
+      resumed = true;
+      if (saved <= 1) return;
+      var d = media.duration;
+      var tail = isFinite(d) && d > 0 ? Math.min(2, d * 0.05) : 2;
+      if (isFinite(d) && d > 0 && saved >= d - tail) { clearProgress(item.id, kind); return; }
+      var done = false;
+      function verify() {
+        if (done) return;
+        done = true;
+        media.removeEventListener('seeked', verify);
+        if (!isLiveMedia(media)) return;
+        if (Math.abs(media.currentTime - saved) > 1.5) {
+          // 服务器不支持 Range 时跳转会被忽略：退回整段下载再定位
+          if (!resumeViaBlob(media, item, kind, saved, !media.paused)) {
+            clearProgress(item.id, kind);
+            toast('服务器不支持断点续播（需支持 Range 请求），已从头播放');
+          }
+        } else {
+          toast('已从上次位置继续播放（' + fmtTime(saved) + '）');
+        }
+      }
+      try {
+        media.addEventListener('seeked', verify);
+        media.currentTime = saved;
+        lastTick = saved;
+        setTimeout(verify, 1600);
+      } catch (e) { clearProgress(item.id, kind); }
+    });
+
+    // 播放中每前进约 1 秒写一次缓存
+    media.addEventListener('timeupdate', function () {
+      if (!isLiveMedia(media)) return;
+      var t = media.currentTime;
+      if (t >= lastTick && t - lastTick < 1) return;
+      lastTick = t;
+      saveProgress(item.id, kind, t);
+    });
+
+    media.addEventListener('pause', function () {
+      if (!isLiveMedia(media) || media.ended) return;
+      saveProgress(item.id, kind, media.currentTime);
+    });
+
+    media.addEventListener('ended', function () {
+      if (!isLiveMedia(media)) return;
+      clearProgress(item.id, kind);   // 完整播完，下次从头开始
+      if (state.autoMode === 'seq') playNext();
+    });
+  }
+
+  /** 顺序播放：在当前筛选结果里找下一节；到底后回到第一节 */
+  function playNext() {
+    persistCurrentMedia();
+    var list = filtered();
+    if (!list.length) list = state.items;
+    if (!list.length) return;
+    var idx = -1;
+    for (var i = 0; i < list.length; i++) {
+      if (list[i].id === state.openId) { idx = i; break; }
+    }
+    var next = list[(idx + 1) % list.length];
+    if (!next) return;
+    var tab = state.tab;
+    if (tab === 'video' && state.missingVideo.has(next.id)) {
+      tab = 'audio';
+      toast('下一节视频还没生成，已改为播放音频');
+    }
+    openSheet(next, tab, true);
   }
 
   function placeholder(emoji, title, text) {
@@ -843,6 +1170,8 @@
       var added = toggleFav(state.openId);
       toast(added ? '已加入收藏' : '已取消收藏');
     });
+    // 自动播放：单次 → 顺序 → 循环
+    $('sheetAuto').addEventListener('click', cycleAutoMode);
     $('tabAudio').addEventListener('click', function () { switchTab('audio'); });
     $('tabVideo').addEventListener('click', function () { switchTab('video'); });
 
@@ -891,6 +1220,25 @@
       if (dy > 90 && sheetScroll.scrollTop <= 0) closeSheet();
       startY = null;
     }, { passive: true });
+
+    /* ---------- 记忆浏览位置 & 播放进度 ---------- */
+    var onScrollSave = debounce(saveScrollPos, 250);
+    window.addEventListener('scroll', onScrollSave, { passive: true });
+    window.addEventListener('pagehide', function () {
+      saveScrollPos();
+      persistCurrentMedia();
+    });
+    window.addEventListener('beforeunload', function () {
+      saveScrollPos();
+      persistCurrentMedia();
+    });
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) { saveScrollPos(); persistCurrentMedia(); }
+    });
+    // 用户自己动手时立刻让出控制权
+    window.addEventListener('wheel', cancelScrollRestore, { passive: true });
+    window.addEventListener('touchstart', cancelScrollRestore, { passive: true });
+    window.addEventListener('keydown', cancelScrollRestore);
   }
 
   /* ============================================================
@@ -921,8 +1269,14 @@
   }
 
   function init() {
+    // 自己接管滚动恢复，避免浏览器把位置还原到顶部/锚点
+    try { if ('scrollRestoration' in history) history.scrollRestoration = 'manual'; } catch (e) {}
     loadFavs();
+    loadScrollPos();
+    loadProgress();
+    loadAutoMode();
     updateFavBadge();
+    syncAutoBtn();
     setupVideoObserver();
     watchHash();
     bind();

@@ -703,6 +703,55 @@ mark {
 }
 .star-btn[aria-pressed="true"] svg { fill: var(--blue-900); }
 
+/* 自动播放：单次 → 顺序 → 循环 三态（与收藏按钮同排，位于其右侧） */
+.auto-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  height: 36px;
+  padding: 0 12px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-pill);
+  background: var(--surface);
+  color: var(--ink-2);
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all var(--t-fast) var(--ease);
+}
+.auto-btn:hover { border-color: var(--blue-300); background: var(--blue-050); }
+.auto-btn svg.ico {
+  display: none;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.auto-btn svg.ico .ico-fill { fill: currentColor; stroke: none; }
+.auto-btn[data-auto="once"] .ico-once,
+.auto-btn[data-auto="seq"] .ico-seq,
+.auto-btn[data-auto="loop"] .ico-loop { display: block; }
+/* 顺序播放：蓝色强调；循环播放：柠檬黄强调（与收藏态区分） */
+.auto-btn[data-auto="seq"] {
+  border-color: transparent;
+  background: linear-gradient(135deg, var(--blue-200), var(--blue-300));
+  color: var(--blue-900);
+}
+.auto-btn[data-auto="loop"] {
+  border-color: transparent;
+  background: linear-gradient(135deg, var(--lemon), var(--lime));
+  color: var(--blue-900);
+}
+.auto-btn[data-auto="seq"]:hover,
+.auto-btn[data-auto="loop"]:hover { filter: brightness(1.04); }
+.auto-btn.is-pop { animation: autoPop var(--t-base) var(--ease); }
+@keyframes autoPop { 0% { transform: scale(1); } 45% { transform: scale(1.08); } 100% { transform: scale(1); } }
+
 .sheet-scroll {
   padding: var(--s-4) var(--s-4) calc(var(--s-8) + env(safe-area-inset-bottom));
   overflow-y: auto;

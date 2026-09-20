@@ -3,7 +3,7 @@
   "duration": 51.593,
   "method": "asr:faster-whisper-small+difflib",
   "engine": "asr",
-  "fingerprint": "3989fcf8c27b5d67:609811:1788403899",
+  "fingerprint": "c826097f5d8cd478:609811:1788403899",
   "params": {
     "model": "small",
     "language": "en",
@@ -36,7 +36,7 @@
     {
       "i": 2,
       "start": 6.78,
-      "end": 19.46,
+      "end": 25.68,
       "en": "My question for you today is what do you do on your lunch break?",
       "cn": "今天我想问你的是，你午休时做什么？",
       "para": 0,
@@ -46,39 +46,28 @@
     },
     {
       "i": 3,
-      "start": 19.46,
-      "end": 25.68,
-      "en": "What do you do on your lunch break?",
-      "cn": "我午休时会看看手机，吃午饭，休息一下。",
-      "para": 1,
-      "expect": 19.46,
-      "source": "asr",
-      "dev": 0.0
-    },
-    {
-      "i": 4,
       "start": 25.68,
       "end": 39.42,
       "en": "I go on my phone, I eat my lunch.",
-      "cn": "我午休时会看看手机，吃午饭，休息一下。",
+      "cn": "我午休时会看看手机，吃午饭",
       "para": 1,
       "expect": 25.68,
       "source": "asr",
       "dev": 0.0
     },
     {
-      "i": 5,
+      "i": 4,
       "start": 39.42,
       "end": 44.88,
       "en": "I rest.",
-      "cn": "我午休时会看看手机，吃午饭，休息一下。",
+      "cn": "休息一下。",
       "para": 1,
       "expect": 39.42,
       "source": "asr",
       "dev": 0.0
     },
     {
-      "i": 6,
+      "i": 5,
       "start": 44.88,
       "end": 51.593,
       "en": "What do you do on your lunch break?",
@@ -91,7 +80,7 @@
   ],
   "quality": {
     "asr_words": 47,
-    "token_coverage": 0.902,
+    "token_coverage": 0.884,
     "low_confidence": true
   },
   "locked": false

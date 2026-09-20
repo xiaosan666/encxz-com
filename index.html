@@ -8,7 +8,7 @@
 <title>英语初学者 · 情景听说库</title>
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="assets/logo.png">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css?v=2">
 </head>
 <body>
 <a class="skip-link" href="#main">跳到主要内容</a>
@@ -113,6 +113,12 @@
         <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3.6l2.6 5.3 5.9.9-4.2 4.1 1 5.8-5.3-2.8-5.3 2.8 1-5.8L3.5 9.8l5.9-.9z"></path></svg>
         <span id="sheetFavText">收藏</span>
       </button>
+      <button type="button" class="auto-btn" id="sheetAuto" data-auto="once" aria-pressed="false" aria-label="自动播放：单次">
+        <svg class="ico ico-once" viewBox="-1 -1 26 26" aria-hidden="true" focusable="false"><polygon class="ico-fill" points="6 4 20 12 6 20 6 4"></polygon></svg>
+        <svg class="ico ico-seq" viewBox="-1 -1 26 26" aria-hidden="true" focusable="false"><polygon class="ico-fill" points="5 4 15 12 5 20 5 4"></polygon><line x1="19" y1="5" x2="19" y2="19"></line></svg>
+        <svg class="ico ico-loop" viewBox="-1 -1 26 26" aria-hidden="true" focusable="false"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
+        <span id="sheetAutoText">单次</span>
+      </button>
       <button type="button" class="icon-btn" id="sheetClose" aria-label="关闭详情">
         <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"></path></svg>
       </button>
@@ -148,6 +154,6 @@
 </noscript>
 
 <script src="assets/vendor/xlsx.full.min.js"></script>
-<script src="assets/js/app.js"></script>
+<script src="assets/js/app.js?v=2"></script>
 </body>
 </html>
