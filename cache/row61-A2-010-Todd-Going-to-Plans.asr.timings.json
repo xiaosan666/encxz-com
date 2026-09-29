@@ -1,0 +1,142 @@
+{
+  "mp3": "A2-010-Todd-Going-to-Plans.mp3",
+  "duration": 80.596,
+  "method": "asr:faster-whisper-small+difflib",
+  "engine": "asr",
+  "fingerprint": "f72b826644fa85f2:564962:1788432234",
+  "params": {
+    "model": "small",
+    "language": "en",
+    "min_coverage": 0.95
+  },
+  "silences": [],
+  "sentences": [
+    {
+      "i": 0,
+      "start": 1.9,
+      "end": 2.5,
+      "en": "Hi.",
+      "cn": "嗨，这个视频里我想稍微聊聊我今晚的安排。",
+      "para": 0,
+      "expect": 1.9,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 1,
+      "start": 2.5,
+      "end": 5.94,
+      "en": "In this video I'm going to talk a little bit about my plans for tonight.",
+      "cn": "嗨，这个视频里我想稍微聊聊我今晚的安排。",
+      "para": 0,
+      "expect": 2.5,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 2,
+      "start": 5.94,
+      "end": 8.98,
+      "en": "So right now I am at a park.",
+      "cn": "我现在在一个公园里。",
+      "para": 0,
+      "expect": 5.94,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 3,
+      "start": 8.98,
+      "end": 13.6,
+      "en": "You can kind of see the park here, and I'm going to go running.",
+      "cn": "你能大概看到这边的公园，我准备去跑步。",
+      "para": 1,
+      "expect": 8.98,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 4,
+      "start": 13.6,
+      "end": 21.28,
+      "en": "I'm going to run for about 40 minutes and I am going to get some exercise I really need to run.",
+      "cn": "我会跑差不多 40 分钟，活动活动身体，我真的太需要跑了。",
+      "para": 1,
+      "expect": 13.6,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 5,
+      "start": 21.28,
+      "end": 31.18,
+      "en": "I try to run one hour every day, and then after I run, I'm going to take some photos of the park because I love this park and I'm going to share them with my friends.",
+      "cn": "我尽量每天都跑 1 个小时。跑完之后，我打算给这个公园拍些照片，因为我特别喜欢这个公园，还想跟朋友们分享。",
+      "para": 1,
+      "expect": 21.28,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 6,
+      "start": 31.18,
+      "end": 39.74,
+      "en": "I'm going to post on Facebook, and then after that I am going to drive home, and then I'm going to have dinner with my family.",
+      "cn": "我要发到脸书上，然后开车回家，再跟家人一起吃晚饭。",
+      "para": 1,
+      "expect": 31.18,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 7,
+      "start": 39.74,
+      "end": 44.1,
+      "en": "I think tonight we're going to have pizza, although I'm not sure.",
+      "cn": "今晚我觉得我们可能吃披萨，不过我也不太确定。",
+      "para": 1,
+      "expect": 39.74,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 8,
+      "start": 44.1,
+      "end": 52.28,
+      "en": "And then after dinner, I think I'm going to relax and chat with my mom and my dad, and then I'm going to go to bed early.",
+      "cn": "吃完晚饭，我大概会放松一下，跟爸妈聊聊天，然后就早点睡。",
+      "para": 1,
+      "expect": 44.1,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 9,
+      "start": 52.28,
+      "end": 65.94,
+      "en": "I'm not going to stay up late because tomorrow I have to get up early because I'm going to drive to another city and I'm going to meet my niece and nephew because my nephew is getting married.",
+      "cn": "我不打算熬夜，因为明天得早起，我要开车去另一座城市，去见我的外甥女和侄子，因为我侄子要结婚了。",
+      "para": 1,
+      "expect": 52.28,
+      "source": "asr",
+      "dev": 0.0
+    },
+    {
+      "i": 10,
+      "start": 65.94,
+      "end": 80.596,
+      "en": "So I'm going to be doing a lot of things, so I'm going to be very busy.",
+      "cn": "所以接下来事情不少，我会特别忙。",
+      "para": 1,
+      "expect": 65.94,
+      "source": "asr",
+      "dev": 0.0
+    }
+  ],
+  "quality": {
+    "asr_words": 241,
+    "token_coverage": 0.977,
+    "low_confidence": false
+  },
+  "locked": false
+}

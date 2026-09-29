@@ -3,7 +3,7 @@
   "duration": 51.059,
   "method": "asr:faster-whisper-small+difflib",
   "engine": "asr",
-  "fingerprint": "110abe8a0b7fb578:609783:1788403892",
+  "fingerprint": "5fa8d07d2fecf605:609783:1788403892",
   "params": {
     "model": "small",
     "language": "en",
@@ -25,9 +25,9 @@
     {
       "i": 1,
       "start": 3.82,
-      "end": 15.8,
+      "end": 19.72,
       "en": "I am from the UK and my question for you today is, what desserts do you like?",
-      "cn": "我来自英国。",
+      "cn": "我来自英国，我的问题是，你喜欢什么甜点？",
       "para": 0,
       "expect": 3.82,
       "source": "asr",
@@ -35,17 +35,6 @@
     },
     {
       "i": 2,
-      "start": 15.8,
-      "end": 19.72,
-      "en": "What desserts do you like?",
-      "cn": "我的问题是，你喜欢什么甜点？",
-      "para": 0,
-      "expect": 15.8,
-      "source": "asr",
-      "dev": 0.0
-    },
-    {
-      "i": 3,
       "start": 19.72,
       "end": 23.5,
       "en": "I like cheesecake.",
@@ -56,7 +45,7 @@
       "dev": 0.0
     },
     {
-      "i": 4,
+      "i": 3,
       "start": 23.5,
       "end": 26.86,
       "en": "I like brownies.",
@@ -67,7 +56,7 @@
       "dev": 0.0
     },
     {
-      "i": 5,
+      "i": 4,
       "start": 26.86,
       "end": 30.48,
       "en": "I like ice cream.",
@@ -78,7 +67,7 @@
       "dev": 0.0
     },
     {
-      "i": 6,
+      "i": 5,
       "start": 30.48,
       "end": 35.12,
       "en": "I don't like mouse.",
@@ -89,7 +78,7 @@
       "dev": 0.0
     },
     {
-      "i": 7,
+      "i": 6,
       "start": 35.12,
       "end": 38.5,
       "en": "I don't like tiramisu.",
@@ -100,7 +89,7 @@
       "dev": 0.0
     },
     {
-      "i": 8,
+      "i": 7,
       "start": 38.5,
       "end": 46.92,
       "en": "I don't like custard.",
@@ -111,7 +100,7 @@
       "dev": 0.0
     },
     {
-      "i": 9,
+      "i": 8,
       "start": 46.92,
       "end": 51.059,
       "en": "What desserts do you like?",
@@ -124,7 +113,7 @@
   ],
   "quality": {
     "asr_words": 54,
-    "token_coverage": 0.981,
+    "token_coverage": 0.98,
     "low_confidence": false
   },
   "locked": false
